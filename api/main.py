@@ -221,6 +221,9 @@ def predict_rank(req: PredictionRequest):
             "univ_trend_momentum": [0.0],
             "sehir_tercih_indeksi": [sehir_idx],
             "kontenjan_farki_2026": [0.0],
+            "macro_puan_turu_degisim_orani": [0.0],
+            "macro_bolum_degisim_orani": [0.0],
+            "kontenjan_sok_faktoru": [0.0],
             "yil": [req.yil],
         }
 

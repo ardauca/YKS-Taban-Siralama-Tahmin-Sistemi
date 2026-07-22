@@ -189,6 +189,50 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
         lambda code: 1.0 if code in big_city_codes else (0.5 if code in mid_city_codes else 0.0)
     )
 
+    # ── Makro Kontenjan ve Sistem Şoku Özellikleri ──
+    # 1. Puan Türü Bazında Türkiye Geneli Toplam Kontenjan Değişimi
+    macro_puan = (
+        df.groupby(["puan_turu", "yil"])["lag1_genel_kontenjan"]
+        .transform("sum")
+        .rename("macro_puan_turu_toplam_kont")
+    )
+    df["macro_puan_turu_toplam_kont"] = macro_puan
+
+    macro_puan_lag2 = (
+        df.groupby(["puan_turu", "yil"])["lag2_kontenjan"]
+        .transform("sum")
+        .rename("macro_puan_turu_lag2_kont")
+    )
+    with np.errstate(divide="ignore", invalid="ignore"):
+        df["macro_puan_turu_degisim_orani"] = np.where(
+            macro_puan_lag2 > 0,
+            (macro_puan - macro_puan_lag2) / macro_puan_lag2,
+            0.0,
+        )
+    df["macro_puan_turu_degisim_orani"] = df["macro_puan_turu_degisim_orani"].fillna(0.0)
+
+    # 2. Bölüm Ailesi Bazında Türkiye Geneli Toplam Kontenjan Değişimi
+    macro_dept = (
+        df.groupby(["birim_grup_adi", "yil"])["lag1_genel_kontenjan"]
+        .transform("sum")
+        .rename("macro_bolum_toplam_kont")
+    )
+    macro_dept_lag2 = (
+        df.groupby(["birim_grup_adi", "yil"])["lag2_kontenjan"]
+        .transform("sum")
+        .rename("macro_bolum_lag2_kont")
+    )
+    with np.errstate(divide="ignore", invalid="ignore"):
+        df["macro_bolum_degisim_orani"] = np.where(
+            macro_dept_lag2 > 0,
+            (macro_dept - macro_dept_lag2) / macro_dept_lag2,
+            0.0,
+        )
+    df["macro_bolum_degisim_orani"] = df["macro_bolum_degisim_orani"].fillna(0.0)
+
+    # 3. Kontenjan Şok Faktörü (Program Kontenjan Değişimi vs Makro Bölüm Değişimi)
+    df["kontenjan_sok_faktoru"] = df["kontenjan_degisim_orani"].fillna(0.0) - df["macro_bolum_degisim_orani"]
+
     # ÖSYM 2026 Kontenjan Farkı Entegrasyonu
     osym_csv = Path(__file__).parent.parent.parent / "data" / "raw" / "osym" / "kontenjan_kilavuzu_2026.csv"
     if osym_csv.exists():
@@ -238,6 +282,10 @@ def get_feature_columns() -> list[str]:
         "univ_trend_momentum",
         "sehir_tercih_indeksi",
         "kontenjan_farki_2026",
+        # Macro Quota & Shock Features
+        "macro_puan_turu_degisim_orani",
+        "macro_bolum_degisim_orani",
+        "kontenjan_sok_faktoru",
         # Yıl (trend için)
         "yil",
     ]

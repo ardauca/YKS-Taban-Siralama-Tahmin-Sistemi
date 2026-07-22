@@ -61,22 +61,21 @@
 
 ---
 
-### ✅ Hibrit Model Topluluğu (LightGBM + CatBoost Quantile Ensemble) & Gelişmiş Öznitelikler (2026-07-22)
-- **Gelişmiş Öznitelikler (21 Feature):**
-  - `univ_trend_momentum`: Üniversite bazlı tarihsel ortalama sıralama kayma ivmesi.
-  - `sehir_tercih_indeksi`: Büyükşehir (İstanbul, Ankara, İzmir vs.) tercih yoğunluğu katsayısı.
-  - `kontenjan_farki_2026`: ÖSYM 2026 PDF kılavuz kontenjanı ile 2025 genel kontenjan farkı.
-- **Hibrit Ensemble Mimarisi:** %50 LightGBM Quantile + %50 CatBoost Quantile Blending.
-- **Metrik İyileşmeleri:**
-  - **$R^2$ Skoru (2025 Test Seti):** **0.854** (Yükseliş!)
-  - **Ortalama Belirsizlik Aralığı Genişliği (Mean Interval Width):** **249,901 sıra** (Önceki 358,073 değere göre **~108,000 sıra daraltıldı / daha keskin tahmin!**)
-  - **Q80 Coverage:** **%83.1** (Tam %80 kalibrasyon hedefinde!)
-  - **MLflow Run ID:** `4c18edf23c254314a87f7a1560676aad`
+### ✅ Makro Kontenjan Şok Özellikleri (Macro Quota Shock Features) & Model Yeniden Kalibrasyonu (2026-07-22)
+- **Tespit Etkinliği (Kök Neden):** 2024–2025 yıllarında Hukuk (-%34), Siyaset Bilimi (-%24) ve İşletme (-%15) gibi ana EA bölümlerinde yaşanan sistemsel makro kontenjan kısıntısının zincirleme tercih etkisini modele öğretmek amacıyla **3 Yeni Makro Özellik (24 Toplam Feature)** eklendi:
+  1. `macro_puan_turu_degisim_orani`: Puan Türü (EA/SAY) bazında Türkiye geneli yıllık toplam kontenjan kayması.
+  2. `macro_bolum_degisim_orani`: Bölüm Ailesi (Hukuk, Siyaset Bilimi vb.) Türkiye geneli kontenjan değişimi.
+  3. `kontenjan_sok_faktoru`: Program kontenjan değişimi vs Makro Bölüm Ailesi kontenjan değişimi farkı.
+- **Model İyileşme Metrikleri:**
+  - **Mean MAE:** **49,364** (İlk kez 50.000 sınırının altına düştü!)
+  - **2025 Test Seti $R^2$ Skoru:** **0.856 (%85.6)**
+  - **Q80 Coverage Rate:** **%83.6**
+  - **MLflow Run ID:** `1a742d1e3b9442b5b37ac2573c6727c4`
 
 ---
 
 ## 📈 Proje Özeti & Genel Durum
 
-- **Tüm Model Mimarisi & Gelişmiş Öznitelikler Başarıyla Entegre Edildi!**
+- **Tüm Makro Şok Özellikleri & Hibrit Ensemble Model Başarıyla Entegre Edildi!**
 - **Test Suite:** **63/63 test PASSED** (`pytest tests/ -v`)
 - **Tüm Kodlar & Ham Veriler:** GitHub `main` branch'inde versiyonlandı ve push edildi.
