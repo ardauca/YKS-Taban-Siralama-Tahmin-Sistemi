@@ -136,38 +136,43 @@ def train_and_evaluate_quantile(
         if len(X_train) < 10:
             continue
 
+        # Optuna Tarafından Optimize Edilmiş Parametreler (CV MAE: 22,403)
+        lgb_params = {
+            "n_estimators": 179,
+            "learning_rate": 0.030065,
+            "num_leaves": 57,
+            "min_child_samples": 23,
+            "subsample": 0.7727,
+            "colsample_bytree": 0.9634,
+            "reg_alpha": 0.13255,
+            "reg_lambda": 3.8551,
+            "random_state": 42,
+            "verbosity": -1,
+        }
+
         # LightGBM Quantile Modelleri
         # 1. Median (alpha = 0.50)
         model_med = lgb.LGBMRegressor(
             objective="regression_l1",
-            n_estimators=150,
-            learning_rate=0.05,
-            random_state=42,
-            verbosity=-1,
+            **lgb_params,
         )
         model_med.fit(X_train, y_train)
         pred_med = model_med.predict(X_test)
 
-        # 2. Lower bound (alpha = 0.10)
+        # 2. Lower bound (alpha = 0.030)
         model_low = lgb.LGBMRegressor(
             objective="quantile",
             alpha=ALPHA_LOWER,
-            n_estimators=150,
-            learning_rate=0.05,
-            random_state=42,
-            verbosity=-1,
+            **lgb_params,
         )
         model_low.fit(X_train, y_train)
         pred_low = model_low.predict(X_test)
 
-        # 3. Upper bound (alpha = 0.90)
+        # 3. Upper bound (alpha = 0.970)
         model_upp = lgb.LGBMRegressor(
             objective="quantile",
             alpha=ALPHA_UPPER,
-            n_estimators=150,
-            learning_rate=0.05,
-            random_state=42,
-            verbosity=-1,
+            **lgb_params,
         )
         model_upp.fit(X_train, y_train)
         pred_upp = model_upp.predict(X_test)
