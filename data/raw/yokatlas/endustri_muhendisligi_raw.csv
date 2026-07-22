@@ -1,0 +1,764 @@
+﻿kilavuz_kodu,universite_adi,birim_adi,birim_grup_adi,il_kodu,il_adi,universite_turu,ogretim_turu,burs_orani,puan_turu,kaynak,cekme_tarihi,yil,genel_kontenjan,sehit_gazi_kontenjan,depremzede_kontenjan,okul_birincisi_kontenjan,taban_puan,taban_siralama
+203910424,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,538.55385,708.0
+203910424,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,17.0,2.0,1.0,,541.61792,758.0
+203910424,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,546.76259,495.0
+203910424,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,15.0,,,,542.60521,693.0
+102210295,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,529.34885,2050.0
+102210295,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,531.37897,2053.0
+102210295,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,538.64829,1784.0
+102210295,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,537.73026,1448.0
+202110444,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,42.0,,,,528.59421,2189.0
+202110444,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,42.0,3.0,1.0,,533.90009,1676.0
+202110444,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,42.0,,,,539.21691,1660.0
+202110444,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,42.0,,,,533.821,2192.0
+108410363,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,525.77517,2741.0
+108410363,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,2.0,529.32583,2408.0
+108410363,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,535.40903,2551.0
+108410363,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,65.0,,,,529.13098,3346.0
+105510662,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,521.49444,3730.0
+105510662,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,524.32042,3356.0
+105510662,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,50.0,,,,534.14396,2888.0
+105510662,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,528.81826,3437.0
+105510292,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,519.7489,4165.0
+105510292,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,519.84288,4344.0
+105510292,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,50.0,,,,529.98076,4111.0
+105510292,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,523.74226,5178.0
+205410159,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,515.2572,5452.0
+205410159,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,2.0,1.0,,522.3256,3787.0
+205410159,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,532.81897,3272.0
+205410159,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,524.11536,5018.0
+202110753,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,507.83336,7846.0
+202110753,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,,508.17085,7583.0
+202110753,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,522.45896,6885.0
+202110753,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,35.0,,,,518.73936,7269.0
+104010131,GALATASARAY ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Fransızca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,507.592,7934.0
+104010131,GALATASARAY ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Fransızca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,1.0,509.08661,7296.0
+104010131,GALATASARAY ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Fransızca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,526.20438,5437.0
+104010131,GALATASARAY ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Fransızca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,521.08887,6233.0
+204810043,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,14.0,,,,506.26084,8463.0
+204810043,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,14.0,2.0,1.0,,512.67974,6205.0
+204810043,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,14.0,,,,530.5533,3937.0
+204810043,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,14.0,,,,528.18132,3646.0
+110110464,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,501.91171,10264.0
+110110464,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,2.0,503.66284,9162.0
+110110464,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,519.59063,8111.0
+110110464,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,510.95328,11027.0
+110110225,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,494.8974,13503.0
+110110225,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,496.90152,11733.0
+110110225,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,512.32237,11527.0
+110110225,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,503.12503,15537.0
+104810529,HACETTEPE ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,493.44008,14236.0
+104810529,HACETTEPE ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,493.08915,13255.0
+104810529,HACETTEPE ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,506.8598,14501.0
+104810529,HACETTEPE ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,495.09476,20727.0
+206100675,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,14.0,,,,484.91181,19211.0
+206100675,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,15.0,2.0,1.0,,483.4912,17942.0
+206100675,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,14.0,,,,510.3624,12541.0
+206100675,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,13.0,,,,501.38294,16625.0
+105590167,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,484.77135,19311.0
+105590167,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,368.10953,120511.0
+105590167,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,510.95507,12235.0
+105590167,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,481.1257,30872.0
+203910433,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,22.0,,,,484.39251,19557.0
+203910433,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,,0.0,
+109610076,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,484.15769,19704.0
+109610076,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,2.0,489.10346,15094.0
+109610076,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,511.55315,11920.0
+109610076,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,506.56745,13437.0
+200510507,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,14.0,,,,469.82392,29530.0
+200510507,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,15.0,2.0,1.0,,480.2857,19569.0
+200510507,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,14.0,,,,509.30514,13139.0
+200510507,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,13.0,,,,508.46252,12369.0
+107210526,MARMARA ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,466.69681,31913.0
+107210526,MARMARA ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,467.45185,26805.0
+107210526,MARMARA ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,496.81581,20685.0
+107210526,MARMARA ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,490.15425,24158.0
+104112108,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,45.0,,,,464.87768,33390.0
+104112108,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,45.0,,,2.0,463.16485,29539.0
+104112108,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,489.68874,25429.0
+104112108,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,480.62978,31256.0
+109610085,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,464.87633,33391.0
+109610085,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,469.98097,25282.0
+109610085,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,481.94596,31062.0
+109610085,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Almanca),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,464.24025,44448.0
+104410209,GEBZE TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,45.0,,,,463.82275,34246.0
+104410209,GEBZE TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,45.0,,,2.0,462.88296,29719.0
+104410209,GEBZE TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,487.61861,26896.0
+104410209,GEBZE TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,478.53719,32894.0
+207210146,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,455.66592,41041.0
+207210146,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,2.0,1.0,,452.25307,36935.0
+207210146,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,489.93256,25267.0
+207210146,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,12.0,,,,485.99131,27210.0
+203510049,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,455.06789,41581.0
+203510049,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,2.0,1.0,,460.11145,31577.0
+203510049,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,491.78063,24022.0
+203510049,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,484.22494,28538.0
+200690587,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,454.78961,41820.0
+200690587,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,1.0,1.0,,450.65215,38082.0
+200690587,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,476.08368,35680.0
+200690587,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,459.13646,48735.0
+203710329,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,12.0,,,,454.63366,41956.0
+203710329,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,2.0,1.0,,448.46116,39741.0
+203710329,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,485.59618,28380.0
+203710329,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,12.0,,,,481.12832,30868.0
+206710591,TED ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,454.24172,42314.0
+206710591,TED ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,1.0,1.0,,0.0,
+104110642,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği,Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,95.0,,,,454.00139,42514.0
+104110642,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği,Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,95.0,,,3.0,444.50663,42679.0
+104110642,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği,Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,470.96732,39792.0
+104110642,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği,Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,459.2097,48669.0
+205410344,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,33.0,,,,452.21039,44118.0
+205410344,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,33.0,,,,460.31788,31449.0
+205410344,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,33.0,,,,490.09773,25169.0
+205410344,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,33.0,,,,483.69848,28921.0
+202511535,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,15.0,,,,451.67651,44638.0
+202511535,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,15.0,2.0,1.0,,450.38991,38275.0
+202511535,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,488.98086,25968.0
+202511535,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,12.0,,,,489.22176,24850.0
+111610704,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,449.24401,46877.0
+111610704,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,438.94245,46955.0
+111610704,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,466.60334,43436.0
+111610704,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,461.94502,46297.0
+112411032,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,45.0,,,,449.04692,47064.0
+112411032,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,45.0,,,2.0,436.66419,48803.0
+112411032,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,461.68113,47844.0
+112411032,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,450.12447,56487.0
+203110917,İSTANBUL MEDİPOL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,12.0,,,,446.3025,49477.0
+203110917,İSTANBUL MEDİPOL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,2.0,1.0,,446.6079,41081.0
+203110917,İSTANBUL MEDİPOL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,478.33406,33906.0
+203110917,İSTANBUL MEDİPOL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,474.72441,35917.0
+206010345,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,12.0,,,,445.89675,49880.0
+206010345,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,12.0,2.0,1.0,,434.28354,50707.0
+206010345,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,478.94141,33441.0
+206010345,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,11.0,,,,471.85916,38149.0
+201110226,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,445.62787,50114.0
+201110226,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,1.0,1.0,,440.04062,46078.0
+201110226,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,472.02738,38903.0
+201110226,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,11.0,,,,461.80676,46410.0
+200611425,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,444.68003,51029.0
+200611425,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,2.0,1.0,,439.03575,46883.0
+200611425,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,464.80233,45086.0
+200611425,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,455.1414,52090.0
+105590153,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (UOLP-SUNY Binghamton) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,444.32254,51382.0
+105590153,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (UOLP-SUNY Binghamton) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,429.16579,55000.0
+105590153,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (UOLP-SUNY Binghamton) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,422.31572,85197.0
+105590153,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (UOLP-SUNY Binghamton) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,0.0,
+103110478,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,95.0,,,,441.49382,54049.0
+103110478,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,95.0,,,3.0,430.278,54052.0
+103110478,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,459.53358,49684.0
+103110478,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,454.14504,52933.0
+204110562,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,441.03894,54488.0
+204110562,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,431.44123,53058.0
+204110562,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,468.61223,41754.0
+204110562,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,471.36053,38566.0
+110010386,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,85.0,,,,440.39896,55042.0
+110010386,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,85.0,,,3.0,426.7841,57085.0
+110010386,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,458.13024,50915.0
+110010386,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,447.26619,59022.0
+200210404,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,440.04287,55348.0
+200210404,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,1.0,1.0,,429.51965,54704.0
+200210404,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,461.03762,48391.0
+200210404,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,450.45096,56191.0
+109710321,BURSA ULUDAĞ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,85.0,,,,437.99009,57412.0
+109710321,BURSA ULUDAĞ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,85.0,,,3.0,425.50306,58181.0
+109710321,BURSA ULUDAĞ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,453.65681,54761.0
+109710321,BURSA ULUDAĞ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,446.0038,60165.0
+108470071,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,437.97345,57434.0
+108470071,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,9.0,,,,424.69422,58944.0
+108470071,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,456.43289,52349.0
+108470071,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,450.69802,55967.0
+205710738,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,435.50023,59834.0
+205710738,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,1.0,1.0,,421.31632,61892.0
+205710738,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,7.0,,,,453.42912,54967.0
+205710738,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,444.89074,61131.0
+202110435,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,434.48706,60830.0
+202110435,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,80.0,,,,454.08187,35652.0
+202110435,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,80.0,,,,493.66244,22754.0
+202110435,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,491.36198,23334.0
+209110096,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,434.18619,61137.0
+209110096,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,1.0,1.0,,423.35537,60059.0
+209110096,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,454.81269,53730.0
+209110096,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,439.83361,65754.0
+103810198,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,105.0,,,,433.38556,61962.0
+103810198,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,105.0,,,3.0,417.8164,64969.0
+103810198,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,448.46776,59641.0
+103810198,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,100.0,,,,436.37177,68909.0
+209110057,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,431.69513,63670.0
+209110057,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,1.0,1.0,,418.4079,64434.0
+209110057,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,445.80912,62027.0
+209110057,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,433.04081,71954.0
+204910493,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,429.81079,65659.0
+204910493,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,1.0,1.0,,411.95563,70554.0
+204910493,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,441.77271,65836.0
+204910493,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,430.73196,74176.0
+106910337,KOCAELİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,85.0,,,,429.40409,66079.0
+106910337,KOCAELİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,85.0,,,3.0,413.31497,69250.0
+106910337,KOCAELİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,447.40861,60587.0
+106910337,KOCAELİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,439.61011,65945.0
+209510027,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,429.18705,66266.0
+209510027,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,1.0,1.0,,410.87282,71627.0
+209510027,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,447.34584,60652.0
+209510027,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,435.00135,70120.0
+201990477,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,427.97547,67459.0
+201990477,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,1.0,1.0,,416.21504,66446.0
+201990477,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,450.7463,57492.0
+201990477,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,9.0,,,,437.82058,67550.0
+204790552,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,427.23532,68257.0
+204790552,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,1.0,1.0,,414.49594,68137.0
+204790552,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,455.09271,53472.0
+204790552,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,454.69273,52476.0
+105490026,İSTANBUL MEDENİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,426.7752,68739.0
+105490026,İSTANBUL MEDENİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,2.0,411.9172,70603.0
+105490026,İSTANBUL MEDENİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,440.28417,67215.0
+105490026,İSTANBUL MEDENİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,431.70535,73208.0
+208450842,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,424.3162,71391.0
+208450842,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,1.0,1.0,,402.80223,79700.0
+208450842,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,442.53234,65096.0
+208450842,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,9.0,,,,433.22802,71780.0
+102410194,BURSA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,424.24827,71462.0
+102410194,BURSA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,403.63766,78799.0
+102410194,BURSA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,436.30857,70969.0
+102410194,BURSA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,423.51951,81265.0
+206410689,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,422.48598,73315.0
+206410689,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,1.0,1.0,,412.5884,69958.0
+206410689,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,437.97397,69376.0
+206410689,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,425.42625,79332.0
+210301809,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,420.90396,75038.0
+210301809,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,1.0,1.0,,405.13899,77346.0
+210301809,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,12.0,,,,445.33532,62519.0
+210301809,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,12.0,,,,446.55718,59680.0
+202411087,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,16.0,,,,420.17119,75803.0
+202411087,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,16.0,2.0,1.0,,403.97812,78485.0
+202411087,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,449.0931,59046.0
+202411087,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,13.0,,,,445.61848,60514.0
+108810332,SAKARYA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,95.0,,,,419.82372,76206.0
+108810332,SAKARYA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,95.0,,,3.0,399.67889,83011.0
+108810332,SAKARYA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,437.73562,69595.0
+108810332,SAKARYA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,427.37662,77411.0
+203210679,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,419.59549,76484.0
+203210679,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,1.0,1.0,,405.67029,76789.0
+203210679,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,440.29796,67203.0
+203210679,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,434.65816,70422.0
+106510023,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,419.16586,76943.0
+106510023,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,397.13988,85623.0
+106510023,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,429.99227,77203.0
+106510023,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,423.42621,81355.0
+202090277,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,417.99334,78266.0
+202090277,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,1.0,1.0,,402.68877,79817.0
+202090277,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,447.59278,60421.0
+202090277,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,434.18551,70895.0
+203410165,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,417.93178,78333.0
+203410165,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,2.0,1.0,,399.65261,83040.0
+203410165,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,434.56419,72604.0
+203410165,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,430.76934,74146.0
+201200325,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,417.841,78436.0
+201200325,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,9.0,1.0,1.0,,401.90684,80662.0
+201200325,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,441.03339,66512.0
+201200325,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,437.19628,68126.0
+210301795,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,417.05086,79309.0
+210301795,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,1.0,1.0,,393.18541,89967.0
+210301795,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,434.707,72475.0
+210301795,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,428.80012,76004.0
+206511198,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,415.91689,80566.0
+206511198,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,1.0,1.0,,396.73654,86037.0
+206511198,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,435.04145,72155.0
+206511198,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,427.75452,77039.0
+203010363,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,11.0,,,,415.91229,80573.0
+203010363,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,11.0,2.0,1.0,,392.8066,90406.0
+203010363,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,16.0,,,,446.57306,61356.0
+203010363,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,15.0,,,,453.72393,53320.0
+204810052,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,58.0,,,,414.96311,81692.0
+204810052,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,49.0,,,,402.92892,79550.0
+204810052,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,49.0,,,,462.2602,47315.0
+204810052,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,53.0,,,,457.7174,49918.0
+209310058,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,413.11692,83706.0
+209310058,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,1.0,1.0,,394.3289,88680.0
+209310058,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,3.0,,,,422.14843,85391.0
+209310058,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,407.74954,97583.0
+210000262,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,412.37784,84511.0
+210000262,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,374.15197,112605.0
+210000262,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,402.65004,107377.0
+210000262,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,0.0,
+202990211,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,412.23383,84667.0
+202990211,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,400.8673,81748.0
+202990211,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,427.2092,80096.0
+202990211,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,407.71824,97613.0
+204090146,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,412.15661,84749.0
+204090146,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,1.0,1.0,,388.5948,95175.0
+204090146,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,419.19616,88429.0
+204090146,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,366.85694,148772.0
+201200339,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,411.36427,85611.0
+201200339,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,390.93747,92430.0
+201200339,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,432.02974,75126.0
+201200339,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,426.07321,78700.0
+203910415,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,63.0,,,,408.90567,88377.0
+203910415,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,63.0,,,,401.35582,81212.0
+203910415,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,458.42148,50685.0
+203910415,KOÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,101.0,,,,453.48683,53530.0
+102590538,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,406.73716,90815.0
+102590538,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,383.87423,100550.0
+102590538,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,417.84846,89872.0
+209000150,FENERBAHÇE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,406.00655,91651.0
+209000150,FENERBAHÇE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,,1.0,,401.13556,81455.0
+202390941,İSTANBUL AREL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,401.70933,96852.0
+202390941,İSTANBUL AREL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,1.0,,378.18218,107511.0
+202390941,İSTANBUL AREL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,3.0,,,,418.6047,89072.0
+108610264,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Endüstri Mühendisliği,Endüstri Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,401.35432,97317.0
+108610264,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Endüstri Mühendisliği,Endüstri Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,381.68629,103205.0
+108610264,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Endüstri Mühendisliği,Endüstri Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,413.67274,94454.0
+108610264,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Endüstri Mühendisliği,Endüstri Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,397.91364,108480.0
+108210823,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Endüstri Mühendisliği,Endüstri Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,401.19377,97526.0
+108210823,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Endüstri Mühendisliği,Endüstri Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,378.29919,107356.0
+108210823,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Endüstri Mühendisliği,Endüstri Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,411.39339,97105.0
+108210823,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Endüstri Mühendisliği,Endüstri Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,394.13177,112842.0
+209410138,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,19.0,,,,400.35915,98568.0
+209410138,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,21.0,1.0,1.0,,379.34603,106096.0
+209410138,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,23.0,,,,411.23281,97283.0
+209410138,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,29.0,,,,389.61935,118206.0
+106210829,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Endüstri Mühendisliği,Endüstri Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,400.293,98653.0
+106210829,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Endüstri Mühendisliği,Endüstri Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,380.50274,104702.0
+106210829,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Endüstri Mühendisliği,Endüstri Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,415.2358,92725.0
+106210829,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Endüstri Mühendisliği,Endüstri Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,405.96784,99539.0
+210000206,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,398.62073,100598.0
+210000206,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,370.26952,117644.0
+210000206,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,393.72657,118665.0
+210000206,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,379.06412,131517.0
+102910297,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Endüstri Mühendisliği,Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,394.3161,105952.0
+102910297,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Endüstri Mühendisliği,Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,8.0,2.0,371.88328,115507.0
+102910297,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Endüstri Mühendisliği,Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,405.51917,103900.0
+102910297,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Endüstri Mühendisliği,Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,386.17329,122463.0
+209410045,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,19.0,,,,394.08453,106245.0
+209410045,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,21.0,1.0,1.0,,368.21294,120382.0
+209410045,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,23.0,,,,401.13374,109247.0
+209410045,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,29.0,,,,381.40552,128516.0
+112910019,İZMİR BAKIRÇAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,393.88815,106459.0
+112910019,İZMİR BAKIRÇAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,374.58391,112041.0
+112910019,İZMİR BAKIRÇAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,407.68259,101393.0
+112910019,İZMİR BAKIRÇAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,387.33557,120995.0
+201710538,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,391.72924,109278.0
+201710538,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,1.0,1.0,,375.11236,111373.0
+201710538,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,414.50554,93525.0
+201710538,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,406.88988,98525.0
+200851603,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,391.54917,109502.0
+200851603,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,,1.0,,390.28884,93152.0
+200851603,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,2.0,,,,418.04009,89660.0
+200851603,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,404.78509,100793.0
+202710086,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,389.1012,112660.0
+202710086,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,14.0,1.0,1.0,,391.76967,91500.0
+202710086,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,426.58183,80721.0
+202710086,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,415.9078,88844.0
+101510117,BALIKESİR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,388.63408,113292.0
+101510117,BALIKESİR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,364.90118,125084.0
+101510117,BALIKESİR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,399.60538,111170.0
+101510117,BALIKESİR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,381.72352,128071.0
+210402187,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,386.7825,115701.0
+210402187,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,1.0,1.0,,375.69996,110627.0
+210402187,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,7.0,,,,403.09028,106855.0
+210402187,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,400.96037,104995.0
+205410141,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,384.98513,118194.0
+205410141,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,,386.95417,97015.0
+205410141,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,422.59833,84918.0
+205410141,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,35.0,,,,442.98642,62826.0
+200510701,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,384.33869,119064.0
+200510701,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,24.0,,,,400.44637,82179.0
+200510701,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,17.0,,,,453.95276,54500.0
+200510701,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,15.0,,,,461.15048,47019.0
+111110133,İZMİR DEMOKRASİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,383.187,120639.0
+111110133,İZMİR DEMOKRASİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,367.30687,121622.0
+111110133,İZMİR DEMOKRASİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,399.93801,110760.0
+111110133,İZMİR DEMOKRASİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,0.0,
+200690594,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,27.0,,,,382.43889,121626.0
+200690594,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,26.0,,,,383.7613,100692.0
+200690594,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,24.0,,,,414.33854,93707.0
+200690594,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,33.0,,,,409.95212,95249.0
+104210138,GAZİANTEP ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,380.69481,124027.0
+104210138,GAZİANTEP ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,7.0,2.0,356.74139,137135.0
+104210138,GAZİANTEP ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,384.665,130847.0
+104210138,GAZİANTEP ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,370.39305,143563.0
+206710605,TED ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,37.0,,,,380.41063,124398.0
+206710605,TED ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,41.0,,,,0.0,
+205090604,İSTANBUL TOPKAPI ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,380.37489,124450.0
+205090604,İSTANBUL TOPKAPI ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,362.3694,128744.0
+205090604,İSTANBUL TOPKAPI ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,,,,,0.0,
+100190306,BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,14.0,BOLU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,378.07897,127722.0
+100190306,BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,14.0,BOLU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,0.0,
+109910037,YALOVA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,376.31218,130308.0
+109910037,YALOVA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,357.2997,136237.0
+109910037,YALOVA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,389.21019,124666.0
+109910037,YALOVA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,369.88865,144287.0
+208750873,İSTANBUL KENT ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,376.19927,130444.0
+208750873,İSTANBUL KENT ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,1.0,1.0,,0.0,
+105590160,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,376.10019,130581.0
+105590160,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,0.0,
+105590160,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,470.12209,40469.0
+105590160,İSTANBUL TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,443.04364,62768.0
+111310604,KONYA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,85.0,,,,374.51244,132939.0
+111310604,KONYA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,85.0,,,3.0,351.66816,145403.0
+111310604,KONYA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,380.85658,136321.0
+111310604,KONYA TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,358.10191,162168.0
+206100689,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,81.0,,,,371.85001,136757.0
+206100689,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,72.0,,,,381.99574,102825.0
+206100689,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,66.0,,,,426.97172,80317.0
+206100689,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,62.0,,,,431.91428,73006.0
+103510359,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği,Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,90.0,,,,371.37668,137502.0
+103510359,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği,Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,90.0,,,3.0,348.05578,151383.0
+103510359,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği,Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,90.0,,,,376.13391,143253.0
+103510359,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Endüstri Mühendisliği,Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,85.0,,,,353.5587,169899.0
+109290508,SÜLEYMAN DEMİREL ÜNİVERSİTESİ (ISPARTA),Endüstri Mühendisliği,Endüstri Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,370.94591,138127.0
+109290508,SÜLEYMAN DEMİREL ÜNİVERSİTESİ (ISPARTA),Endüstri Mühendisliği,Endüstri Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,351.90263,145048.0
+109290508,SÜLEYMAN DEMİREL ÜNİVERSİTESİ (ISPARTA),Endüstri Mühendisliği,Endüstri Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,386.09647,128839.0
+107090292,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,369.29937,140746.0
+107090292,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,344.40493,157679.0
+107090292,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,370.90327,151414.0
+107090292,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,343.91734,187143.0
+203510694,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,71.0,,,,368.95723,141259.0
+203510694,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,68.0,,,,362.60383,128409.0
+203510694,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,68.0,,,,407.28754,101790.0
+203510694,İZMİR EKONOMİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,68.0,,,,403.95631,101695.0
+300110688,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,368.0995,142596.0
+300110688,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,7.0,,,,364.19626,126118.0
+300110688,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,7.0,,,,385.52284,129664.0
+300110688,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,345.11709,184802.0
+112771218,SAMSUN ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,45.0,,,,366.57664,144939.0
+112771218,SAMSUN ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,45.0,,,2.0,337.91371,169742.0
+112771218,SAMSUN ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,359.37994,170819.0
+103310131,DÜZCE ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,363.83912,149362.0
+103310131,DÜZCE ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,340.98925,163816.0
+103310131,DÜZCE ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,368.20723,155749.0
+103310131,DÜZCE ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,339.10571,196359.0
+107910449,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,363.24622,150367.0
+107910449,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,340.80431,164172.0
+107910449,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,369.49196,153671.0
+107910449,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,346.57207,182118.0
+110410037,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,363.23809,150379.0
+110410037,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,80.0,,8.0,2.0,334.27673,176735.0
+110410037,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,80.0,,,,357.94508,173462.0
+110410037,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,75.0,,,,329.27331,216985.0
+110500220,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,359.34472,157060.0
+110500220,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,336.55998,172327.0
+110500220,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,362.50259,165436.0
+110500220,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,339.21515,196116.0
+201650192,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,15.0,,,,358.32457,158814.0
+201650192,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,15.0,,1.0,,329.87201,185954.0
+201650192,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,343.38898,202474.0
+201650192,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,15.0,,,,316.6106,247013.0
+204910518,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,32.0,,,,357.37335,160514.0
+204910518,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,31.0,,,,337.98396,169601.0
+204910518,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,31.0,,,,349.76876,189225.0
+204910518,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,328.36517,219001.0
+206710598,TED ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,356.33921,162411.0
+206710598,TED ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,0.0,
+103210195,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,85.0,,,,352.77759,169014.0
+103210195,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,85.0,,,3.0,331.51359,182396.0
+103210195,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,359.19569,171173.0
+103210195,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,333.00085,208900.0
+112370896,KAYSERİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,351.65483,171114.0
+112370896,KAYSERİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,320.95704,206184.0
+112370896,KAYSERİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+106690468,KIRIKKALE ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,71.0,KIRIKKALE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,351.22417,171937.0
+106690468,KIRIKKALE ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,71.0,KIRIKKALE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,326.38565,193619.0
+106690468,KIRIKKALE ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,71.0,KIRIKKALE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,347.8852,193076.0
+206010354,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,348.79009,176684.0
+206010354,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,66.0,,,,341.87678,162192.0
+206010354,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,60.0,,,,387.35811,127138.0
+206010354,YAŞAR ÜNİVERSİTESİ (İZMİR),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,383.84406,125400.0
+108470072,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,342.96839,188349.0
+108470072,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,26.0,,,,307.19698,242821.0
+108470072,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,26.0,,,,351.28468,186155.0
+108470072,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,26.0,,,,310.73187,262381.0
+107390252,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,341.39002,191706.0
+107390252,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,1.0,316.66582,216896.0
+107390252,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,335.60967,220191.0
+107390252,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,0.0,
+209410180,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,341.24963,192013.0
+209410180,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,,,,324.63947,197535.0
+209410180,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,11.0,,,,0.0,
+101410833,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,338.46812,198155.0
+101410833,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,313.98192,223907.0
+101410833,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,336.94003,217051.0
+101410833,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,314.5654,252111.0
+203010354,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,16.0,,,,338.07546,199008.0
+203010354,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,0.0,
+203010354,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,14.0,,,,316.70667,270914.0
+203010354,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,14.0,,,,309.30423,266337.0
+200610524,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,62.0,,,,337.38168,200560.0
+200610524,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,,328.66594,188617.0
+200610524,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,58.0,,,,378.79206,139285.0
+200610524,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,62.0,,,,373.87033,138776.0
+207210155,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,81.0,,,,336.71193,202029.0
+207210155,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,73.0,,,,321.15435,205702.0
+207210155,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,73.0,,,,378.2904,140021.0
+207210155,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,78.0,,,,392.15837,115141.0
+205590132,TOROS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,33.0,MERSİN,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,335.80712,204108.0
+205590132,TOROS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,33.0,MERSİN,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,1.0,,320.42273,207515.0
+205590132,TOROS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,33.0,MERSİN,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,350.41313,187923.0
+205590132,TOROS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,33.0,MERSİN,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,3.0,,,,309.22302,266546.0
+112070685,TARSUS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği,Endüstri Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,45.0,,,,334.04889,208188.0
+112070685,TARSUS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği,Endüstri Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,45.0,,,2.0,311.76235,229888.0
+112070685,TARSUS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği,Endüstri Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,327.99039,239257.0
+112070685,TARSUS ÜNİVERSİTESİ (MERSİN),Endüstri Mühendisliği,Endüstri Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,298.71438,297518.0
+102690301,SİVAS CUMHURİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,333.20373,210157.0
+102690301,SİVAS CUMHURİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,1.0,310.69296,232967.0
+102690301,SİVAS CUMHURİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,335.54897,220340.0
+102690301,SİVAS CUMHURİYET ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,308.45641,268716.0
+201110562,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,59.0,,,,324.77109,231185.0
+201110562,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,59.0,,,,324.86811,197032.0
+201110562,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,53.0,,,,372.08455,149481.0
+201110562,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,355.20324,166996.0
+201650318,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,324.70341,231371.0
+201650318,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,310.2449,234183.0
+201650318,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,320.3026,260324.0
+201650318,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,0.0,
+106190341,KARABÜK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,78.0,KARABÜK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,324.66045,231477.0
+106190341,KARABÜK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,78.0,KARABÜK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,307.282,242575.0
+204090147,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,26.0,,,,324.15273,232844.0
+204090147,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,26.0,,,,313.32247,225696.0
+204090147,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,17.0,,,,334.66995,222445.0
+204090147,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,23.0,,,,307.89788,270267.0
+204890050,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,32.0,,,,324.08625,233036.0
+204890050,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,41.0,,,,336.41552,172599.0
+204890050,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,44.0,,,,391.68471,121326.0
+204890050,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,410.45505,94714.0
+103730108,ERZURUM TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,323.11877,235710.0
+103730108,ERZURUM TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,1.0,300.39013,263683.0
+103730108,ERZURUM TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,314.01848,279164.0
+103730108,ERZURUM TEKNİK ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,0.0,
+100810383,AKSARAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,321.59337,239853.0
+100810383,AKSARAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,303.87256,252644.0
+100810383,AKSARAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,322.50605,254053.0
+100810383,AKSARAY ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,302.53291,285790.0
+200210413,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,42.0,,,,320.5099,242857.0
+200210413,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,48.0,,,,307.82028,241054.0
+200210413,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,51.0,,,,363.69387,163354.0
+200210413,ATILIM ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,51.0,,,,353.50585,169979.0
+105190222,HİTİT ÜNİVERSİTESİ (ÇORUM),Endüstri Mühendisliği,Endüstri Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,319.26489,246319.0
+105190222,HİTİT ÜNİVERSİTESİ (ÇORUM),Endüstri Mühendisliği,Endüstri Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,1.0,300.40937,263633.0
+105190222,HİTİT ÜNİVERSİTESİ (ÇORUM),Endüstri Mühendisliği,Endüstri Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,,,,,0.0,
+105190222,HİTİT ÜNİVERSİTESİ (ÇORUM),Endüstri Mühendisliği,Endüstri Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,,,,,299.12197,296253.0
+206410682,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,42.0,,,,318.21739,249223.0
+206410682,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,42.0,,,,308.43816,239274.0
+206410682,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,41.0,,,,327.17432,241353.0
+206410682,ANTALYA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,38.0,,,,320.79357,236639.0
+111210102,GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,317.76857,250517.0
+111210102,GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,6.0,2.0,292.91577,289654.0
+111210102,GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce),Endüstri Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,0.0,
+200690839,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,317.53933,251162.0
+200690839,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,,,,310.55604,233353.0
+200690839,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,0.0,
+202511544,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,93.0,,,,314.23197,261032.0
+202511544,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,93.0,,,,332.92525,179492.0
+202511544,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,69.0,,,,389.45995,124361.0
+202511544,İSTANBUL BİLGİ ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,66.0,,,,401.67237,104213.0
+203410447,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,311.22819,270426.0
+203410447,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,,0.0,
+203410447,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,57.0,,,,359.91954,169894.0
+203410447,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,333.21246,208462.0
+110790019,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Endüstri Mühendisliği,Endüstri Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,309.80113,274855.0
+110790019,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Endüstri Mühendisliği,Endüstri Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,6.0,2.0,0.0,
+110790019,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Endüstri Mühendisliği,Endüstri Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,0.0,
+110790019,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Endüstri Mühendisliği,Endüstri Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,0.0,
+105090214,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Endüstri Mühendisliği,Endüstri Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,306.99756,284126.0
+105090214,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Endüstri Mühendisliği,Endüstri Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,1.0,1.0,0.0,
+105090214,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Endüstri Mühendisliği,Endüstri Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+105090214,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Endüstri Mühendisliği,Endüstri Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+209410046,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,306.29737,286485.0
+209410046,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,,,,303.55516,253656.0
+209410046,İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,11.0,,,,0.0,
+108570676,OSMANİYE KORKUT ATA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,80.0,OSMANİYE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,305.72321,288446.0
+108570676,OSMANİYE KORKUT ATA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,80.0,OSMANİYE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,3.0,1.0,0.0,
+108570676,OSMANİYE KORKUT ATA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,80.0,OSMANİYE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+205710747,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,32.0,,,,303.90894,294764.0
+205710747,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,32.0,,,,0.0,
+205710747,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,42.0,,,,344.888,199290.0
+205710747,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,34.0,,,,312.99384,256205.0
+203710692,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,79.0,,,,303.84323,295023.0
+203710692,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,83.0,,,,0.0,
+203710692,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,359.32195,170923.0
+203710692,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,71.0,,,,365.02855,151513.0
+409610692,ULUSLARARASI BALKAN ÜNİVERSİTESİ (ÜSKÜP-MAKEDONYA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+409610692,ULUSLARARASI BALKAN ÜNİVERSİTESİ (ÜSKÜP-MAKEDONYA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,0.0,
+409610692,ULUSLARARASI BALKAN ÜNİVERSİTESİ (ÜSKÜP-MAKEDONYA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,0.0,
+409610699,ULUSLARARASI BALKAN ÜNİVERSİTESİ (ÜSKÜP-MAKEDONYA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,0.0,
+409610699,ULUSLARARASI BALKAN ÜNİVERSİTESİ (ÜSKÜP-MAKEDONYA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,0.0,
+409610699,ULUSLARARASI BALKAN ÜNİVERSİTESİ (ÜSKÜP-MAKEDONYA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,0.0,
+101900108,BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,11.0,BİLECİK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,0.0,
+103810559,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği (KKTC Uyruklu),Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,2.0,,,,0.0,
+103810559,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği (KKTC Uyruklu),Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,2.0,,,,299.93088,265209.0
+103810559,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği (KKTC Uyruklu),Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,1.0,,,,0.0,
+103810559,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Endüstri Mühendisliği (KKTC Uyruklu),Endüstri Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,2.0,,,,353.45305,170079.0
+104190549,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (KKTC Uyruklu),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+104190549,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (KKTC Uyruklu),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,2.0,,,,324.62491,197570.0
+104190549,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (KKTC Uyruklu),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,1.0,,,,370.74529,151644.0
+104190549,GAZİ ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (KKTC Uyruklu),Endüstri Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,2.0,,,,365.52766,150797.0
+112270978,KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,0.0,
+112270978,KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,3.0,1.0,0.0,
+104300276,TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ,Endüstri Mühendisliği,Endüstri Mühendisliği,60.0,TOKAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,0.0,
+202990218,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,0.0,
+202990218,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,0.0,
+202990218,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,317.55498,268368.0
+202990218,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,330.68357,213886.0
+209510028,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,0.0,
+209510028,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,42.0,,,,0.0,
+209510028,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,38.0,,,,309.36833,294170.0
+209510028,ANKARA BİLİM ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,34.0,,,,0.0,
+200510491,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,43.0,,,,0.0,
+200510491,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,72.0,,,,304.40956,250988.0
+200510491,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,72.0,,,,364.22633,162417.0
+200510491,BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,387.79256,120432.0
+200610515,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,0.0,
+200610515,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,,,,0.0,
+200610515,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,376.16889,143209.0
+200610515,BAŞKENT ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,2.0,,,,370.90353,142829.0
+200851604,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,0.0,
+200851604,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,9.0,,,,0.0,
+200851604,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,0.0,
+200851604,BEYKOZ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+201200346,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,0.0,
+201200346,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,0.0,
+201200346,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+201200346,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,47.0,,,,0.0,
+201200332,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,58.0,,,,0.0,
+201200332,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,58.0,,,,0.0,
+201200332,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,58.0,,,,317.73732,267803.0
+201200332,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,54.0,,,,313.8959,253805.0
+209000157,FENERBAHÇE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+209000157,FENERBAHÇE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,17.0,,,,0.0,
+201990902,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+201990902,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,,,,0.0,
+201990902,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,14.0,,,,0.0,
+201990478,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,63.0,,,,0.0,
+201990478,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,352.86013,171050.0
+202090278,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,39.0,,,,0.0,
+202090278,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,39.0,,,,0.0,
+202090278,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,36.0,,,,337.69457,215281.0
+202090278,IŞIK ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,337.75102,199043.0
+202390948,İSTANBUL AREL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,14.0,,,,0.0,
+202390948,İSTANBUL AREL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,15.0,,,,0.0,
+202390948,İSTANBUL AREL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,17.0,,,,0.0,
+209310059,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,23.0,,,,0.0,
+209310059,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,23.0,,,,299.70944,265958.0
+209310059,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,23.0,,,,322.33207,254518.0
+209310059,İSTANBUL ATLAS ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,12.0,,,,304.12849,281180.0
+202410292,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,102.0,,,,0.0,
+202410292,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,102.0,,,,0.0,
+202410292,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,88.0,,,,322.46803,254169.0
+202410292,İSTANBUL AYDIN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,83.0,,,,350.76866,174605.0
+210301802,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,41.0,,,,0.0,
+210301802,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,41.0,,,,0.0,
+210301802,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,32.0,,,,0.0,
+210301802,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,64.0,,,,0.0,
+210301816,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,51.0,,,,0.0,
+210301816,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,54.0,,,,0.0,
+210301816,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,76.0,,,,0.0,
+210301816,İSTANBUL BEYKENT ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,76.0,,,,308.80323,267710.0
+201710547,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,42.0,,,,0.0,
+201710547,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,37.0,,,,0.0,
+201710547,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,38.0,,,,313.8115,279795.0
+201710547,İSTANBUL GEDİK ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,302.64808,285434.0
+202710253,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,26.0,,,,0.0,
+202710253,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,0.0,
+202710253,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,21.0,,,,0.0,
+202710253,İSTANBUL GELİŞİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,38.0,,,,312.39038,257822.0
+208750880,İSTANBUL KENT ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,0.0,
+208750880,İSTANBUL KENT ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,34.0,,,,0.0,
+203010372,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,56.0,,,,0.0,
+203010372,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,62.0,,,,0.0,
+203010372,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,83.0,,,,323.75147,250623.0
+203010372,İSTANBUL KÜLTÜR ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,79.0,,,,309.61848,265461.0
+203101137,İSTANBUL MEDİPOL ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,34.0,,,,0.0,
+203101130,İSTANBUL MEDİPOL ÜNİVERSİTESİ,Endüstri Mühendisliği (Burslu),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,0.0,
+203101123,İSTANBUL MEDİPOL ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,76.0,,,,0.0,
+210402194,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+210402194,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,1.0,,,,0.0,
+210402194,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,1.0,,,,320.94458,258426.0
+210402194,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,1.0,,,,299.18388,296072.0
+210402201,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,0.0,
+210402201,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,,0.0,
+210402201,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,46.0,,,,321.49155,256845.0
+210402201,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,41.0,,,,309.51976,265748.0
+204790553,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,37.0,,,,0.0,
+204790553,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,43.0,,,,0.0,
+204790553,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,51.0,,,,324.03043,249830.0
+204790553,İSTANBUL OKAN ÜNİVERSİTESİ,Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,38.0,,,,314.52107,252216.0
+203211417,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%25 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,34.0,,,,0.0,
+203211417,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%25 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,40.0,,,,291.20147,295859.0
+203211417,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%25 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,33.0,,,,0.0,
+203211417,İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ,Endüstri Mühendisliği (%25 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,35.0,,,,0.0,
+203490454,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,0.0,
+203490454,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,,,,321.71698,204395.0
+203490454,İSTANBUL TİCARET ÜNİVERSİTESİ,Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,0.0,
+205090611,İSTANBUL TOPKAPI ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,0.0,
+205090611,İSTANBUL TOPKAPI ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,0.0,
+205090611,İSTANBUL TOPKAPI ÜNİVERSİTESİ,Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,,,,,0.0,
+208450843,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,48.0,,,,0.0,
+208450843,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,51.0,,,,0.0,
+208450843,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,321.32253,257324.0
+208450843,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,55.0,,,,306.34791,274651.0
+203790243,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,0.0,
+203790243,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,343.87133,201469.0
+203790243,KADİR HAS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,358.73645,161134.0
+204090447,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,16.0,,,,0.0,
+204090447,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,16.0,,,,0.0,
+204090447,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,307.90293,299188.0
+204090447,KTO KARATAY ÜNİVERSİTESİ (KONYA),Endüstri Mühendisliği (Ücretli),Endüstri Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,0.0,
+204190413,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,0.0,
+204190413,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,2.0,,,,0.0,
+204190413,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,12.0,,,,0.0,
+204190413,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,17.0,,,,0.0,
+204110368,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,26.0,,,,0.0,
+204110368,MALTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,28.0,,,,0.0,
+207250050,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,0.0,
+207250050,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,,,,0.0,
+207250050,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,368.27104,155642.0
+207250050,MEF ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,0.0,
+210000220,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,0.0,
+210000220,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,0.0,
+210000220,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,24.0,,,,0.0,
+210000220,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,28.0,,,,336.75971,201135.0
+210000269,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,0.0,
+210000269,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,26.0,,,,0.0,
+210000269,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,315.89358,273376.0
+210000269,MUDANYA ÜNİVERSİTESİ (BURSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,16.0,BURSA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+209110058,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,37.0,,,,0.0,
+209110058,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,38.0,,,,0.0,
+209110058,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,38.0,,,,315.72125,273921.0
+209110058,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,34.0,,,,0.0,
+209110103,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,0.0,
+209110103,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,,0.0,
+209110103,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,328.49373,237949.0
+209110103,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,51.0,,,,302.15261,286952.0
+204950501,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,18.0,,,,0.0,
+204950501,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,21.0,,,,0.0,
+204950501,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,21.0,,,,310.30668,291018.0
+204950501,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,0.0,
+206552490,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,48.0,,,,0.0,
+206552490,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,51.0,,,,0.0,
+206552490,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,51.0,,,,328.75931,237251.0
+206552490,ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,51.0,,,,311.65708,259851.0
+206100682,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,12.0,,,,0.0,
+206100682,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,321.68935,204467.0
+206100682,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,386.72034,127996.0
+206100682,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,23.0,,,,399.70266,106393.0
+300190446,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,0.0,
+300190446,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,19.0,,,,0.0,
+300190446,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,19.0,,,,322.9509,252839.0
+300190446,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (Ücretli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+300190447,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,0.0,
+300190447,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,13.0,,,,0.0,
+300190447,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,324.00044,249922.0
+300190447,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,0.0,
+300210854,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+300210854,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,0.0,
+300210854,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,0.0,
+300210854,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,12.0,,,,0.0,
+300290665,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+300290665,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,0.0,
+300290665,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,0.0,
+300290665,GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,9.0,,,,0.0,
+300410904,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+300410904,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,315.34693,220315.0
+300410904,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,2.0,,,,322.84977,253125.0
+300410904,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Endüstri Mühendisliği (İngilizce) (Burslu),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,3.0,,,,0.0,
+300410358,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,0.0,
+300410358,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,0.0,
+300410358,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Endüstri Mühendisliği (İngilizce) (%50 İndirimli),Endüstri Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,0.0,

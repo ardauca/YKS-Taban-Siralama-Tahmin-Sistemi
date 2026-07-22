@@ -198,6 +198,23 @@ def normalize_records(raw_records: list[dict]) -> pd.DataFrame:
     return df
 
 
+# Ana Bölüm Grupları (SAY, EA, SÖZ, DİL)
+MAJOR_DEPARTMENT_GROUPS = {
+    # SAY
+    "bilgisayar_muhendisligi": 2010,
+    "tip": 5370,
+    "elektrik_elektronik_muhendisligi": 2644,
+    "makine_muhendisligi": 3987,
+    "endustri_muhendisligi": 2704,
+    # EA
+    "hukuk": 3309,
+    "iktisat": 3353,
+    "isletme": 3549,
+    "psikoloji": 4679,
+    "yonetim_bilisim_sistemleri": 5874,
+}
+
+
 def _safe_int(val: Any) -> int | None:
     """Güvenli int dönüşümü — dönüşemezse None döner."""
     if val is None:
@@ -221,33 +238,57 @@ def _safe_float(val: Any) -> float | None:
 # ── Ana akış ─────────────────────────────────────────────────────────────────
 
 
-def run(save: bool = True) -> pd.DataFrame:
+def run(grup_id: int = BILGISAYAR_MUH_GRUP_ID, filename: str = "bilgisayar_muhendisligi_raw.csv", save: bool = True) -> pd.DataFrame:
     """
-    Tam scraping akışını çalıştırır:
-    1. API'den tüm Bilgisayar Mühendisliği programlarını çek.
-    2. Normalize et (tidy format).
-    3. data/raw/yokatlas/ altına kaydet.
-
-    Returns:
-        Normalize edilmiş DataFrame.
+    Belirtilen birimGrupId için scraping akışını çalıştırır.
     """
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
     )
 
-    raw = fetch_all_programs(BILGISAYAR_MUH_GRUP_ID)
+    raw = fetch_all_programs(grup_id)
     df = normalize_records(raw)
 
     if save and not df.empty:
         RAW_DIR.mkdir(parents=True, exist_ok=True)
-        out_path = RAW_DIR / "bilgisayar_muhendisligi_raw.csv"
+        out_path = RAW_DIR / filename
         df.to_csv(out_path, index=False, encoding="utf-8-sig")
         logger.info("Veri kaydedildi: %s (%d satır)", out_path, len(df))
 
     return df
 
 
+def run_all_departments(save: bool = True) -> pd.DataFrame:
+    """
+    Tüm ana bölüm aileleri için (Tıp, Hukuk, Mühendislikler, İktisat/İşletme vb.)
+    verileri çeker ve konsolide ham veri setini kaydeder.
+    """
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
+    )
+
+    all_dfs = []
+    for dept_name, grup_id in MAJOR_DEPARTMENT_GROUPS.items():
+        logger.info("\n=== Bölüm Çekiliyor: %s (ID: %d) ===", dept_name, grup_id)
+        df_dept = run(grup_id=grup_id, filename=f"{dept_name}_raw.csv", save=save)
+        all_dfs.append(df_dept)
+
+    if all_dfs:
+        combined = pd.concat(all_dfs, ignore_index=True)
+        if save:
+            out_combined = RAW_DIR / "yokatlas_all_departments_raw.csv"
+            combined.to_csv(out_combined, index=False, encoding="utf-8-sig")
+            logger.info("\n=== TÜM BÖLÜMLER KONSOLİDE EDİLDİ: %s (%d satır) ===", out_combined, len(combined))
+        return combined
+
+    return pd.DataFrame()
+
+
 if __name__ == "__main__":
-    df = run()
-    print(df.head(10).to_string(index=False))
+    df_all = run_all_departments()
+    print("\nKonsolide Veri Seti Özeti:")
+    print(f"Toplam Satır: {len(df_all)}")
+    if not df_all.empty:
+        print(df_all.groupby(["birim_grup_adi", "yil"])["kilavuz_kodu"].count())

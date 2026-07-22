@@ -1,0 +1,751 @@
+﻿kilavuz_kodu,universite_adi,birim_adi,birim_grup_adi,il_kodu,il_adi,universite_turu,ogretim_turu,burs_orani,puan_turu,kaynak,cekme_tarihi,yil,genel_kontenjan,sehit_gazi_kontenjan,depremzede_kontenjan,okul_birincisi_kontenjan,taban_puan,taban_siralama
+203910487,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,534.45394,1226.0
+203910487,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,12.0,1.0,1.0,,535.83881,1391.0
+203910487,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,542.0126,1151.0
+203910487,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,536.47553,1658.0
+202110877,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,26.0,,,,527.65394,2358.0
+202110877,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,26.0,2.0,1.0,,531.1867,2086.0
+202110877,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,26.0,,,,535.34807,2562.0
+202110877,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,26.0,,,,531.18445,2813.0
+108410433,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,120.0,,,,523.30271,3264.0
+108410433,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,120.0,,,3.0,522.82995,3659.0
+108410433,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,120.0,,,,527.94562,4832.0
+108410433,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,150.0,,,,520.86585,6321.0
+102210329,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,521.95467,3596.0
+102210329,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,522.3873,3771.0
+102210329,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,531.70153,3584.0
+102210329,BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,531.64691,2695.0
+205410177,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,520.05664,4068.0
+205410177,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,2.0,1.0,,517.76512,4840.0
+205410177,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,527.48902,4973.0
+205410177,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,520.41853,6503.0
+105510441,İSTANBUL TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,140.0,,,,513.03357,6106.0
+105510441,İSTANBUL TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,150.0,,,4.0,508.63864,7430.0
+105510441,İSTANBUL TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,150.0,,,,515.67219,9886.0
+105510441,İSTANBUL TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,180.0,,,,507.3,13032.0
+202110886,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,22.0,,,,504.34293,9219.0
+202110886,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,22.0,,,,507.69212,7769.0
+202110886,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,22.0,,,,518.69503,8495.0
+202110886,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,22.0,,,,512.48953,10223.0
+204810158,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,501.87353,10287.0
+204810158,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,1.0,1.0,,504.37918,8917.0
+204810158,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,518.64022,8517.0
+204810158,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,517.29253,7876.0
+104890268,HACETTEPE ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,70.0,,,,493.68466,14114.0
+104890268,HACETTEPE ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,487.61866,15819.0
+104890268,HACETTEPE ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,501.0933,17947.0
+104890268,HACETTEPE ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,490.77253,23706.0
+110110243,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,125.0,,,,487.31957,17686.0
+110110243,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,125.0,,,4.0,474.69563,22581.0
+110110243,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,215.0,,,,487.86232,26723.0
+110110243,YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,210.0,,,,476.33972,34612.0
+109610218,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,483.38623,20174.0
+109610218,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,485.0276,17132.0
+109610218,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,507.11332,14352.0
+109610218,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,499.60509,17798.0
+105810095,İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,474.87944,25843.0
+105810095,İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,2.0,466.49119,27413.0
+105810095,İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,480.50867,32210.0
+105810095,İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,461.75107,46464.0
+206100759,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,469.88873,29485.0
+206100759,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,12.0,2.0,1.0,,457.72051,33211.0
+206100759,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,474.62879,36821.0
+206100759,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,12.0,,,,464.09045,44573.0
+104112092,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,467.03027,31639.0
+104112092,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,456.47926,34037.0
+104112092,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,477.02327,34910.0
+104112092,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,466.60165,42492.0
+107210544,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,461.3653,36251.0
+107210544,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,450.43491,38243.0
+107210544,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,471.18316,39608.0
+107210544,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,462.40501,45917.0
+104410199,GEBZE TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,460.96194,36572.0
+104410199,GEBZE TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,444.34417,42798.0
+104410199,GEBZE TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,465.58101,44355.0
+104410199,GEBZE TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,455.05867,52154.0
+207210207,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,458.60457,38604.0
+207210207,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,452.57138,36696.0
+207210207,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,474.07573,37247.0
+207210207,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,468.22584,41147.0
+203910838,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,24.0,,,,457.87757,39189.0
+203910838,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,,508.19306,7572.0
+203910838,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,518.61147,8541.0
+203910838,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,0.0,
+205410353,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,33.0,,,,454.86571,41762.0
+205410353,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,33.0,,,,444.00898,43044.0
+205410353,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,33.0,,,,477.00037,34927.0
+205410353,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,33.0,,,,474.10369,36382.0
+104110678,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği,Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,90.0,,,,454.36372,42202.0
+104110678,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği,Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,90.0,,,3.0,438.51935,47282.0
+104110678,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği,Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,459.92997,49369.0
+104110678,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği,Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,446.20898,59978.0
+200690473,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,454.09683,42435.0
+200690473,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,437.98022,47699.0
+200690473,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,464.74014,45131.0
+200690473,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,447.77374,58563.0
+203511435,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,453.77811,42709.0
+203511435,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,1.0,1.0,,441.44681,44952.0
+203511435,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,467.54578,42647.0
+203511435,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,456.56227,50885.0
+103490512,EGE ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,70.0,,,,453.61217,42857.0
+103490512,EGE ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,70.0,,,2.0,437.18741,48351.0
+103490512,EGE ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,460.94084,48484.0
+103490512,EGE ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,447.53047,58784.0
+206710626,TED ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,452.66098,43715.0
+206710626,TED ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,1.0,1.0,,0.0,
+109610223,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,452.41299,43930.0
+109610223,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,459.73511,31788.0
+109610223,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,480.2495,32402.0
+109610223,TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Almanca),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,448.44952,57956.0
+200611434,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,446.78521,49042.0
+200611434,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,1.0,1.0,,431.09463,53369.0
+200611434,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,458.09924,50946.0
+200611434,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,442.0604,63698.0
+107210898,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,63.0,,,,446.55373,49229.0
+107210898,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,63.0,,,2.0,429.56858,54670.0
+107210898,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,61.0,,,,453.64059,54773.0
+107210898,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,56.0,,,,446.1313,60054.0
+201110456,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,443.98016,51683.0
+201110456,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,9.0,1.0,1.0,,430.04338,54259.0
+201110456,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,454.15173,54318.0
+201110456,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,13.0,,,,441.55045,64178.0
+205710711,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,443.75911,51880.0
+205710711,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,1.0,1.0,,423.84855,59677.0
+205710711,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,452.90271,55445.0
+205710711,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,440.68365,64975.0
+110010059,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,70.0,,,,442.90481,52724.0
+110010059,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,70.0,,,2.0,423.23492,60187.0
+110010059,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,449.65435,58525.0
+110010059,ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,436.3727,68907.0
+112411298,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,442.66675,52949.0
+112411298,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,1.0,419.27354,63672.0
+112411298,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,442.85697,64807.0
+112411298,ESKİŞEHİR TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,419.98426,84679.0
+111610776,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,441.2362,54297.0
+111610776,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,420.74176,62400.0
+111610776,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,447.95727,60079.0
+111610776,İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA,Makine Mühendisliği,Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,436.39881,68881.0
+108410636,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,440.25832,55158.0
+108410636,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,424.13617,59411.0
+108410636,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,452.38554,55906.0
+108410636,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,452.27523,54628.0
+202511756,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,439.28998,56121.0
+202511756,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,1.0,1.0,,426.23094,57557.0
+202511756,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,458.36666,50732.0
+202511756,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,452.43416,54492.0
+200210688,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,438.72801,56689.0
+200210688,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,6.0,1.0,1.0,,422.16474,61136.0
+200210688,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,455.06936,53499.0
+200210688,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,435.34096,69826.0
+103110521,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği,Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,438.29936,57117.0
+103110521,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği,Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,80.0,,,2.0,418.76836,64124.0
+103110521,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği,Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,445.36209,62486.0
+103110521,DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği,Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,432.11465,72820.0
+209110031,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,438.29813,57119.0
+209110031,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,1.0,1.0,,418.94431,63967.0
+209110031,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,7.0,,,,441.68593,65926.0
+209110031,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,415.34661,89412.0
+204910281,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,437.24126,58161.0
+204910281,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,1.0,1.0,,405.38025,77090.0
+204910281,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,432.46415,74676.0
+204910281,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,419.87879,84785.0
+206090347,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,433.26806,62079.0
+206090347,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,1.0,1.0,,413.0069,69553.0
+206090347,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,450.9241,57312.0
+206090347,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,7.0,,,,442.38519,63399.0
+109710339,BURSA ULUDAĞ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,429.90474,65550.0
+109710339,BURSA ULUDAĞ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,90.0,,,3.0,407.28463,75176.0
+109710339,BURSA ULUDAĞ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,435.11929,72080.0
+109710339,BURSA ULUDAĞ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,100.0,,,,422.44306,82366.0
+103810241,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,90.0,,,,427.11021,68391.0
+103810241,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,90.0,,,3.0,402.89102,79599.0
+103810241,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,427.7878,79469.0
+103810241,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,100.0,,,,409.35253,95883.0
+202110868,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,425.65724,69953.0
+202110868,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,,436.20692,49197.0
+202110868,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,50.0,,,,482.33714,30788.0
+202110868,İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,489.03354,24971.0
+210301935,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,422.21664,73600.0
+210301935,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,403.84203,78600.0
+210301935,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,3.0,,,,432.12739,75023.0
+210301935,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,423.51301,81279.0
+202090281,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,420.87438,75070.0
+202090281,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,1.0,1.0,,390.47428,92950.0
+202090281,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,3.0,,,,432.02694,75131.0
+202090281,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,3.0,,,,419.99326,84666.0
+102410018,BURSA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,418.44708,77776.0
+102410018,BURSA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,390.12251,93354.0
+102410018,BURSA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,411.79452,96641.0
+102410018,BURSA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,16.0,BURSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,393.11152,114027.0
+106910391,KOCAELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,100.0,,,,418.09623,78153.0
+106910391,KOCAELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,100.0,,,3.0,391.93752,91307.0
+106910391,KOCAELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,115.0,,,,417.23905,90571.0
+106910391,KOCAELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,41.0,KOCAELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,110.0,,,,401.53514,104371.0
+202490537,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,418.08118,78171.0
+202490537,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,1.0,1.0,,394.53925,88470.0
+202490537,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,427.41478,79870.0
+202490537,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,8.0,,,,417.77986,86973.0
+105710051,İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,416.92417,79465.0
+105710051,İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,391.27902,92056.0
+105710051,İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,415.15227,92800.0
+105710051,İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,35.0,İZMİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,397.98184,108393.0
+201200353,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,415.69256,80834.0
+201200353,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,,1.0,,388.47187,95314.0
+201200353,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,3.0,,,,423.45649,83984.0
+201200353,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,414.62451,90171.0
+206410731,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,415.21128,81382.0
+206410731,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,1.0,1.0,,387.17195,96783.0
+206410731,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,429.42536,77760.0
+206410731,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,3.0,,,,412.10951,92963.0
+202411148,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,411.89771,85035.0
+202411148,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,390.71457,92668.0
+202411148,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,421.31231,86265.0
+202411148,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,410.84642,94287.0
+107210905,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,411.89325,85040.0
+107210905,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,7.0,,,1.0,357.91461,135346.0
+107210905,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,19.0,,,,379.57569,138140.0
+107210905,MARMARA ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,14.0,,,,369.71648,144536.0
+201990479,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,410.23508,86863.0
+201990479,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,1.0,1.0,,393.83917,89226.0
+201990479,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,426.87757,80406.0
+201990479,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,417.48075,87273.0
+100710251,AKDENİZ ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği,Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,410.05263,87058.0
+100710251,AKDENİZ ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği,Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,380.07007,105217.0
+100710251,AKDENİZ ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği,Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,406.52816,102681.0
+100710251,AKDENİZ ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği,Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,389.37028,118516.0
+204790560,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,409.31725,87893.0
+204790560,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,1.0,1.0,,384.7996,99469.0
+204790560,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,4.0,,,,431.66352,75494.0
+204790560,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,3.0,,,,430.33956,74536.0
+208450845,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,408.254,89092.0
+208450845,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,7.0,,1.0,,389.5315,94021.0
+208450845,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,408.35443,100618.0
+208450845,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,9.0,,,,373.03846,139845.0
+108810377,SAKARYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,105.0,,,,406.33384,91278.0
+108810377,SAKARYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,105.0,,,3.0,376.07123,110173.0
+108810377,SAKARYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,403.1729,106752.0
+108810377,SAKARYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,100.0,,,,383.49045,125803.0
+202990260,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,2.0,,,,404.95312,92919.0
+202990260,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,2.0,,1.0,,371.7897,115627.0
+202990260,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,395.99588,115736.0
+202990260,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,374.78157,137463.0
+201200367,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,2.0,,,,404.11055,93900.0
+201200367,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,2.0,,1.0,,382.82038,101815.0
+201200367,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,2.0,,,,412.85862,95418.0
+201200367,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,4.0,,,,407.28528,98080.0
+106510041,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği (İngilizce),Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,403.5398,94595.0
+106510041,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği (İngilizce),Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,366.79266,122318.0
+106510041,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği (İngilizce),Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,387.46548,126983.0
+106510041,ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği (İngilizce),Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,370.55295,143349.0
+102910331,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,401.90164,96632.0
+102910331,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,6.0,2.0,369.62882,118537.0
+102910331,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,400.7847,109675.0
+102910331,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,383.1781,126178.0
+106210423,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Makine Mühendisliği,Makine Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,391.872,109069.0
+106210423,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Makine Mühendisliği,Makine Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,80.0,,,2.0,357.2129,136367.0
+106210423,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Makine Mühendisliği,Makine Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,383.50138,132585.0
+106210423,KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON),Makine Mühendisliği,Makine Mühendisliği,61.0,TRABZON,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,100.0,,,,368.28071,146685.0
+103590583,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği (İngilizce),Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,390.4459,110886.0
+103590583,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği (İngilizce),Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,,1.0,0.0,
+100310519,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,9.0,AYDIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,389.03576,112751.0
+100310519,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,9.0,AYDIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,362.28457,128896.0
+100310519,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,9.0,AYDIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,395.55618,116313.0
+100310519,AYDIN ADNAN MENDERES ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,9.0,AYDIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,377.27586,133951.0
+102590587,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,62.0,,,,386.50531,116102.0
+102590587,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,70.0,,,2.0,356.05034,138211.0
+102590587,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,382.62939,133828.0
+204810167,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,54.0,,,,382.93776,120992.0
+204810167,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,51.0,,,,375.12672,111348.0
+204810167,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,42.0,,,,421.94621,85597.0
+204810167,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,39.0,,,,414.20919,90685.0
+111810632,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,56.0,,,,382.77349,121195.0
+111810632,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,63.0,,,2.0,353.10746,143044.0
+111810632,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,61.0,,,,374.88868,145176.0
+111810632,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,56.0,,,,353.22627,170441.0
+108210674,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Makine Mühendisliği,Makine Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,381.73926,122548.0
+108210674,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Makine Mühendisliği,Makine Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,350.24006,147699.0
+108210674,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Makine Mühendisliği,Makine Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,377.80515,140722.0
+108210674,ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN),Makine Mühendisliği,Makine Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,358.0547,162238.0
+202390969,İSTANBUL AREL ÜNİVERSİTESİ,Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,379.88556,125145.0
+202390969,İSTANBUL AREL ÜNİVERSİTESİ,Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,1.0,,357.35257,136155.0
+202390969,İSTANBUL AREL ÜNİVERSİTESİ,Makine Mühendisliği (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,2.0,,,,385.22189,130061.0
+204090699,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (Burslu),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,4.0,,,,377.0226,129268.0
+204090699,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (Burslu),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,1.0,1.0,,0.0,
+204090699,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (Burslu),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,,,,,373.00526,148115.0
+204090699,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (Burslu),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,,,,,339.11315,196344.0
+108610307,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,376.72937,129712.0
+108610307,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,347.11408,152932.0
+108610307,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,370.49166,152031.0
+108610307,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,348.48415,178631.0
+100110399,BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,14.0,BOLU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,371.73708,136931.0
+100110399,BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,14.0,BOLU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,341.10334,163603.0
+100110399,BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,14.0,BOLU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,363.7569,163239.0
+100110399,BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,14.0,BOLU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,342.84007,189088.0
+203910478,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,367.26728,143885.0
+203910478,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,32.0,,,,320.97455,206137.0
+203910478,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,61.0,,,,403.82741,105973.0
+203910478,KOÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,65.0,,,,384.7753,124222.0
+111310667,KONYA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,90.0,,,,367.25994,143894.0
+111310667,KONYA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,90.0,,,3.0,336.08236,173252.0
+111310667,KONYA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,353.97308,180933.0
+111310667,KONYA TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,335.10996,204517.0
+108911241,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,61.0,,,,361.82978,152734.0
+108911241,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,63.0,,,2.0,330.29485,185020.0
+108911241,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,61.0,,,,349.84785,189066.0
+108911241,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,56.0,,,,331.10849,213017.0
+109410209,TRAKYA ÜNİVERSİTESİ (EDİRNE),Makine Mühendisliği,Makine Mühendisliği,22.0,EDİRNE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,90.0,,,,361.62583,153109.0
+109410209,TRAKYA ÜNİVERSİTESİ (EDİRNE),Makine Mühendisliği,Makine Mühendisliği,22.0,EDİRNE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,90.0,,,3.0,333.96236,177358.0
+109410209,TRAKYA ÜNİVERSİTESİ (EDİRNE),Makine Mühendisliği,Makine Mühendisliği,22.0,EDİRNE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,355.29866,178391.0
+109410209,TRAKYA ÜNİVERSİTESİ (EDİRNE),Makine Mühendisliği,Makine Mühendisliği,22.0,EDİRNE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,332.83414,209239.0
+205410168,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,361.55834,153227.0
+205410168,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,,,378.49845,107087.0
+205410168,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,433.63535,73527.0
+205410168,TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,35.0,,,,426.94888,77828.0
+101510144,BALIKESİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,361.15111,153949.0
+101510144,BALIKESİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,70.0,,,2.0,328.7751,188384.0
+101510144,BALIKESİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,95.0,,,,349.34537,190087.0
+101510144,BALIKESİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,10.0,BALIKESİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,90.0,,,,327.87256,220114.0
+108690197,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,45.0,,,,361.03292,154155.0
+108690197,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,45.0,,,2.0,333.12021,179073.0
+108690197,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,347.49305,193875.0
+108690197,PAMUKKALE ÜNİVERSİTESİ (DENİZLİ),Makine Mühendisliği,Makine Mühendisliği,20.0,DENİZLİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,318.28254,242785.0
+103510395,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği,Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,90.0,,,,360.70768,154725.0
+103510395,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği,Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,90.0,,,3.0,327.33833,191512.0
+103510395,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği,Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,345.80099,197346.0
+103510395,ERCİYES ÜNİVERSİTESİ (KAYSERİ),Makine Mühendisliği,Makine Mühendisliği,38.0,KAYSERİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,100.0,,,,328.04835,219734.0
+408810988,ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ (SARAYBOSNA - BOSNA - HERSEK),Makine Mühendisliği (Burslu),Makine Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,359.86286,156148.0
+408810988,ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ (SARAYBOSNA - BOSNA - HERSEK),Makine Mühendisliği (Burslu),Makine Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2024,1.0,,,,0.0,
+206710633,TED ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,33.0,,,,358.26025,158931.0
+206710633,TED ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,38.0,,,,0.0,
+204910272,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,23.0,,,,357.08566,161017.0
+204910272,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,23.0,,,,324.5903,197649.0
+204910272,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,26.0,,,,325.93494,244640.0
+204910272,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,31.0,,,,301.24347,289781.0
+210403006,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,9.0,,,,355.92596,163195.0
+210403006,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,15.0,,1.0,,0.0,
+104210174,GAZİANTEP ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,100.0,,,,355.87745,163272.0
+104210174,GAZİANTEP ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,100.0,,10.0,3.0,325.30407,196072.0
+104210174,GAZİANTEP ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,344.80673,199477.0
+104210174,GAZİANTEP ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,27.0,GAZİANTEP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,100.0,,,,332.98362,208935.0
+109970300,YALOVA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,354.70762,165366.0
+109970300,YALOVA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,322.77851,201765.0
+109970300,YALOVA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,340.26074,209374.0
+109970300,YALOVA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,77.0,YALOVA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,315.74773,249174.0
+110410073,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,353.23361,168125.0
+110410073,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,5.0,2.0,320.4462,207461.0
+110410073,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,70.0,,,,345.14563,198708.0
+110410073,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,65.0,,,,325.61815,225138.0
+111810641,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,352.78801,168997.0
+111810641,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,7.0,,,1.0,306.34527,245249.0
+111810641,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,19.0,,,,324.93001,247368.0
+111810641,SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,54.0,SAKARYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,14.0,,,,302.24138,286657.0
+110590033,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,351.3806,171636.0
+110590033,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,320.6722,206870.0
+110590033,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,70.0,,,,343.82538,201553.0
+110590033,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği (İngilizce),Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,65.0,,,,324.03962,228913.0
+102590225,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,351.37045,171653.0
+102590225,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,323.05302,201144.0
+102590225,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,344.43514,200267.0
+102590225,MANİSA CELÂL BAYAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,45.0,MANİSA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,322.90239,231550.0
+107910061,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,351.07481,172234.0
+107910061,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,318.39547,212455.0
+107910061,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,65.0,,,,336.28802,218586.0
+107910061,TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,59.0,TEKİRDAĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,60.0,,,,314.71622,251726.0
+112771225,SAMSUN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,55.0,,,,350.95276,172474.0
+112771225,SAMSUN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,2.0,319.9693,208581.0
+112771225,SAMSUN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,55.0,SAMSUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,341.96299,205580.0
+107410339,MERSİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,350.16789,174023.0
+107410339,MERSİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,318.30666,212686.0
+107410339,MERSİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,340.71909,208307.0
+107410339,MERSİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,322.4437,232662.0
+200690559,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,349.73663,174864.0
+200690559,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,24.0,,,,369.46125,118779.0
+200690559,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,21.0,,,,410.2729,98407.0
+200690559,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,22.0,,,,405.55521,99953.0
+109290557,SÜLEYMAN DEMİREL ÜNİVERSİTESİ (ISPARTA),Makine Mühendisliği,Makine Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,349.21436,175880.0
+109290557,SÜLEYMAN DEMİREL ÜNİVERSİTESİ (ISPARTA),Makine Mühendisliği,Makine Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,80.0,,,2.0,317.53168,214732.0
+109290557,SÜLEYMAN DEMİREL ÜNİVERSİTESİ (ISPARTA),Makine Mühendisliği,Makine Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,105.0,,,,336.97619,216965.0
+103310291,DÜZCE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,348.4691,177306.0
+103310291,DÜZCE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,315.13398,220859.0
+103310291,DÜZCE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,332.04436,228916.0
+103310291,DÜZCE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,81.0,DÜZCE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,308.99167,267185.0
+106690503,KIRIKKALE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,71.0,KIRIKKALE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,348.1608,177904.0
+106690503,KIRIKKALE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,71.0,KIRIKKALE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,314.73645,221915.0
+106690503,KIRIKKALE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,71.0,KIRIKKALE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,332.66611,227314.0
+107090297,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,347.2996,179567.0
+107090297,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,310.03574,234765.0
+107090297,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,75.0,,,,317.74136,267789.0
+107090297,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,70.0,,,,0.0,
+201790614,İSTANBUL GEDİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,346.36781,181405.0
+201790614,İSTANBUL GEDİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,1.0,,0.0,
+108911259,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,343.67168,186905.0
+108911259,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,7.0,,,1.0,297.92181,272080.0
+108911259,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,19.0,,,,308.85233,295970.0
+108911259,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,14.0,,,,301.77965,288075.0
+103210238,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,80.0,,,,342.41453,189504.0
+103210238,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,80.0,,,2.0,311.88273,229551.0
+103210238,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,85.0,,,,328.62944,237609.0
+103210238,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,80.0,,,,307.36994,271742.0
+111900143,SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,342.19641,189975.0
+111900143,SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,,1.0,306.78628,243993.0
+111900143,SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+300110722,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,340.54029,193576.0
+300110722,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,7.0,,,,322.6182,202148.0
+300110722,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,7.0,,,,339.60029,210855.0
+300110722,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,313.98551,253560.0
+112572410,ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,337.59475,200095.0
+112572410,ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,40.0,,,1.0,307.46221,242096.0
+112572410,ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,317.65502,268059.0
+112572410,ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,32.0,ISPARTA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,0.0,
+106710375,KIRKLARELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,39.0,KIRKLARELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,337.5268,200248.0
+106710375,KIRKLARELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,39.0,KIRKLARELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,,1.0,305.37071,248145.0
+106710375,KIRKLARELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,39.0,KIRKLARELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,314.12061,278890.0
+106710375,KIRKLARELİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,39.0,KIRKLARELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+101910291,BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,11.0,BİLECİK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,337.45434,200408.0
+101910291,BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,11.0,BİLECİK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,307.12636,243025.0
+101910291,BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,11.0,BİLECİK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,316.09052,272787.0
+101910291,BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,11.0,BİLECİK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+110310135,ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,67.0,ZONGULDAK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,336.00637,203657.0
+110310135,ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,67.0,ZONGULDAK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,304.2371,251497.0
+110310135,ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,67.0,ZONGULDAK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,314.5101,277656.0
+110310135,ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,67.0,ZONGULDAK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,0.0,
+102910719,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği,Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,45.0,,,,335.83886,204036.0
+102910719,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği,Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,45.0,,5.0,2.0,306.43792,244991.0
+102910719,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği,Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,55.0,,,,323.34335,251739.0
+102910719,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği,Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,300.44272,292205.0
+204890051,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,333.32257,209878.0
+204890051,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,8.0,,,,0.0,
+204890051,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,17.0,,,,382.49869,134036.0
+204890051,ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,15.0,,,,398.50505,107777.0
+107310543,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,332.59084,211609.0
+107310543,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,302.96459,255480.0
+107310543,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,314.55118,277518.0
+107310543,BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,15.0,BURDUR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+100410615,AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR),Makine Mühendisliği,Makine Mühendisliği,3.0,AFYONKARAHİSAR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,331.79591,213458.0
+100410615,AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR),Makine Mühendisliği,Makine Mühendisliği,3.0,AFYONKARAHİSAR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,302.02562,258465.0
+100410615,AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR),Makine Mühendisliği,Makine Mühendisliği,3.0,AFYONKARAHİSAR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,50.0,,,,312.7111,283224.0
+100410615,AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR),Makine Mühendisliği,Makine Mühendisliği,3.0,AFYONKARAHİSAR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,45.0,,,,0.0,
+201650185,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (Burslu),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,331.4292,214346.0
+201650185,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (Burslu),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,1.0,,310.52563,233438.0
+201650185,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (Burslu),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,320.41093,260023.0
+201650185,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (Burslu),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,299.20715,295998.0
+101410515,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,60.0,,,,330.53112,216457.0
+101410515,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,2.0,300.99174,261782.0
+101410515,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,60.0,,,,313.19814,281713.0
+101410515,ATATÜRK ÜNİVERSİTESİ (ERZURUM),Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,55.0,,,,0.0,
+112070680,TARSUS ÜNİVERSİTESİ (MERSİN),Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,330.25087,217152.0
+112070680,TARSUS ÜNİVERSİTESİ (MERSİN),Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,,1.0,300.90021,262050.0
+112070680,TARSUS ÜNİVERSİTESİ (MERSİN),Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,313.53513,280662.0
+112070680,TARSUS ÜNİVERSİTESİ (MERSİN),Makine Mühendisliği,Makine Mühendisliği,33.0,MERSİN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+109890293,UŞAK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,64.0,UŞAK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,329.73319,218428.0
+109890293,UŞAK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,64.0,UŞAK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,40.0,,,1.0,298.6312,269666.0
+109890293,UŞAK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,64.0,UŞAK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,45.0,,,,310.38764,290752.0
+101610082,BARTIN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,74.0,BARTIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,326.44489,226752.0
+101610082,BARTIN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,74.0,BARTIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,298.03291,271731.0
+101610082,BARTIN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,74.0,BARTIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,310.54206,290245.0
+101610082,BARTIN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,74.0,BARTIN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+102610361,SİVAS CUMHURİYET ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,326.25172,227233.0
+102610361,SİVAS CUMHURİYET ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,,1.0,298.47922,270175.0
+102610361,SİVAS CUMHURİYET ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,312.45731,284051.0
+102610361,SİVAS CUMHURİYET ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,58.0,SİVAS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+300510666,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,325.61058,228966.0
+300510666,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,292.20838,292197.0
+300510666,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,0.0,
+300510666,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,0.0,
+106190390,KARABÜK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,78.0,KARABÜK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,65.0,,,,324.50366,231921.0
+106190390,KARABÜK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,78.0,KARABÜK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,65.0,,,2.0,0.0,
+103910258,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği,Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,35.0,,,,323.96922,233387.0
+103910258,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği,Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,35.0,,4.0,1.0,297.31155,274171.0
+103910258,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği,Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,35.0,,,,311.87744,285915.0
+103910258,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği,Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,0.0,
+103290176,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,323.71582,234099.0
+103290176,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,299.17453,267745.0
+103290176,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,312.3287,284444.0
+103290176,KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,43.0,KÜTAHYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+108990309,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,321.30811,240672.0
+108990309,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,2.0,294.98403,282293.0
+108990309,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,50.0,,,,308.44181,297348.0
+108990309,SELÇUK ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,45.0,,,,0.0,
+106410387,KASTAMONU ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,37.0,KASTAMONU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,321.09791,241225.0
+106410387,KASTAMONU ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,37.0,KASTAMONU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,293.50132,287562.0
+106410387,KASTAMONU ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,37.0,KASTAMONU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+106410387,KASTAMONU ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,37.0,KASTAMONU,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+104590096,GİRESUN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,28.0,GİRESUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,320.70283,242315.0
+104590096,GİRESUN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,28.0,GİRESUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,292.52536,291048.0
+104590096,GİRESUN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,28.0,GİRESUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+104590096,GİRESUN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,28.0,GİRESUN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+107010476,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,320.51575,242841.0
+107010476,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,291.95388,293037.0
+107010476,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+107010476,NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA),Makine Mühendisliği,Makine Mühendisliği,42.0,KONYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+203511408,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,320.33334,243325.0
+203511408,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,40.0,,,,324.34255,198203.0
+203511408,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,40.0,,,,360.34315,169181.0
+203511408,İZMİR EKONOMİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,37.0,,,,349.18335,177375.0
+106190411,KARABÜK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,78.0,KARABÜK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,75.0,,,,319.4381,245802.0
+106190411,KARABÜK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,78.0,KARABÜK,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,2.0,295.27948,281265.0
+103710012,ERZURUM TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,40.0,,,,319.34261,246086.0
+103710012,ERZURUM TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,292.07583,292639.0
+103710012,ERZURUM TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+103710012,ERZURUM TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,25.0,ERZURUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+108110172,NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,51.0,NİĞDE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,318.80882,247514.0
+108110172,NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,51.0,NİĞDE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,291.094,296319.0
+108110172,NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,51.0,NİĞDE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+108110172,NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,51.0,NİĞDE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+109190129,SİNOP ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,57.0,SİNOP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,318.34232,248876.0
+109190129,SİNOP ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,57.0,SİNOP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,,1.0,291.71717,293935.0
+109190129,SİNOP ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,57.0,SİNOP,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+106390033,KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ (KARAMAN),Makine Mühendisliği,Makine Mühendisliği,70.0,KARAMAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,317.64484,250882.0
+106390033,KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ (KARAMAN),Makine Mühendisliği,Makine Mühendisliği,70.0,KARAMAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+106390033,KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ (KARAMAN),Makine Mühendisliği,Makine Mühendisliği,70.0,KARAMAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+105190229,HİTİT ÜNİVERSİTESİ (ÇORUM),Makine Mühendisliği,Makine Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,316.40204,254506.0
+105190229,HİTİT ÜNİVERSİTESİ (ÇORUM),Makine Mühendisliği,Makine Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,0.0,
+105190229,HİTİT ÜNİVERSİTESİ (ÇORUM),Makine Mühendisliği,Makine Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,,,,,0.0,
+105190229,HİTİT ÜNİVERSİTESİ (ÇORUM),Makine Mühendisliği,Makine Mühendisliği,19.0,ÇORUM,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,,,,,0.0,
+105310294,İNÖNÜ ÜNİVERSİTESİ (MALATYA),Makine Mühendisliği,Makine Mühendisliği,44.0,MALATYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,316.29021,254823.0
+105310294,İNÖNÜ ÜNİVERSİTESİ (MALATYA),Makine Mühendisliği,Makine Mühendisliği,44.0,MALATYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,2.0,1.0,0.0,
+105310294,İNÖNÜ ÜNİVERSİTESİ (MALATYA),Makine Mühendisliği,Makine Mühendisliği,44.0,MALATYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+105310294,İNÖNÜ ÜNİVERSİTESİ (MALATYA),Makine Mühendisliği,Makine Mühendisliği,44.0,MALATYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,0.0,
+100610349,KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,40.0,KIRŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,316.2233,255029.0
+100610349,KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,40.0,KIRŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+100610349,KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,40.0,KIRŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+103010197,DİCLE ÜNİVERSİTESİ (DİYARBAKIR),Makine Mühendisliği,Makine Mühendisliği,21.0,DİYARBAKIR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,316.15843,255206.0
+103010197,DİCLE ÜNİVERSİTESİ (DİYARBAKIR),Makine Mühendisliği,Makine Mühendisliği,21.0,DİYARBAKIR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,3.0,1.0,292.20622,292203.0
+103010197,DİCLE ÜNİVERSİTESİ (DİYARBAKIR),Makine Mühendisliği,Makine Mühendisliği,21.0,DİYARBAKIR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,308.02578,298725.0
+103010197,DİCLE ÜNİVERSİTESİ (DİYARBAKIR),Makine Mühendisliği,Makine Mühendisliği,21.0,DİYARBAKIR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+110710052,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Makine Mühendisliği,Makine Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,314.90428,258987.0
+110710052,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Makine Mühendisliği,Makine Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,3.0,1.0,0.0,
+110710052,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Makine Mühendisliği,Makine Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+110710052,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Makine Mühendisliği,Makine Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,40.0,,,,0.0,
+100990095,AMASYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,5.0,AMASYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,314.51459,260157.0
+100990095,AMASYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,5.0,AMASYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,0.0,
+100990095,AMASYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,5.0,AMASYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+100990095,AMASYA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,5.0,AMASYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+110210657,VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,65.0,VAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,313.17637,264269.0
+110210657,VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,65.0,VAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+110210657,VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,65.0,VAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,0.0,
+110210657,VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,65.0,VAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+100810065,AKSARAY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,313.04446,264661.0
+100810065,AKSARAY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,1.0,0.0,
+100810065,AKSARAY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+100810065,AKSARAY ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,68.0,AKSARAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+104310588,TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,60.0,TOKAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,15.0,,,,312.84532,265270.0
+104310588,TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,60.0,TOKAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,15.0,,,1.0,0.0,
+104310588,TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,60.0,TOKAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+104310588,TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,60.0,TOKAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+205710729,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,24.0,,,,312.54925,266199.0
+205710729,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,24.0,,,,0.0,
+205710729,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,38.0,,,,331.15604,231153.0
+205710729,TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,29.0,,,,305.89036,275964.0
+108710272,RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE),Makine Mühendisliği,Makine Mühendisliği,53.0,RİZE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,312.25325,267102.0
+108710272,RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE),Makine Mühendisliği,Makine Mühendisliği,53.0,RİZE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,0.0,
+108710272,RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE),Makine Mühendisliği,Makine Mühendisliği,53.0,RİZE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+108710272,RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE),Makine Mühendisliği,Makine Mühendisliği,53.0,RİZE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+106010355,KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,311.84527,268427.0
+106010355,KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,1.0,1.0,0.0,
+106010355,KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+106010355,KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+206090354,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,51.0,,,,311.21198,270482.0
+206090354,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,41.0,,,,307.75088,241272.0
+206090354,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,39.0,,,,345.9673,196989.0
+206090354,YAŞAR ÜNİVERSİTESİ (İZMİR),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,35.0,İZMİR,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,37.0,,,,339.72398,195080.0
+102890070,ÇANKIRI KARATEKİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,18.0,ÇANKIRI,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,310.91453,271450.0
+102890070,ÇANKIRI KARATEKİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,18.0,ÇANKIRI,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,0.0,
+102890070,ÇANKIRI KARATEKİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,18.0,ÇANKIRI,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+102890070,ÇANKIRI KARATEKİN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,18.0,ÇANKIRI,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+201650332,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,310.75346,271899.0
+201650332,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,291.71736,293931.0
+201650332,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,0.0,
+201650332,HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,27.0,GAZİANTEP,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,0.0,
+103910504,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği,Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,309.9275,274448.0
+103910504,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği,Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,2.0,1.0,0.0,
+103910504,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği,Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,24.0,,,,0.0,
+207210225,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,31.0,,,,309.34615,276356.0
+207210225,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,31.0,,,,0.0,
+207210225,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+207210225,MEF ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,42.0,,,,357.54868,163070.0
+108570711,OSMANİYE KORKUT ATA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,80.0,OSMANİYE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,308.43575,279385.0
+108570711,OSMANİYE KORKUT ATA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,80.0,OSMANİYE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,1.0,1.0,0.0,
+108570711,OSMANİYE KORKUT ATA ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,80.0,OSMANİYE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,0.0,
+104710054,GÜMÜŞHANE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,29.0,GÜMÜŞHANE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,307.70131,281836.0
+104710054,GÜMÜŞHANE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,29.0,GÜMÜŞHANE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+104710054,GÜMÜŞHANE ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,29.0,GÜMÜŞHANE,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+105010146,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Makine Mühendisliği,Makine Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,307.58919,282184.0
+105010146,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Makine Mühendisliği,Makine Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,1.0,1.0,0.0,
+105010146,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Makine Mühendisliği,Makine Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+105010146,HARRAN ÜNİVERSİTESİ (ŞANLIURFA),Makine Mühendisliği,Makine Mühendisliği,63.0,ŞANLIURFA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+102310091,YOZGAT BOZOK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,66.0,YOZGAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,307.00965,284093.0
+102310091,YOZGAT BOZOK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,66.0,YOZGAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+102310091,YOZGAT BOZOK ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,66.0,YOZGAT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+206100766,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,71.0,,,,304.75086,291789.0
+206100766,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,75.0,,,,305.40891,248031.0
+206100766,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,73.0,,,,366.46812,158582.0
+206100766,YEDİTEPE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,72.0,,,,363.95101,153119.0
+206410738,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,31.0,,,,303.99743,294474.0
+206410738,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,22.0,,,,0.0,
+206410738,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,26.0,,,,311.97527,285609.0
+206410738,ANTALYA BİLİM ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,7.0,ANTALYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,22.0,,,,299.73329,294344.0
+103610243,ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,24.0,ERZİNCAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,303.83781,295047.0
+103610243,ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,24.0,ERZİNCAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+103610243,ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,24.0,ERZİNCAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,0.0,
+103610243,ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,24.0,ERZİNCAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+201200374,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,303.35222,296716.0
+201200374,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,,,,0.0,
+201200374,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,0.0,
+201200374,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+103910513,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,303.35189,296719.0
+103910513,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,6.0,,1.0,1.0,0.0,
+103910513,FIRAT ÜNİVERSİTESİ (ELAZIĞ),Makine Mühendisliği (M.T.O.K.),Makine Mühendisliği,23.0,ELAZIĞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,6.0,,,,0.0,
+200610542,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,50.0,,,,303.3366,296780.0
+200610542,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,49.0,,,,292.70352,290389.0
+200610542,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,47.0,,,,350.61372,187510.0
+200610542,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,49.0,,,,343.45541,187953.0
+201990480,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,34.0,,,,303.27645,296977.0
+201990480,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,32.0,,,,0.0,
+201990480,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,27.0,,,,318.49818,265515.0
+201990480,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,31.0,,,,302.78432,285016.0
+110400115,ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (KKTC Uyruklu),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+110500227,ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ (ANTALYA),Makine Mühendisliği (İngilizce) (KKTC Uyruklu),Makine Mühendisliği,7.0,ANTALYA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+101100647,ANKARA ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,0.0,
+403990102,HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN),Makine Mühendisliği,Makine Mühendisliği,,,YURTDISI VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,0.0,
+408810869,ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ (SARAYBOSNA - BOSNA - HERSEK),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+408810869,ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ (SARAYBOSNA - BOSNA - HERSEK),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,0.0,
+408810869,ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ (SARAYBOSNA - BOSNA - HERSEK),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,,,YURTDISI KAMU,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,0.0,
+101710027,BATMAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,72.0,BATMAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+101710027,BATMAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,72.0,BATMAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+101710027,BATMAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,72.0,BATMAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,0.0,
+101710027,BATMAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,72.0,BATMAN,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+102090245,BİNGÖL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,12.0,BİNGÖL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+102090245,BİNGÖL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,12.0,BİNGÖL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+102090245,BİNGÖL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,12.0,BİNGÖL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,0.0,
+102090245,BİNGÖL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,12.0,BİNGÖL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+102110136,BİTLİS EREN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,13.0,BİTLİS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,15.0,,,,0.0,
+102110136,BİTLİS EREN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,13.0,BİTLİS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,0.0,
+102910967,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce) (KKTC Uyruklu),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+102910967,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce) (KKTC Uyruklu),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,2.0,,,,320.40446,207563.0
+102910967,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce) (KKTC Uyruklu),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,1.0,,,,0.0,
+102910967,ÇUKUROVA ÜNİVERSİTESİ (ADANA),Makine Mühendisliği (İngilizce) (KKTC Uyruklu),Makine Mühendisliği,1.0,ADANA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,1.0,,,,0.0,
+103890260,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+103890260,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,1.0,,,,0.0,
+103890260,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,1.0,,,,0.0,
+103890260,ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ,Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,26.0,ESKİŞEHİR,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,1.0,,,,0.0,
+104112011,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+104112011,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,2.0,,,,391.14306,92202.0
+104112011,GAZİ ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,6.0,ANKARA,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,1.0,,,,0.0,
+110790029,İSKENDERUN TEKNİK ÜNİVERSİTESİ (HATAY),Makine Mühendisliği (KKTC Uyruklu),Makine Mühendisliği,31.0,HATAY,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+105500143,İSTANBUL TEKNİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (UOLP-Uluslararası Saraybosna Üniversitesi) (%25 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,0.0,
+105990256,KAFKAS ÜNİVERSİTESİ (KARS),Makine Mühendisliği,Makine Mühendisliği,36.0,KARS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,0.0,
+105990256,KAFKAS ÜNİVERSİTESİ (KARS),Makine Mühendisliği,Makine Mühendisliği,36.0,KARS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,1.0,0.0,
+105990256,KAFKAS ÜNİVERSİTESİ (KARS),Makine Mühendisliği,Makine Mühendisliği,36.0,KARS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+112270985,KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,0.0,
+112270985,KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,46.0,KAHRAMANMARAŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,3.0,1.0,0.0,
+109510086,MUNZUR ÜNİVERSİTESİ (TUNCELİ),Makine Mühendisliği,Makine Mühendisliği,62.0,TUNCELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+109510086,MUNZUR ÜNİVERSİTESİ (TUNCELİ),Makine Mühendisliği,Makine Mühendisliği,62.0,TUNCELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+109510086,MUNZUR ÜNİVERSİTESİ (TUNCELİ),Makine Mühendisliği,Makine Mühendisliği,62.0,TUNCELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,15.0,,,,0.0,
+109510086,MUNZUR ÜNİVERSİTESİ (TUNCELİ),Makine Mühendisliği,Makine Mühendisliği,62.0,TUNCELİ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+107890090,MUŞ ALPARSLAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,49.0,MUŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+107890090,MUŞ ALPARSLAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,49.0,MUŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+107890090,MUŞ ALPARSLAN ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,49.0,MUŞ,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+108410981,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,0.0,
+108410981,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,25.0,,,,0.0,
+108410981,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,325.61317,245498.0
+108410981,ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,DEVLET,,,SAY,yokatlas_api,2026-07-22,2022,25.0,,,,0.0,
+109010319,SİİRT ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,56.0,SİİRT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+109010319,SİİRT ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,56.0,SİİRT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,1.0,0.0,
+109010319,SİİRT ÜNİVERSİTESİ,Makine Mühendisliği,Makine Mühendisliği,56.0,SİİRT,DEVLET,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+202990267,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,0.0,
+202990267,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,,,,0.0,
+202990267,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,315.48287,274679.0
+202990267,ALTINBAŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,3.0,,,,305.45139,277300.0
+200210819,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,25.0,,,,0.0,
+200210819,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,42.0,,,,300.4155,263611.0
+200210819,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,42.0,,,,336.50374,218079.0
+200210819,ATILIM ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,42.0,,,,324.74091,227194.0
+200610533,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,2.0,,,,0.0,
+200610533,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,4.0,,,,0.0,
+200610533,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,346.31928,196327.0
+200610533,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,2.0,,,,342.29193,190063.0
+200690853,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,2.0,,,,0.0,
+200690853,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,,,,0.0,
+200690853,BAŞKENT ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,0.0,
+201110465,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,48.0,,,,0.0,
+201110465,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,55.0,,,,0.0,
+201110465,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,53.0,,,,333.07721,226315.0
+201110465,ÇANKAYA ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,58.0,,,,325.3687,225722.0
+201200360,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,20.0,,,,0.0,
+201200360,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,20.0,,,,0.0,
+201200360,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,20.0,,,,0.0,
+201200360,DOĞUŞ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,39.0,,,,0.0,
+201990916,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,1.0,,,,0.0,
+201990916,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,3.0,,,,0.0,
+201990916,HALİÇ ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,8.0,,,,0.0,
+202090282,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,22.0,,,,0.0,
+202090282,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,22.0,,,,0.0,
+202090282,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,17.0,,,,0.0,
+202090282,IŞIK ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,311.59528,260027.0
+202390976,İSTANBUL AREL ÜNİVERSİTESİ,Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,8.0,,,,0.0,
+202390976,İSTANBUL AREL ÜNİVERSİTESİ,Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,10.0,,,,0.0,
+202390976,İSTANBUL AREL ÜNİVERSİTESİ,Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,13.0,,,,0.0,
+202410353,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,0.0,
+202410353,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,30.0,,,,0.0,
+202410353,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,30.0,,,,0.0,
+202410353,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,30.0,,,,298.25449,299031.0
+202490538,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,30.0,,,,0.0,
+202490538,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,50.0,,,,0.0,
+202490538,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,38.0,,,,0.0,
+202490538,İSTANBUL AYDIN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,50.0,,,,303.94043,281724.0
+210301942,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,31.0,,,,0.0,
+210301942,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,31.0,,,,0.0,
+210301942,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,17.0,,,,0.0,
+210301942,İSTANBUL BEYKENT ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,34.0,,,,0.0,
+202511765,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,51.0,,,,0.0,
+202511765,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,64.0,,,,0.0,
+202511765,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,64.0,,,,0.0,
+202511765,İSTANBUL BİLGİ ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,64.0,,,,334.17915,206457.0
+201700150,İSTANBUL GEDİK ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,15.0,,,,0.0,
+210403202,İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,6.0,,,,0.0,
+204790561,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,19.0,,,,0.0,
+204790561,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,22.0,,,,0.0,
+204790561,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,25.0,,,,0.0,
+204790561,İSTANBUL OKAN ÜNİVERSİTESİ,Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,26.0,,,,0.0,
+208450846,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,0.0,
+208450846,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,13.0,,,,0.0,
+208450846,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,10.0,,,,0.0,
+208450846,İSTİNYE ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,20.0,,,,0.0,
+204090706,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,31.0,,,,0.0,
+204090706,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,31.0,,,,0.0,
+204090706,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,,,,,0.0,
+204090706,KTO KARATAY ÜNİVERSİTESİ (KONYA),Makine Mühendisliği (%50 İndirimli),Makine Mühendisliği,42.0,KONYA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,,,,,0.0,
+209110159,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,57.0,,,,0.0,
+209110159,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,60.0,,,,299.34244,267180.0
+209110159,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,47.0,,,,331.64952,229909.0
+209110159,OSTİM TEKNİK ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,42.0,,,,0.0,
+204950508,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,13.0,,,,0.0,
+204950508,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2024,14.0,,,,0.0,
+204950508,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2023,11.0,,,,0.0,
+204950508,PİRİ REİS ÜNİVERSİTESİ (İSTANBUL),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,34.0,İSTANBUL,VAKIF,,,SAY,yokatlas_api,2026-07-22,2022,6.0,,,,0.0,
+206700150,TED ÜNİVERSİTESİ (ANKARA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,6.0,ANKARA,VAKIF,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,0.0,
+300190448,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+300190448,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,11.0,,,,0.0,
+300190448,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,11.0,,,,0.0,
+300190448,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (Ücretli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,0.0,
+300190449,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,10.0,,,,0.0,
+300190449,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,9.0,,,,0.0,
+300190449,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,9.0,,,,318.91759,264282.0
+300190449,DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,2.0,,,,0.0,
+300710567,GİRNE ÜNİVERSİTESİ (KKTC-GİRNE),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,7.0,,,,0.0,
+300710567,GİRNE ÜNİVERSİTESİ (KKTC-GİRNE),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,7.0,,,,0.0,
+300710567,GİRNE ÜNİVERSİTESİ (KKTC-GİRNE),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,7.0,,,,0.0,
+300710567,GİRNE ÜNİVERSİTESİ (KKTC-GİRNE),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,10.0,,,,0.0,
+300710585,GİRNE ÜNİVERSİTESİ (KKTC-GİRNE),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,0.0,
+300710585,GİRNE ÜNİVERSİTESİ (KKTC-GİRNE),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,3.0,,,,0.0,
+300710585,GİRNE ÜNİVERSİTESİ (KKTC-GİRNE),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,3.0,,,,0.0,
+300411444,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,3.0,,,,0.0,
+300411444,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,0.0,
+300411444,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,3.0,,,,0.0,
+300411444,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (Burslu),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,3.0,,,,0.0,
+300411462,ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,2.0,,,,0.0,
+300590616,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2025,5.0,,,,0.0,
+300590616,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2024,5.0,,,,0.0,
+300590616,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2023,5.0,,,,0.0,
+300590616,YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA),Makine Mühendisliği (İngilizce) (%50 İndirimli),Makine Mühendisliği,999.0,KIBRIS,KKTC,,,SAY,yokatlas_api,2026-07-22,2022,5.0,,,,0.0,

@@ -26,7 +26,9 @@ import pandas as pd
 
 logger = logging.getLogger(__name__)
 
-RAW_CSV = Path(__file__).parent.parent.parent / "data" / "raw" / "yokatlas" / "bilgisayar_muhendisligi_raw.csv"
+ALL_DEPTS_CSV = Path(__file__).parent.parent.parent / "data" / "raw" / "yokatlas" / "yokatlas_all_departments_raw.csv"
+SINGLE_DEPT_CSV = Path(__file__).parent.parent.parent / "data" / "raw" / "yokatlas" / "bilgisayar_muhendisligi_raw.csv"
+RAW_CSV = ALL_DEPTS_CSV if ALL_DEPTS_CSV.exists() else SINGLE_DEPT_CSV
 PROCESSED_DIR = Path(__file__).parent.parent.parent / "data" / "processed"
 
 # Kategorik sütunlar → integer encoding
