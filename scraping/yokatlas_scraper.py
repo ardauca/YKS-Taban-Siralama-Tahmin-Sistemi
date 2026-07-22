@@ -33,7 +33,7 @@ USER_AGENT = (
 )
 # Bilgisayar Mühendisliği birimGrupId
 BILGISAYAR_MUH_GRUP_ID = 2010
-RATE_LIMIT_SECONDS = 1.5
+RATE_LIMIT_SECONDS = 0.2
 MAX_RETRIES = 3
 PAGE_SIZE = 100  # API'nin desteklediği max sayfa büyüklüğü
 
@@ -206,6 +206,14 @@ MAJOR_DEPARTMENT_GROUPS = {
     "elektrik_elektronik_muhendisligi": 2644,
     "makine_muhendisligi": 3987,
     "endustri_muhendisligi": 2704,
+    "dis_hekimligi": 2445,
+    "eczacilik": 2471,
+    "yazilim_muhendisligi": 5821,
+    "insaat_muhendisligi": 3468,
+    "mimarlik": 4108,
+    "ic_mimarlik": 3338,
+    "hemsirelik": 3217,
+    "ilkogretim_matematik_ogretmenligi": 3410,
     # EA
     "hukuk": 3309,
     "iktisat": 3353,
@@ -213,6 +221,15 @@ MAJOR_DEPARTMENT_GROUPS = {
     "psikoloji": 4679,
     "yonetim_bilisim_sistemleri": 5874,
     "siyaset_bilimi_ve_kamu_yonetimi": 4967,
+    "sinif_ogretmenligi": 4915,
+    "uluslararasi_iliskiler": 5581,
+    # SÖZ
+    "ozel_egitim_ogretmenligi": 8660,
+    "tarih": 5163,
+    "turk_dili_ve_edebiyati": 5468,
+    # DİL
+    "ingilizce_ogretmenligi": 3441,
+    "ingiliz_dili_ve_edebiyati": 3431,
 }
 
 
