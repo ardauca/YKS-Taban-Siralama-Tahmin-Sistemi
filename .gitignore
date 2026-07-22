@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# Gizli anahtarlar / kimlik bilgileri (ASLA commit etme)
+.env
+
+# Ham veri (büyük dosyalar — LFS ile veya ayrı tutulacak)
+data/raw/
+# Küçük örnek dosyalar için aşağıdaki satırı sil:
+# !data/raw/.gitkeep
+
+# MLflow
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Playwright tarayıcı ikilileri (pip install playwright / playwright install)
+# Bunlar önbellekte, repoya ekleme
+ms-playwright/
+
+# Camelot temp
+*.log
