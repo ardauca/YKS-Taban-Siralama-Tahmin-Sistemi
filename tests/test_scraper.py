@@ -47,8 +47,9 @@ def _make_valid_df(n_programs: int = 50, years: list[int] | None = None) -> pd.D
                 "cekme_tarihi": "2025-07-22",
                 "yil": year,
                 "genel_kontenjan": 50,
-                "yerlesen_sayisi": 48,
-                "doluluk_orani": 96,
+                "sehit_gazi_kontenjan": None,
+                "depremzede_kontenjan": None,
+                "okul_birincisi_kontenjan": 2,
                 "taban_puan": 450.0 + i,
                 "taban_siralama": 10000 + i * 100,
             })

@@ -44,8 +44,9 @@ EXPECTED_COLUMNS = {
     "cekme_tarihi",
     "yil",
     "genel_kontenjan",
-    "yerlesen_sayisi",
-    "doluluk_orani",
+    "sehit_gazi_kontenjan",
+    "depremzede_kontenjan",
+    "okul_birincisi_kontenjan",
     "taban_puan",
     "taban_siralama",
 }

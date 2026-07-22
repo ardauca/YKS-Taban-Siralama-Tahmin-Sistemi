@@ -54,8 +54,9 @@ def _make_raw_df(n_programs: int = 10, years: list[int] | None = None) -> pd.Dat
                 "cekme_tarihi": "2025-07-22",
                 "yil": year,
                 "genel_kontenjan": 50 + i * 5,
-                "yerlesen_sayisi": 45 + i * 4,
-                "doluluk_orani": 90 + j,
+                "sehit_gazi_kontenjan": None,
+                "depremzede_kontenjan": None,
+                "okul_birincisi_kontenjan": 2,
                 "taban_puan": 400.0 + i * 10 + j * 2,
                 "taban_siralama": float(base_rank - j * 1000),
             })

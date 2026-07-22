@@ -170,9 +170,7 @@ def normalize_records(raw_records: list[dict]) -> pd.DataFrame:
         }
 
         for suffix, year in year_map.items():
-            gk_key = f"gk{suffix}" if suffix else "gk"
-            sgy_key = f"sgy{suffix}" if suffix else "sgy"
-            dprm_key = f"dprm{suffix}" if suffix else "dprm"
+            gk_key = f"gk{suffix}" if suffix else "kontenjan"
             puan_key = f"minPuan{suffix}" if suffix else "minPuan"
             siralama_key = f"basariSirasi{suffix}" if suffix else "basariSirasi"
 
@@ -188,8 +186,9 @@ def normalize_records(raw_records: list[dict]) -> pd.DataFrame:
                 **base_info,
                 "yil": year,
                 "genel_kontenjan": _safe_int(genel_kontenjan),
-                "yerlesen_sayisi": _safe_int(rec.get(sgy_key)),
-                "doluluk_orani": _safe_float(rec.get(dprm_key)),
+                "sehit_gazi_kontenjan": _safe_int(rec.get(f"sgy{suffix}")),
+                "depremzede_kontenjan": _safe_int(rec.get(f"dprm{suffix}")),
+                "okul_birincisi_kontenjan": _safe_int(rec.get(f"obk{suffix}")),
                 "taban_puan": _safe_float(puan_raw),
                 "taban_siralama": _safe_int(siralama_raw),
             }

@@ -30,14 +30,12 @@ Yeni JSON API endpoint: `POST /api/tercih-kilavuz/search`
 
 **Sonuç:** 332 program × ~4 yıl = **1,216 satır** → `data/raw/yokatlas/bilgisayar_muhendisligi_raw.csv`
 
-| Yıl | Satır | Taban Sıralama Eksik |
-|-----|-------|---------------------|
-| 2022 | 268 | %10.1 |
-| 2023 | 298 | %14.8 |
-| 2024 | 318 | %31.1 |
-| 2025 | 332 | %34.6 |
-
-> **Not:** 2025 eksikleri beklenen — YKS 2025 yerleştirme süreci henüz tamamlanmamış.
+| Yıl | Satır | Taban Sıralama Eksik | Kontenjan Eksik |
+|-----|-------|---------------------|-----------------|
+| 2022 | 268 | %10.1 | %12.0 |
+| 2023 | 298 | %14.8 | %8.0 |
+| 2024 | 318 | %31.1 | %0.0 |
+| 2025 | 332 | %34.6 | **%0.0** (%100 dolu!) |
 
 **Testler:** 27/27 passed (`tests/test_scraper.py`)
 
@@ -50,16 +48,16 @@ Yeni JSON API endpoint: `POST /api/tercih-kilavuz/search`
 
 #### Feature Pipeline (`src/features/build_features.py`)
 
-**18 feature, 4 grup:**
+**19 feature, 4 grup:**
 
 | Grup | Feature'lar |
 |------|-------------|
-| **Lag-1** (Y-1) | `lag1_taban_siralama`, `lag1_taban_puan`, `lag1_genel_kontenjan`, `lag1_yerlesen_sayisi`, `lag1_doluluk_orani` |
+| **Lag-1** (Y-1) | `lag1_taban_siralama`, `lag1_taban_puan`, `lag1_genel_kontenjan`, `lag1_sehit_gazi_kontenjan`, `lag1_depremzede_kontenjan`, `lag1_okul_birincisi_kontenjan` |
 | **Lag-2 / Trend** | `lag2_taban_siralama`, `siralama_trend`, `siralama_pct_change`, `kontenjan_degisim_orani` |
 | **Static / Encoded** | `universite_turu_enc`, `ogretim_turu_enc`, `puan_turu_enc`, `burs_enc`, `il_kodu_num` |
 | **Derived** | `program_hist_medyan_siralama`, `univ_hist_medyan_siralama`, `kontenjan_kategori`, `yil` |
 
-**Testler:** 32/32 passed (`tests/test_features.py`)
+**Testler:** 32/32 passed (`tests/test_features.py`) | Toplam test suite: 59/59 passed
 
 #### CatBoost Modeli (`src/models/train_catboost.py`)
 
@@ -67,61 +65,52 @@ Yeni JSON API endpoint: `POST /api/tercih-kilavuz/search`
 - Fold 1: train=2023 → test=2024
 - Fold 2: train=2023+2024 → test=2025
 
-**Sonuçlar:**
+---
 
-| Fold | Train | Test | n_test | MAE | RMSE | R² | MAE% |
-|------|-------|------|--------|-----|------|----|------|
-| 1 | 2023 | 2024 | 198 | **31,045** | 41,053 | 0.706 | 36.5% |
-| 2 | 2023+2024 | 2025 | 199 | **27,496** | 33,626 | 0.772 | 31.0% |
-| **Ort.** | | | | **29,271** | **37,340** | | |
+### ✅ Adım A — Kök Neden Analizi & Düzeltme (2026-07-22)
 
-#### SHAP Feature Önem (Fold 2 — Final Model)
+**Sorun:** `genel_kontenjan` %29.7 eksik ve `yerlesen_sayisi`/`doluluk_orani` 0 SHAP veriyordu.
 
-| # | Feature | Ortalama |SHAP| |
+**Kök Neden:**
+1. YÖK Atlas API arama endpoint'inde güncel yıl genel kontenjan anahtarı `"gk"` değil `"kontenjan"` olarak adlandırılmış! Bu nedenle 2025 yılı kontenjanları 100% NaN geliyordu.
+2. `sgy1` (Şehit/Gazi Yakını kontenjanı) ve `dprm1` (Depremzede kontenjanı) alanları genel yerleşen/doluluk sanılarak yanlış adlandırılmıştı. Genel yerleşen sayısı bu API endpoint'inde yer almamaktadır (genel yerleşim kontenjan kadar gerçekleşmektedir).
+
+**Düzeltme & İyileştirme:**
+- Scraper'da 2025 kontenjan anahtarı `"kontenjan"` olarak düzeltildi. `genel_kontenjan` eksiklik oranı **%29.7 → %2.4** seviyesine düştü.
+- Yanıltıcı alanlar kaldırılarak yerine özel kontenjan lags (`sehit_gazi_kontenjan`, `depremzede_kontenjan`, `okul_birincisi_kontenjan`) eklendi.
+- Model yeniden eğitildi.
+
+#### Güncellenmiş Rolling Backtest Sonuçları:
+
+| Fold | Train | Test | n_test | MAE | RMSE | R² | MAE% | Değişim (Önceki vs Şimdi) |
+|------|-------|------|--------|-----|------|----|------|---------------------------|
+| 1 | 2023 | 2024 | 198 | 31,592 | 41,790 | 0.696 | %37.2 | MAE +547 |
+| 2 | 2023+2024 | 2025 | 199 | **25,799** | **32,098** | **0.792** | **%29.1** | **MAE -1,697 (İyileşme!)** |
+| **Ort.** | | | | **28,695** | **36,944** | **0.744** | **%33.1** | **MAE -576 (Net İyileşme)** |
+
+#### Güncellenmiş SHAP Feature Önem (Fold 2 — Final Model)
+
+| # | Feature | Ortalama |SHAP| Değişim / Not |
 |---|---------|----------|---|
-| 1 | `program_hist_medyan_siralama` | 22,620 | ██████████████████████████████ |
-| 2 | `lag1_taban_puan` | 12,283 | ████████████████ |
-| 3 | `lag1_taban_siralama` | 10,518 | █████████████ |
-| 4 | `lag2_taban_siralama` | 5,869 | ███████ |
-| 5 | `univ_hist_medyan_siralama` | 4,276 | █████ |
-| 6 | `yil` | 3,921 | █████ |
-| 7 | `universite_turu_enc` | 1,405 | ██ |
-| 8 | `siralama_trend` | 1,113 | █ |
-| 9 | `kontenjan_degisim_orani` | 976 | █ |
-| 10 | `siralama_pct_change` | 791 | █ |
+| 1 | `program_hist_medyan_siralama` | 20,365.6 | En belirleyici feature |
+| 2 | `lag1_taban_siralama` | 14,439.0 | Geçen yıl sıralaması 3. sıradan 2. sıraya yükseldi |
+| 3 | `lag1_taban_puan` | 11,277.1 | Geçen yıl taban puanı |
+| 4 | `yil` | 4,848.0 | Genel zaman trendi |
+| 5 | `lag2_taban_siralama` | 3,899.3 | 2 yıl önceki sıralama |
+| 6 | `univ_hist_medyan_siralama` | 2,831.9 | Üniversite geneli medyan |
+| 7 | `universite_turu_enc` | 1,418.3 | Devlet / Vakıf farkı |
+| 8 | `kontenjan_degisim_orani` | 1,098.9 | **Düzeltme sonrası aktif katkı veriyor!** |
+| 9 | `siralama_pct_change` | 1,084.0 | Yüzde değişim trendi |
+| 10 | `il_kodu_num` | 862.0 | Şehir lokasyon etkisi |
 
-**MLflow:**
-- Backend: `sqlite:///mlruns/mlflow.db`
-- Experiment: `yks-taban-siralama`
-- Run ID: `20f46693df9f4f0b9c3c1aa8c006bae4`
-- UI: `mlflow ui --backend-store-uri sqlite:///mlruns/mlflow.db`
-
-**Commit:** `feat(features): add feature engineering pipeline and CatBoost baseline model`
+**MLflow Run ID:** `83466f000d7b4377bcddeff5b397bd30`
 
 ---
 
-## Değerlendirme
+## Planlanan Sıradaki Adımlar
 
-### Model Makul mu?
-**Evet — baseline için kabul edilebilir, iyileştirme gerektiriyor.**
-
-| Metrik | Değer | Yorum |
-|--------|-------|-------|
-| MAE | ~29,000 sıralama | Medyan ~85K → %34 hata |
-| R² | 0.71–0.77 | Varyansın %71-77'sini açıklıyor |
-| SHAP #1 | `program_hist_medyan_siralama` | Geçmiş medyan sıralama en belirleyici |
-
-**Sorunlar:**
-- Fold sayısı az (2 fold) — daha eski yıl verisi eklenince artacak
-- `lag1_yerlesen_sayisi` ve `lag1_doluluk_orani` 2024/2025'te sıfır SHAP → eksik veri sorunu
-- MAE %34 yüksek — quantile regresyon + Optuna ile iyileştirilecek
-
----
-
-## Sıradaki Adımlar
-
-- [ ] **A** — `lag1_yerlesen_sayisi` eksiklik nedeni araştır (API'de var mı?)
-- [ ] **B** — Quantile regresyon (LightGBM) ile `lower_bound`/`upper_bound` üret
-- [ ] **C** — Optuna ile CatBoost hiperparametre optimizasyonu
-- [ ] **D** — FastAPI endpoint: `point_estimate`, `lower_bound`, `upper_bound`, `confidence_level`
-- [ ] **E** — Diğer bölüm aileleri (Tıp, Hukuk, İktisat) için scraper genişlet
+- [x] **A** — `lag1_yerlesen_sayisi` ve `genel_kontenjan` eksiklik kök nedeni çözüldü, model yeniden eğitildi. (Tamamlandı)
+- [ ] **B** — Quantile regresyon (LightGBM) ile `lower_bound` / `upper_bound` (%80 güven aralığı) üretimi ve coverage testi.
+- [ ] **C** — Optuna ile CatBoost hiperparametre optimizasyonu.
+- [ ] **D** — FastAPI endpoint: `point_estimate`, `lower_bound`, `upper_bound`, `confidence_level`.
+- [ ] **E** — Diğer bölüm aileleri (Tıp, Hukuk, İktisat) en son aşamada eklenecek.

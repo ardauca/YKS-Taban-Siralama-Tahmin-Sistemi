@@ -84,8 +84,9 @@ def build_lag_features(df: pd.DataFrame) -> pd.DataFrame:
         "lag1_taban_siralama": "taban_siralama",
         "lag1_taban_puan": "taban_puan",
         "lag1_genel_kontenjan": "genel_kontenjan",
-        "lag1_yerlesen_sayisi": "yerlesen_sayisi",
-        "lag1_doluluk_orani": "doluluk_orani",
+        "lag1_sehit_gazi_kontenjan": "sehit_gazi_kontenjan",
+        "lag1_depremzede_kontenjan": "depremzede_kontenjan",
+        "lag1_okul_birincisi_kontenjan": "okul_birincisi_kontenjan",
     }
     for new_col, src_col in lag_cols.items():
         if src_col in df.columns:
@@ -181,8 +182,9 @@ def get_feature_columns() -> list[str]:
         "lag1_taban_siralama",
         "lag1_taban_puan",
         "lag1_genel_kontenjan",
-        "lag1_yerlesen_sayisi",
-        "lag1_doluluk_orani",
+        "lag1_sehit_gazi_kontenjan",
+        "lag1_depremzede_kontenjan",
+        "lag1_okul_birincisi_kontenjan",
         # Lag-2 / trend
         "lag2_taban_siralama",
         "siralama_trend",
