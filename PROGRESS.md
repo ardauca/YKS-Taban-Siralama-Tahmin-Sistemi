@@ -47,34 +47,28 @@
 ---
 
 ### ✅ Adım E — 11 Ana Bölüm Ailesi Verisi ve Çoklu-Bölüm Modeli (2026-07-22)
+- 11 Ana Bölüm Ailesi (`yokatlas_all_departments_raw.csv`): **9,970 Satır** (2,722 Program).
+- Model Başarısı ($R^2$ Score): **0.942** (2024 Test) | **0.845** (2025 Test)
+- Q80 Coverage (2025 Test Seti): **%79.9** (Tam %80 kalibrasyon hedefinde!)
 
-**Çekilen & Konsolide Edilen Bölüm Aileleri (`data/raw/yokatlas/yokatlas_all_departments_raw.csv`):**
+---
 
-| Bölüm Ailesi | YÖK Atlas ID | Puan Türü | Toplam Satır (2022–2025) | 2025 Program Sayısı |
-|---|---|---|---|---|
-| **Bilgisayar Mühendisliği** | 2010 | SAY | 1,216 satır | 332 program |
-| **İşletme** | 3549 | EA | 1,385 satır | 382 program |
-| **Psikoloji** | 4679 | EA | 1,309 satır | 352 program |
-| **Elektrik-Elektronik Mühendisliği** | 2644 | SAY | 990 satır | 270 program |
-| **Tıp** | 5370 | SAY | 901 satır | 242 program |
-| **Endüstri Mühendisliği** | 2704 | SAY | 763 satır | 206 program |
-| **Makine Mühendisliği** | 3987 | SAY | 750 satır | 206 program |
-| **Yönetim Bilişim Sistemleri (YBS)** | 5874 | EA | 729 satır | 219 program |
-| **İktisat** | 3353 | EA | 702 satır | 193 program |
-| **Hukuk** | 3309 | EA | 657 satır | 172 program |
-| **Siyaset Bilimi ve Kamu Yönetimi** | 4967 | EA | 568 satır | 148 program |
-| **TOPLAM** | - | - | **9,970 Satır** | **2,722 Program** |
-
-#### Konsolide Çoklu-Bölüm Model Sonuçları:
-- **Toplam Veri Hacmi:** 9,970 satır × 19 feature (8,066 eğitilebilir veri noktası)
-- **Model Açıklayıcılık ($R^2$ Score):** **0.942** (2024 Test) | **0.845** (2025 Test)
-- **Q80 Coverage:** **86.9%** (Fold 2 2025 Test: **79.9%** — tam %80 kalibrasyon hedefinde!)
-- **MLflow Run ID:** `53d065b223cc43c28dfaab2c3a47da03`
+### ✅ ÖSYM 2026-2027 Ön Kontenjan Kılavuzu (Tablo-4 PDF) Entegrasyonu (2026-07-22)
+- **Kılavuz PDF:** `kontkilavuz_yktd21072026.pdf` (793 Sayfa)
+- **Parser Modülü:** `scraping/parse_osym_pdf.py` (PyMuPDF ultra-fast text-stream engine ile 4 saniyede tüm PDF parse edildi).
+- **Çıkarılan Veri Seti:** [`data/raw/osym/kontenjan_kilavuzu_2026.csv`](file:///C:/Users/ARDA/.gemini/antigravity/scratch/yks-tahmin/data/raw/osym/kontenjan_kilavuzu_2026.csv) (**11,676 Lisans Programı**)
+  - `SAY`: 5,485 program
+  - `EA`: 3,647 program
+  - `SÖZ`: 1,881 program
+  - `DİL`: 663 program
+- **YÖK Atlas 2025 ile Eşleştirilebilirlik (Matchability Rate):** **%96.8** (2,722 YÖK Atlas programının 2,635'i ile tam 9 haneli program kodu üzerinden eşleşti).
+- **Kalite Raporu Test Sonucu:** **GEÇTİ ✓** (`scraping/quality.py` dataset_type="osym" şema doğrulaması ile).
+- **Kullanım Amacı:** Aşama 2 simülasyonlarının "2026 yılı kontenjanı" girdisi olarak hazırlandı (Ön kılavuz verisidir; ÖSYM final kılavuz yayımladığında güncellenecektir).
 
 ---
 
 ## 📈 Proje Özeti & Genel Durum
 
-- **Tüm Ana Görevler (A, B, C, D, E) Tamamlandı!**
+- **Tüm Ana Görevler (A, B, C, D, E & ÖSYM PDF Entegrasyonu) Tamamlandı!**
 - **Test Suite:** **63/63 test PASSED** (`pytest tests/ -v`)
 - **Tüm Kodlar & Ham Veriler:** GitHub `main` branch'inde versiyonlandı ve push edildi.

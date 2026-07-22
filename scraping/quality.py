@@ -114,10 +114,25 @@ class QualityReport:
         return "\n".join(lines)
 
 
+# ÖSYM Kılavuz Beklenen Sütunlar
+OSYM_EXPECTED_COLUMNS = {
+    "program_kodu",
+    "universite_adi",
+    "fakulte_adi",
+    "program_adi",
+    "ogretim_suresi",
+    "puan_turu",
+    "genel_kontenjan",
+    "kaynak",
+}
+OSYM_CRITICAL_COLUMNS = ["program_kodu", "program_adi", "genel_kontenjan", "puan_turu"]
+
+
 def run_quality_checks(
     df: pd.DataFrame,
     expected_min: int = EXPECTED_ROW_MIN,
     expected_max: int = EXPECTED_ROW_MAX,
+    dataset_type: str = "yokatlas",
 ) -> QualityReport:
     """
     DataFrame üzerinde tüm kalite kontrollerini çalıştırır.
@@ -126,10 +141,13 @@ def run_quality_checks(
         df: Kontrol edilecek DataFrame.
         expected_min: Beklenen minimum satır sayısı.
         expected_max: Beklenen maksimum satır sayısı.
+        dataset_type: 'yokatlas' veya 'osym'
 
     Returns:
         Doldurulmuş QualityReport.
     """
+    expected_cols = OSYM_EXPECTED_COLUMNS if dataset_type == "osym" else EXPECTED_COLUMNS
+    critical_cols = OSYM_CRITICAL_COLUMNS if dataset_type == "osym" else CRITICAL_COLUMNS
     report = QualityReport(
         expected_row_min=expected_min,
         expected_row_max=expected_max,
@@ -155,7 +173,7 @@ def run_quality_checks(
         rate = df[col].isna().mean()
         report.missing_value_rates[col] = float(rate)
 
-    for col in CRITICAL_COLUMNS:
+    for col in critical_cols:
         if col not in df.columns:
             continue
         rate = report.missing_value_rates.get(col, 0.0)
@@ -182,8 +200,8 @@ def run_quality_checks(
 
     # ── 4. Şema uyumu ────────────────────────────────────────────────────────
     actual_cols = set(df.columns)
-    report.missing_columns = sorted(EXPECTED_COLUMNS - actual_cols)
-    report.extra_columns = sorted(actual_cols - EXPECTED_COLUMNS)
+    report.missing_columns = sorted(expected_cols - actual_cols)
+    report.extra_columns = sorted(actual_cols - expected_cols)
     report.schema_ok = len(report.missing_columns) == 0
 
     if report.missing_columns:
