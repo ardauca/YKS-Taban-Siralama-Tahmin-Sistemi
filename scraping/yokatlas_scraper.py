@@ -212,6 +212,7 @@ MAJOR_DEPARTMENT_GROUPS = {
     "isletme": 3549,
     "psikoloji": 4679,
     "yonetim_bilisim_sistemleri": 5874,
+    "siyaset_bilimi_ve_kamu_yonetimi": 4967,
 }
 
 
