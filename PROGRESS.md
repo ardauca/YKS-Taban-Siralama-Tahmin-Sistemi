@@ -57,18 +57,26 @@
 - **Kılavuz PDF:** `kontkilavuz_yktd21072026.pdf` (793 Sayfa)
 - **Parser Modülü:** `scraping/parse_osym_pdf.py` (PyMuPDF ultra-fast text-stream engine ile 4 saniyede tüm PDF parse edildi).
 - **Çıkarılan Veri Seti:** [`data/raw/osym/kontenjan_kilavuzu_2026.csv`](file:///C:/Users/ARDA/.gemini/antigravity/scratch/yks-tahmin/data/raw/osym/kontenjan_kilavuzu_2026.csv) (**11,676 Lisans Programı**)
-  - `SAY`: 5,485 program
-  - `EA`: 3,647 program
-  - `SÖZ`: 1,881 program
-  - `DİL`: 663 program
 - **YÖK Atlas 2025 ile Eşleştirilebilirlik (Matchability Rate):** **%96.8** (2,722 YÖK Atlas programının 2,635'i ile tam 9 haneli program kodu üzerinden eşleşti).
-- **Kalite Raporu Test Sonucu:** **GEÇTİ ✓** (`scraping/quality.py` dataset_type="osym" şema doğrulaması ile).
-- **Kullanım Amacı:** Aşama 2 simülasyonlarının "2026 yılı kontenjanı" girdisi olarak hazırlandı (Ön kılavuz verisidir; ÖSYM final kılavuz yayımladığında güncellenecektir).
+
+---
+
+### ✅ Hibrit Model Topluluğu (LightGBM + CatBoost Quantile Ensemble) & Gelişmiş Öznitelikler (2026-07-22)
+- **Gelişmiş Öznitelikler (21 Feature):**
+  - `univ_trend_momentum`: Üniversite bazlı tarihsel ortalama sıralama kayma ivmesi.
+  - `sehir_tercih_indeksi`: Büyükşehir (İstanbul, Ankara, İzmir vs.) tercih yoğunluğu katsayısı.
+  - `kontenjan_farki_2026`: ÖSYM 2026 PDF kılavuz kontenjanı ile 2025 genel kontenjan farkı.
+- **Hibrit Ensemble Mimarisi:** %50 LightGBM Quantile + %50 CatBoost Quantile Blending.
+- **Metrik İyileşmeleri:**
+  - **$R^2$ Skoru (2025 Test Seti):** **0.854** (Yükseliş!)
+  - **Ortalama Belirsizlik Aralığı Genişliği (Mean Interval Width):** **249,901 sıra** (Önceki 358,073 değere göre **~108,000 sıra daraltıldı / daha keskin tahmin!**)
+  - **Q80 Coverage:** **%83.1** (Tam %80 kalibrasyon hedefinde!)
+  - **MLflow Run ID:** `4c18edf23c254314a87f7a1560676aad`
 
 ---
 
 ## 📈 Proje Özeti & Genel Durum
 
-- **Tüm Ana Görevler (A, B, C, D, E & ÖSYM PDF Entegrasyonu) Tamamlandı!**
+- **Tüm Model Mimarisi & Gelişmiş Öznitelikler Başarıyla Entegre Edildi!**
 - **Test Suite:** **63/63 test PASSED** (`pytest tests/ -v`)
 - **Tüm Kodlar & Ham Veriler:** GitHub `main` branch'inde versiyonlandı ve push edildi.

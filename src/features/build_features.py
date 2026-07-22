@@ -164,7 +164,6 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
         .rename("univ_hist_medyan_siralama")
     )
     df = df.merge(univ_hist, on="universite_adi", how="left")
-
     # Program kontenjan büyüklüğü kategorisi
     # (küçük=1-30, orta=31-80, büyük=81+)
     df["kontenjan_kategori"] = pd.cut(
@@ -173,6 +172,40 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
         labels=[0, 1, 2],
         right=True,
     ).astype(float).fillna(-1).astype(int)
+
+    # Üniversite genel ortalama sıralama ivmesi (univ_trend_momentum)
+    univ_trend = (
+        df.groupby(["universite_adi", "yil"])["siralama_trend"]
+        .transform("mean")
+        .rename("univ_trend_momentum")
+    )
+    df["univ_trend_momentum"] = univ_trend.fillna(0.0)
+
+    # Şehir tercih indeksi (Büyükşehir talebi)
+    # İstanbul (34), Ankara (06/6), İzmir (35) -> 1.0; Bursa (16), Kocaeli (41), Antalya (07/7) -> 0.5; Diğer -> 0.0
+    big_city_codes = {34, 6, 35}
+    mid_city_codes = {16, 41, 7, 1}
+    df["sehir_tercih_indeksi"] = df["il_kodu_num"].apply(
+        lambda code: 1.0 if code in big_city_codes else (0.5 if code in mid_city_codes else 0.0)
+    )
+
+    # ÖSYM 2026 Kontenjan Farkı Entegrasyonu
+    osym_csv = Path(__file__).parent.parent.parent / "data" / "raw" / "osym" / "kontenjan_kilavuzu_2026.csv"
+    if osym_csv.exists():
+        try:
+            df_osym = pd.read_csv(osym_csv)
+            osym_map = df_osym.set_index("program_kodu")["genel_kontenjan"].to_dict()
+            df["osym_2026_kontenjan"] = df["kilavuz_kodu"].map(osym_map)
+            df["kontenjan_farki_2026"] = np.where(
+                df["yil"] == 2025,
+                df["osym_2026_kontenjan"] - df["genel_kontenjan"],
+                0.0
+            )
+            df["kontenjan_farki_2026"] = df["kontenjan_farki_2026"].fillna(0.0)
+        except Exception:
+            df["kontenjan_farki_2026"] = 0.0
+    else:
+        df["kontenjan_farki_2026"] = 0.0
 
     return df
 
@@ -198,10 +231,13 @@ def get_feature_columns() -> list[str]:
         "puan_turu_enc",
         "burs_enc",
         "il_kodu_num",
-        # Derived
+        # Derived & Advanced Features
         "program_hist_medyan_siralama",
         "univ_hist_medyan_siralama",
         "kontenjan_kategori",
+        "univ_trend_momentum",
+        "sehir_tercih_indeksi",
+        "kontenjan_farki_2026",
         # Yıl (trend için)
         "yil",
     ]

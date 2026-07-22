@@ -105,18 +105,18 @@ _model_upp = None
 
 
 def _load_or_train_models():
-    global _models_loaded, _model_med, _model_low, _model_upp
+    global _models_loaded, _lgb_med, _lgb_low, _lgb_upp, _cb_med, _cb_low, _cb_upp
     if _models_loaded:
         return
 
     import lightgbm as lgb
+    from catboost import CatBoostRegressor
     from src.features.build_features import load_and_build
 
     X, y, meta = load_and_build()
     feature_cols = [c for c in get_feature_columns() if c in X.columns]
     X = X[feature_cols]
 
-    # Yalnızca hedefi ve lag1_siralama'sı tam olan satırlar
     mask = y.notna() & X["lag1_taban_siralama"].notna()
     X_train, y_train = X[mask], y[mask]
 
@@ -133,14 +133,22 @@ def _load_or_train_models():
         "verbosity": -1,
     }
 
-    logger.info("FastAPI: Modeller egitiliyor (train set n=%d)...", len(X_train))
+    logger.info("FastAPI: Hybrid LightGBM+CatBoost modelleri egitiliyor (train n=%d)...", len(X_train))
 
-    _model_med = lgb.LGBMRegressor(objective="regression_l1", **lgb_params).fit(X_train, y_train)
-    _model_low = lgb.LGBMRegressor(objective="quantile", alpha=0.030, **lgb_params).fit(X_train, y_train)
-    _model_upp = lgb.LGBMRegressor(objective="quantile", alpha=0.970, **lgb_params).fit(X_train, y_train)
+    _lgb_med = lgb.LGBMRegressor(objective="regression_l1", **lgb_params).fit(X_train, y_train)
+    _lgb_low = lgb.LGBMRegressor(objective="quantile", alpha=0.030, **lgb_params).fit(X_train, y_train)
+    _lgb_upp = lgb.LGBMRegressor(objective="quantile", alpha=0.970, **lgb_params).fit(X_train, y_train)
+
+    _cb_med = CatBoostRegressor(loss_function="MAE", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
+    _cb_low = CatBoostRegressor(loss_function="Quantile:alpha=0.030", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
+    _cb_upp = CatBoostRegressor(loss_function="Quantile:alpha=0.970", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
 
     _models_loaded = True
-    logger.info("FastAPI: Modeller yuklendi!")
+    logger.info("FastAPI: Hybrid Ensemble Modelleri yuklendi!")
+
+
+_lgb_med, _lgb_low, _lgb_upp = None, None, None
+_cb_med, _cb_low, _cb_upp = None, None, None
 
 
 # ── Endpoint'ler ─────────────────────────────────────────────────────────────
@@ -187,6 +195,10 @@ def predict_rank(req: PredictionRequest):
 
         kont_kat = 0 if req.lag1_genel_kontenjan <= 30 else (1 if req.lag1_genel_kontenjan <= 80 else 2)
 
+        big_city_codes = {34, 6, 35}
+        mid_city_codes = {16, 41, 7, 1}
+        sehir_idx = 1.0 if il_num in big_city_codes else (0.5 if il_num in mid_city_codes else 0.0)
+
         feat_dict = {
             "lag1_taban_siralama": [req.lag1_taban_siralama],
             "lag1_taban_puan": [req.lag1_taban_puan],
@@ -206,6 +218,9 @@ def predict_rank(req: PredictionRequest):
             "program_hist_medyan_siralama": [prog_med],
             "univ_hist_medyan_siralama": [univ_med],
             "kontenjan_kategori": [kont_kat],
+            "univ_trend_momentum": [0.0],
+            "sehir_tercih_indeksi": [sehir_idx],
+            "kontenjan_farki_2026": [0.0],
             "yil": [req.yil],
         }
 
@@ -213,10 +228,10 @@ def predict_rank(req: PredictionRequest):
         feature_cols = get_feature_columns()
         df_feat = df_feat[[c for c in feature_cols if c in df_feat.columns]]
 
-        # Tahminler
-        raw_med = _model_med.predict(df_feat)[0]
-        raw_low = _model_low.predict(df_feat)[0]
-        raw_upp = _model_upp.predict(df_feat)[0]
+        # Hybrid Ensemble Tahminleri (50% LightGBM + 50% CatBoost)
+        raw_med = 0.5 * _lgb_med.predict(df_feat)[0] + 0.5 * _cb_med.predict(df_feat)[0]
+        raw_low = 0.5 * _lgb_low.predict(df_feat)[0] + 0.5 * _cb_low.predict(df_feat)[0]
+        raw_upp = 0.5 * _lgb_upp.predict(df_feat)[0] + 0.5 * _cb_upp.predict(df_feat)[0]
 
         clean_med, clean_low, clean_upp = enforce_quantile_constraints(
             np.array([raw_med]), np.array([raw_low]), np.array([raw_upp])

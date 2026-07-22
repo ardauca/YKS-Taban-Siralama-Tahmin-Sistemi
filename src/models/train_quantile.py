@@ -150,32 +150,40 @@ def train_and_evaluate_quantile(
             "verbosity": -1,
         }
 
-        # LightGBM Quantile Modelleri
-        # 1. Median (alpha = 0.50)
-        model_med = lgb.LGBMRegressor(
-            objective="regression_l1",
-            **lgb_params,
-        )
-        model_med.fit(X_train, y_train)
-        pred_med = model_med.predict(X_test)
+        # ── 1. LightGBM Quantile Modelleri ──
+        # Median (alpha = 0.50)
+        lgb_med_model = lgb.LGBMRegressor(objective="regression_l1", **lgb_params)
+        lgb_med_model.fit(X_train, y_train)
+        lgb_med = lgb_med_model.predict(X_test)
 
-        # 2. Lower bound (alpha = 0.030)
-        model_low = lgb.LGBMRegressor(
-            objective="quantile",
-            alpha=ALPHA_LOWER,
-            **lgb_params,
-        )
-        model_low.fit(X_train, y_train)
-        pred_low = model_low.predict(X_test)
+        # Lower bound (alpha = 0.030)
+        lgb_low_model = lgb.LGBMRegressor(objective="quantile", alpha=ALPHA_LOWER, **lgb_params)
+        lgb_low_model.fit(X_train, y_train)
+        lgb_low = lgb_low_model.predict(X_test)
 
-        # 3. Upper bound (alpha = 0.970)
-        model_upp = lgb.LGBMRegressor(
-            objective="quantile",
-            alpha=ALPHA_UPPER,
-            **lgb_params,
-        )
-        model_upp.fit(X_train, y_train)
-        pred_upp = model_upp.predict(X_test)
+        # Upper bound (alpha = 0.970)
+        lgb_upp_model = lgb.LGBMRegressor(objective="quantile", alpha=ALPHA_UPPER, **lgb_params)
+        lgb_upp_model.fit(X_train, y_train)
+        lgb_upp = lgb_upp_model.predict(X_test)
+
+        # ── 2. CatBoost Quantile Modelleri ──
+        from catboost import CatBoostRegressor
+        cb_med_model = CatBoostRegressor(loss_function="MAE", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42)
+        cb_med_model.fit(X_train, y_train)
+        cb_med = cb_med_model.predict(X_test)
+
+        cb_low_model = CatBoostRegressor(loss_function=f"Quantile:alpha={ALPHA_LOWER}", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42)
+        cb_low_model.fit(X_train, y_train)
+        cb_low = cb_low_model.predict(X_test)
+
+        cb_upp_model = CatBoostRegressor(loss_function=f"Quantile:alpha={ALPHA_UPPER}", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42)
+        cb_upp_model.fit(X_train, y_train)
+        cb_upp = cb_upp_model.predict(X_test)
+
+        # ── 3. Hybrid Ensemble Blending (50% LightGBM + 50% CatBoost) ──
+        pred_med = 0.5 * lgb_med + 0.5 * cb_med
+        pred_low = 0.5 * lgb_low + 0.5 * cb_low
+        pred_upp = 0.5 * lgb_upp + 0.5 * cb_upp
 
         # Post-process: quantile crossing fix
         pred_med, pred_low, pred_upp = enforce_quantile_constraints(pred_med, pred_low, pred_upp)
