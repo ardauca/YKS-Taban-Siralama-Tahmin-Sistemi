@@ -55,21 +55,18 @@
 
 ### ✅ 24 Ana Bölüm Ailesi Veri Genişletmesi (15,321 Satır) (2026-07-22)
 - **24 Ana Bölüm Ailesi (`yokatlas_all_departments_raw.csv`):** **15,321 Satır** (3,117 Lisans Programı)
-- **Genişletilen Bölümler:** Bilgisayar Müh, Tıp, EE Müh, Makine Müh, Endüstri Müh, Yazılım Müh, İnşaat Müh, Mimarlık, İç Mimarlık, Hemşirelik, İlköğretim Matematik Öğretmenliği, Diş Hekimliği, Eczacılık, Hukuk, İktisat, İşletme, Psikoloji, YBS, Siyaset Bilimi, Sınıf Öğretmenliği, Uluslararası İlişkiler, Özel Eğitim Öğretmenliği, Tarih, Türk Dili ve Edebiyatı, İngilizce Öğretmenliği, İngiliz Dili ve Edebiyatı.
 
 ---
 
-### ✅ Rekor Model Başarısı & 2026 Simülasyonu (2026-07-22)
-- **Model Mimarisi:** Hibrit LightGBM + CatBoost Quantile Ensemble (28 Feature)
-- **Hata Oranı (MAE):** **45,739** *(Tüm zamanların en düşük hata rekoru!)*
-- **2025 Test Seti $R^2$ Skoru:** **0.873 (%87.3)**
-- **Q80 Coverage:** **%83.1**
-- **2026 Toplu Simülasyon Çıktısı:** [`data/processed/simulasyon_2026_tahminleri.csv`](file:///C:/Users/ARDA/.gemini/antigravity/scratch/yks-tahmin/data/processed/simulasyon_2026_tahminleri.csv) (**3,117 Lisans Programı**)
+### ✅ Zamana Duyarlı Kör (Blind Walk-Forward) Backtest Doğrulaması (2026-07-22)
+- **Kullanıcı Önerisi Entegrasyonu:** Model hiç ilgili yılın puan/sıralama verisini görmeden, **sadece o yılın yeni kontenjanları** verilerek tamamen "kör" (blind) şekilde geleceği tahmin etme testine sokuldu (`src/models/backtest_walkforward.py`):
+  - **2024 Kör Simülasyonu ($\le 2023$ ile eğitim):** MAE **38,895** | $R^2$ **%93.1** | Güven Kapsama: **%88.0**
+  - **2025 Kör Simülasyonu ($\le 2024$ ile eğitim):** MAE **52,073** | $R^2$ **%87.6** | Güven Kapsama: **%78.0**
 
 ---
 
 ## 📈 Proje Özeti & Genel Durum
 
-- **Tüm Gelişmiş Öznitelikler & 24 Bölüm Ailesi Verisi Başarıyla Tamamlandı!**
+- **Tüm Gelişmiş Öznitelikler & 24 Bölüm Ailesi Verisi & Kör Backtest Motoru Tamamlandı!**
 - **Test Suite:** **63/63 test PASSED** (`pytest tests/ -v`)
 - **Tüm Kodlar & Ham Veriler:** GitHub `main` branch'inde versiyonlandı ve push edildi.
