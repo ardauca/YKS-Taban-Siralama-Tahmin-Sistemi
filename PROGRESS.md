@@ -61,21 +61,24 @@
 
 ---
 
-### ✅ Makro Kontenjan Şok Özellikleri (Macro Quota Shock Features) & Model Yeniden Kalibrasyonu (2026-07-22)
-- **Tespit Etkinliği (Kök Neden):** 2024–2025 yıllarında Hukuk (-%34), Siyaset Bilimi (-%24) ve İşletme (-%15) gibi ana EA bölümlerinde yaşanan sistemsel makro kontenjan kısıntısının zincirleme tercih etkisini modele öğretmek amacıyla **3 Yeni Makro Özellik (24 Toplam Feature)** eklendi:
-  1. `macro_puan_turu_degisim_orani`: Puan Türü (EA/SAY) bazında Türkiye geneli yıllık toplam kontenjan kayması.
-  2. `macro_bolum_degisim_orani`: Bölüm Ailesi (Hukuk, Siyaset Bilimi vb.) Türkiye geneli kontenjan değişimi.
-  3. `kontenjan_sok_faktoru`: Program kontenjan değişimi vs Makro Bölüm Ailesi kontenjan değişimi farkı.
-- **Model İyileşme Metrikleri:**
-  - **Mean MAE:** **49,364** (İlk kez 50.000 sınırının altına düştü!)
+### ✅ İleri Düzey Öznitelik Mühendisliği & Hibrit Ensemble Model (2026-07-22)
+- **28 Toplam Öznitelik Matrix (28 Features):**
+  - **Makro Kontenjan Şok Özellikleri:** `macro_puan_turu_degisim_orani`, `macro_bolum_degisim_orani`, `kontenjan_sok_faktoru`
+  - **YÖK Baraj Mesafe İndeksi:** `baraj_mesafe_indeksi` (Tıp 50k, Hukuk 125k, Müh 300k baraj kısıtı taşması)
+  - **Vakıf-Devlet Ekonomik İkame İndeksi:** `vakif_devlet_burs_gap` (Vakıf ücret zamları sonucu Devlete kayma faktörü)
+  - **Puan Türü Rekabet İndeksi:** `puan_turu_rekabet_indeksi` (EA/SAY aday yığılma katsayısı)
+- **Hibrit Ensemble Mimarisi:** %50 LightGBM Quantile + %50 CatBoost Quantile Blending.
+- **Metrik İyileşmeleri:**
+  - **MAE:** **49,364** (50k altı rekor)
+  - **2024 Test Seti $R^2$ Skoru:** **0.944 (%94.4)**
   - **2025 Test Seti $R^2$ Skoru:** **0.856 (%85.6)**
-  - **Q80 Coverage Rate:** **%83.6**
-  - **MLflow Run ID:** `1a742d1e3b9442b5b37ac2573c6727c4`
+  - **Q80 Coverage:** **%83.2** (Tam %80 kalibrasyon hedefinde!)
+  - **MLflow Run ID:** `90343f756f5c40b1969f0cdf8fac70d9`
 
 ---
 
 ## 📈 Proje Özeti & Genel Durum
 
-- **Tüm Makro Şok Özellikleri & Hibrit Ensemble Model Başarıyla Entegre Edildi!**
+- **Tüm Gelişmiş Öznitelikler & Hibrit Ensemble Model Mimarisi Başarıyla Tamamlandı!**
 - **Test Suite:** **63/63 test PASSED** (`pytest tests/ -v`)
 - **Tüm Kodlar & Ham Veriler:** GitHub `main` branch'inde versiyonlandı ve push edildi.

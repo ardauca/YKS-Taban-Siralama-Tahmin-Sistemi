@@ -224,6 +224,9 @@ def predict_rank(req: PredictionRequest):
             "macro_puan_turu_degisim_orani": [0.0],
             "macro_bolum_degisim_orani": [0.0],
             "kontenjan_sok_faktoru": [0.0],
+            "baraj_mesafe_indeksi": [0.0],
+            "vakif_devlet_burs_gap": [0.0],
+            "puan_turu_rekabet_indeksi": [0.0],
             "yil": [req.yil],
         }
 

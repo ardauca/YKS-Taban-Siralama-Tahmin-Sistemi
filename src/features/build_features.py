@@ -233,6 +233,28 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
     # 3. Kontenjan Şok Faktörü (Program Kontenjan Değişimi vs Makro Bölüm Değişimi)
     df["kontenjan_sok_faktoru"] = df["kontenjan_degisim_orani"].fillna(0.0) - df["macro_bolum_degisim_orani"]
 
+    # ── 1. YÖK Baraj Mesafe İndeksi (Regulatory Threshold Distance) ──
+    baraj_map = {
+        "tip": 50000.0,
+        "hukuk": 125000.0,
+        "bilgisayar_muhendisligi": 300000.0,
+        "elektrik_elektronik_muhendisligi": 300000.0,
+        "makine_muhendisligi": 300000.0,
+        "endustri_muhendisligi": 300000.0,
+    }
+    df["yok_baraj_siniri"] = df["birim_grup_adi"].map(baraj_map).fillna(999999.0)
+    df["baraj_mesafe_indeksi"] = df["lag1_taban_siralama"].fillna(999999.0) - df["yok_baraj_siniri"]
+
+    # ── 2. Vakıf vs Devlet Ekonomik Geçiş & Burs Makas İndeksi ──
+    df["vakif_devlet_burs_gap"] = np.where(
+        df["universite_turu_enc"] == 1,
+        (5 - df["burs_enc"]) * 10.0,
+        0.0
+    )
+
+    # ── 3. Puan Türü Aday Rekabet İndeksi ──
+    df["puan_turu_rekabet_indeksi"] = df.groupby(["puan_turu", "yil"])["lag1_taban_siralama"].transform("std").fillna(0.0)
+
     # ÖSYM 2026 Kontenjan Farkı Entegrasyonu
     osym_csv = Path(__file__).parent.parent.parent / "data" / "raw" / "osym" / "kontenjan_kilavuzu_2026.csv"
     if osym_csv.exists():
@@ -286,6 +308,10 @@ def get_feature_columns() -> list[str]:
         "macro_puan_turu_degisim_orani",
         "macro_bolum_degisim_orani",
         "kontenjan_sok_faktoru",
+        # Regulatory & Economic Features
+        "baraj_mesafe_indeksi",
+        "vakif_devlet_burs_gap",
+        "puan_turu_rekabet_indeksi",
         # Yıl (trend için)
         "yil",
     ]
