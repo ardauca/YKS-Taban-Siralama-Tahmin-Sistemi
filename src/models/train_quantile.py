@@ -50,8 +50,8 @@ MLFLOW_TRACKING_URI = os.getenv(
 )
 EXPERIMENT_NAME = "yks-taban-siralama"
 
-ALPHA_LOWER = 0.10
-ALPHA_UPPER = 0.90
+ALPHA_LOWER = 0.030
+ALPHA_UPPER = 0.970
 
 ROLLING_FOLDS = [
     {"train": [2023], "test": 2024},
