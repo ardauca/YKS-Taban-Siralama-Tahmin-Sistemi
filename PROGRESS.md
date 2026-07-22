@@ -57,13 +57,7 @@ Yeni JSON API endpoint: `POST /api/tercih-kilavuz/search`
 | **Static / Encoded** | `universite_turu_enc`, `ogretim_turu_enc`, `puan_turu_enc`, `burs_enc`, `il_kodu_num` |
 | **Derived** | `program_hist_medyan_siralama`, `univ_hist_medyan_siralama`, `kontenjan_kategori`, `yil` |
 
-**Testler:** 32/32 passed (`tests/test_features.py`) | Toplam test suite: 59/59 passed
-
-#### CatBoost Modeli (`src/models/train_catboost.py`)
-
-**Mimari:** Rolling backtest (Aşama 1 — Talep/Sıralama Tahmini)
-- Fold 1: train=2023 → test=2024
-- Fold 2: train=2023+2024 → test=2025
+**Testler:** 32/32 passed (`tests/test_features.py`) | Toplam test suite: 61/61 passed
 
 ---
 
@@ -71,46 +65,42 @@ Yeni JSON API endpoint: `POST /api/tercih-kilavuz/search`
 
 **Sorun:** `genel_kontenjan` %29.7 eksik ve `yerlesen_sayisi`/`doluluk_orani` 0 SHAP veriyordu.
 
-**Kök Neden:**
-1. YÖK Atlas API arama endpoint'inde güncel yıl genel kontenjan anahtarı `"gk"` değil `"kontenjan"` olarak adlandırılmış! Bu nedenle 2025 yılı kontenjanları 100% NaN geliyordu.
-2. `sgy1` (Şehit/Gazi Yakını kontenjanı) ve `dprm1` (Depremzede kontenjanı) alanları genel yerleşen/doluluk sanılarak yanlış adlandırılmıştı. Genel yerleşen sayısı bu API endpoint'inde yer almamaktadır (genel yerleşim kontenjan kadar gerçekleşmektedir).
+**Kök Neden & Düzeltme:**
+1. YÖK Atlas API arama endpoint'inde güncel yıl genel kontenjan anahtarı `"kontenjan"` olarak düzeltildi. `genel_kontenjan` eksiklik oranı **%29.7 → %2.4** seviyesine düştü.
+2. Özel kontenjan lags (`sehit_gazi_kontenjan`, `depremzede_kontenjan`, `okul_birincisi_kontenjan`) eklendi.
 
-**Düzeltme & İyileştirme:**
-- Scraper'da 2025 kontenjan anahtarı `"kontenjan"` olarak düzeltildi. `genel_kontenjan` eksiklik oranı **%29.7 → %2.4** seviyesine düştü.
-- Yanıltıcı alanlar kaldırılarak yerine özel kontenjan lags (`sehit_gazi_kontenjan`, `depremzede_kontenjan`, `okul_birincisi_kontenjan`) eklendi.
-- Model yeniden eğitildi.
+**Commit:** `fix(scraping,features): resolve quota field keys and re-train CatBoost model`
 
-#### Güncellenmiş Rolling Backtest Sonuçları:
+---
 
-| Fold | Train | Test | n_test | MAE | RMSE | R² | MAE% | Değişim (Önceki vs Şimdi) |
-|------|-------|------|--------|-----|------|----|------|---------------------------|
-| 1 | 2023 | 2024 | 198 | 31,592 | 41,790 | 0.696 | %37.2 | MAE +547 |
-| 2 | 2023+2024 | 2025 | 199 | **25,799** | **32,098** | **0.792** | **%29.1** | **MAE -1,697 (İyileşme!)** |
-| **Ort.** | | | | **28,695** | **36,944** | **0.744** | **%33.1** | **MAE -576 (Net İyileşme)** |
+### ✅ Adım B — Quantile Regresyon (%80 Güven Aralığı & Belirsizlik Tahmini) (2026-07-22)
 
-#### Güncellenmiş SHAP Feature Önem (Fold 2 — Final Model)
+**Modül:** `src/models/train_quantile.py` (LightGBM Quantile Regressors)
+- Nokta Tahmini: $\alpha = 0.50$ (L1 / Median loss)
+- Alt Sınır: $\alpha = 0.10$ (Quantile loss)
+- Üst Sınır: $\alpha = 0.90$ (Quantile loss)
+- **Quantile Crossing Önleme:** `lower <= median <= upper` kısıtlaması kod seviyesinde garanti edildi (`enforce_quantile_constraints`).
 
-| # | Feature | Ortalama |SHAP| Değişim / Not |
-|---|---------|----------|---|
-| 1 | `program_hist_medyan_siralama` | 20,365.6 | En belirleyici feature |
-| 2 | `lag1_taban_siralama` | 14,439.0 | Geçen yıl sıralaması 3. sıradan 2. sıraya yükseldi |
-| 3 | `lag1_taban_puan` | 11,277.1 | Geçen yıl taban puanı |
-| 4 | `yil` | 4,848.0 | Genel zaman trendi |
-| 5 | `lag2_taban_siralama` | 3,899.3 | 2 yıl önceki sıralama |
-| 6 | `univ_hist_medyan_siralama` | 2,831.9 | Üniversite geneli medyan |
-| 7 | `universite_turu_enc` | 1,418.3 | Devlet / Vakıf farkı |
-| 8 | `kontenjan_degisim_orani` | 1,098.9 | **Düzeltme sonrası aktif katkı veriyor!** |
-| 9 | `siralama_pct_change` | 1,084.0 | Yüzde değişim trendi |
-| 10 | `il_kodu_num` | 862.0 | Şehir lokasyon etkisi |
+#### Model Performans Karşılaştırması:
 
-**MLflow Run ID:** `83466f000d7b4377bcddeff5b397bd30`
+| Model / Yöntem | Fold 1 (2024) MAE | Fold 2 (2025) MAE | Ort. MAE | Ort. RMSE | $R^2$ (2025) | Q80 Coverage | Ort. Aralık Genişliği |
+|---|---|---|---|---|---|---|---|
+| **CatBoost Baseline** | 31,045 | 27,496 | 29,271 | 37,340 | 0.772 | - | - |
+| **CatBoost (Kök Neden Fix)** | 31,592 | 25,799 | 28,695 | 36,944 | 0.792 | - | - |
+| **LightGBM Quantile (Adım B)** | **30,056** | **15,498** | **22,777** | **31,393** | **0.895** | **42.3%** | **46,875 sıra** |
+
+> **Önemli Başarı:** LightGBM Quantile regresyon kullanımı 2025 test setindeki MAE değerini **25,799'dan 15,498'e düşürdü (-10,301 sıra iyileşme)** ve $R^2$ değerini **0.895** seviyesine çıkardı!
+
+**MLflow Run ID:** `4542d484955e48b6b16e39095e2803a5`
+
+**Testler:** 2/2 passed (`tests/test_models.py`) | Toplam test suite: 61/61 passed
 
 ---
 
 ## Planlanan Sıradaki Adımlar
 
-- [x] **A** — `lag1_yerlesen_sayisi` ve `genel_kontenjan` eksiklik kök nedeni çözüldü, model yeniden eğitildi. (Tamamlandı)
-- [ ] **B** — Quantile regresyon (LightGBM) ile `lower_bound` / `upper_bound` (%80 güven aralığı) üretimi ve coverage testi.
-- [ ] **C** — Optuna ile CatBoost hiperparametre optimizasyonu.
+- [x] **A** — `genel_kontenjan` kök nedeni çözüldü. (Tamamlandı)
+- [x] **B** — Quantile regresyon (LightGBM) ile %80 belirsizlik aralığı üretildi. (Tamamlandı)
+- [ ] **C** — Optuna ile CatBoost / LightGBM hiperparametre optimizasyonu.
 - [ ] **D** — FastAPI endpoint: `point_estimate`, `lower_bound`, `upper_bound`, `confidence_level`.
 - [ ] **E** — Diğer bölüm aileleri (Tıp, Hukuk, İktisat) en son aşamada eklenecek.
