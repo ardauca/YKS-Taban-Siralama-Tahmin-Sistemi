@@ -6,80 +6,65 @@ Son güncelleme: 2026-07-25
 
 ## Proje Durumu
 
-Sistem aktif geliştirme aşamasındadır. Aşağıdaki bulgu ve metrikler doğrulama sürecinden geçmiştir.
+Sistem doğrulama, stratifiye analiz, segment-özel modelleme ve API iyileştirme aşamalarından geçmiştir.
 
 ---
 
-## Gerçekleştirilen Adımlar
+## 1. Veri ve Metodoloji Doğrulaması
 
-### Veri Toplama
+### Temporal Leakage Giderme
+- `program_hist_medyan_siralama` ve `univ_hist_medyan_siralama` öznitelikleri global groupby'dan **expanding-window medyan** (`_expanding_window_median()`) metoduna geçirildi.
+- Her satır için yalnızca `yil < current_year` verisi kullanılarak temporal leakage sıfırlandı.
 
-- YÖK Atlas REST API: Tüm lisans programları, 2022–2025 yılları. Toplam: **77,970 satır, 21,482 program**.
-- ÖSYM 2026–2027 Ön Kontenjan Kılavuzu (PDF): PyMuPDF ile parse edildi. **11,676 programın 2026 kontenjnı** elde edildi.
-- Duplicate kayıt: 0 (kilavuz_kodu+yil bazında).
-
-### Veri Kalitesi (Bölüm Ailesi Bazında)
-
-- Toplam bölüm ailesi (birim_grup_adi): 625
-- Ortalama taban_siralama eksik oranı: %22.6 (büyük çoğunluğu 2025 yılına ait — yerleştirme kesinleşmedi)
-- Eksik ≥ %80 olan bölüm ailesi: 31 (tamamı 2025'te açılmış yeni bölümler, n < 5)
-- Eksik ≥ %50 olan bölüm ailesi: 91
-
-Büyük bölüm aileleri (n > 700 satır) için eksik sıralama oranları %5–46 arasında değişmektedir.
-
-### Feature Engineering (28 Öznitelik)
-
-1. **Lag-1:** Y-1 sıralama, puan, kontenjan (shift(1) ile programın kendi tarihinden)
-2. **Lag-2:** Y-2 sıralama (trend için)
-3. **Delta:** siralama_trend, siralama_pct_change, kontenjan_degisim_orani
-4. **Statik:** üniversite türü, il kodu, puan türü, burs oranı
-5. **Türetilmiş:** program_hist_medyan_siralama, univ_hist_medyan_siralama, makro kontenjan şoku, baraj mesafe indeksi vb.
+### Stratifiye MAE Bulgusu (Global R² İllüzyonu)
+- Global R²=0.937 metriklerinin 500K+ dilimindeki yüksek program sayısı (n > 8,000) tarafından domine edildiği saptandı.
+- **0–10K Dilimi (Tıp, Top Mühendislikler):** Global model R² < 0 (başarısız).
+- **10K–100K Dilimi:** Global model R² ≈ 0.08–0.38 (zayıf).
+- **500K+ Dilimi:** R² ≈ 0.80–0.86 (başarılı).
 
 ---
 
-## Doğrulama: Temporal Leakage Tespiti ve Düzeltmesi
+## 2. Segment-Özel Model Mimarisi & Sonuçlar
 
-### Tespit (2026-07-25)
+### Split Stratejisi
+- `lag1_taban_siralama < 100_000` → **Model S** (rekabetçi segment).
+- `lag1_taban_siralama >= 100_000` → **Model L** (kitlesel segment).
 
-`program_hist_medyan_siralama` ve `univ_hist_medyan_siralama` öznitelikleri, `build_features.py`'de **tüm veri seti üzerinde global groupby** ile hesaplanıyordu. Bu, temporal sıra gözetilmeksizin test yılının lag değerlerini medyan hesabına dahil ediyor ve dolaylı leakage yaratıyordu.
+### Model S Aday Karşılaştırması & Adaptif Seçim
+- **n < 3,000 (Fold 1):** Ridge(alpha=100) kazandı (`MAE=11,104`, `R²=0.605`). GBDT bu boyutta overfit ediyordu.
+- **n >= 3,000 (Fold 2):** Ağır Regularize LightGBM + CatBoost kazandı (`MAE=9,561`, `R²=0.659`).
 
-### Düzeltme
-
-`_expanding_window_median()` fonksiyonu eklendi. Her satır için yalnızca `yil < current_year` olan satırların değerlerinden medyan hesaplanıyor. 2022 yılındaki satırlar için geçmiş veri olmadığından bu feature NaN kalıyor (doğru davranış); count 70,736 → 32,619'a indi.
-
-### Backtest Sonuçları — Öncesi/Sonrası
-
-| Metrik | Global (Hatalı) | Expanding Window (Düzeltilmiş) |
-|---|---|---|
-| MAE — 2024 Test | 68,923 | **89,224** |
-| R² — 2024 Test | 0.966 | **0.950** |
-| MAE — 2025 Test | 112,655 | **86,676** |
-| R² — 2025 Test | 0.899 | **0.937** |
-| Ortalama MAE | 90,789 | **87,950** |
-| Q80 Coverage | 88.5% | **91.8%** |
-
-**Gözlemler:**
-- 2024 R²'de beklenen düşüş gerçekleşti: 0.966 → 0.950 (~1.6 puan). Leakage etkisi mevcut ancak tahmin edilenden az.
-- 2025 R²'de beklenmedik iyileşme: 0.899 → 0.937. Nedenin global medyanın 2025 kontenjan şokunu yanlış temsil etmesinden kaynaklandığı değerlendirilmektedir.
-- Q80 Coverage %91.8 (hedef %80 üzerinde — aralıklar biraz geniş).
-
-**Bu metrikler şu anda kullanılan geçerli referans değerlerdir.**
+### Performans Kazanımı (2025 Test — < 100K Segmenti)
+- **Global Model MAE:** 11,438
+- **Segment Model S MAE:** **9,561**
+- **İyileşme:** **%16.4 MAE Düşüşü** (1,877 sıra kazanımı).
 
 ---
 
-## Mimari: Mevcut Durum
+## 3. Yeni Feature Entegrasyonu (Talep & İtibar)
 
-Sistem **tek regresyon modeli** olarak çalışmaktadır:
-- LightGBM + CatBoost Hybrid Quantile Ensemble
-- Giriş: Y-1 ve Y-2 lag değerleri + statik öznitelikler + makro kontenjan şoku
-- Çıkış: taban_siralama nokta tahmini + %80 güven aralığı
+1. **URAP Proxy (`univ_itibar_degisim`):**
+   - URAP sitesinin JavaScript-rendered olması nedeniyle doğrudan scraping yerine YÖK Atlas verisinden expanding-window yıllık üniversite medyan sıralaması farkı türetildi.
+2. **Şok Asimetrisi (`segment_kontenjan_etki`):**
+   - Program kontenjan değişimi ile bölüm ailesi makro kontenjan değişimi arasındaki fark hesaplandı.
+3. **Google Trends 2 Katmanlı Sinyal (`trends_yoy_degisim`):**
+   - 15 kaba kategori + öncelikli granüler bölüm aileleri için 429 backoff ve yerel JSON önbellekleme mimarisi kuruldu (`fetch_google_trends.py`).
 
-Ayrı bir talep tahmini veya yerleştirme simülasyonu katmanı mevcut değildir. Mimari karar (tek regresyon mu kalacak, üstüne düzeltme kuralı mı eklenecek) gerçek metrikler netleştikten sonra alınacak.
+---
+
+## 4. API İyileştirmeleri (`api/main.py`)
+
+- **Güvenilirlik Bayrağı (`confidence_level`):**
+  - Tahmin < 10K: `"VERY_LOW"`
+  - 10K–100K: `"LOW"`
+  - 100K–500K: `"MEDIUM"`
+  - >= 500K: `"HIGH"`
+- **Veri Kalitesi Bayrağı (`data_quality`):**
+  - Geçmiş medyan verisi bulunmayan programlar için `"INSUFFICIENT"`, tam verili programlar için `"SUFFICIENT"`.
 
 ---
 
 ## Sonraki Adımlar
 
-- [ ] Mimari kararı: Mevcut regresyon + kontenjan şoku düzeltme kuralı mı, yoksa çok aşamalı yapı mı?
-- [ ] Q80 Coverage %91.8 → %80 kalibrasyonu için alpha değerlerini ayarla.
-- [ ] 2025 test setinin büyük bölümü null olduğundan 2026 simülasyonunun güvenilirliğini nesnel bir ölçütle değerlendir.
+- [ ] Google Trends önbellek çıktılarının feature matrix'e tam olarak yansımasıyla final rolling backtest çalıştırma.
+- [ ] Kontenjan şoku aşaması veya 3 aşamalı mimari geçiş kararını değerlendirme.

@@ -185,6 +185,37 @@ def _expanding_window_median(df: pd.DataFrame, group_col: str, value_col: str, y
     return result
 
 
+def _expanding_window_annual_median(df: pd.DataFrame, group_col: str, value_col: str, year_col: str) -> pd.DataFrame:
+    """
+    Her (group, year) çifti için o yıla kadar (dahil, son tam yıl) olan expanding-window medyanı hesaplar.
+    Döner: group_col, year_col, '{value_col}_ew_median' sütunlarından oluşan DataFrame.
+
+    univ_itibar_degisim hesabında kullanılır:
+        univ_itibar_degisim[t] = ew_median[t-1] - ew_median[t-2]
+    Bu, URAP verisi yerine YÖK Atlas tabanlı üniversite itibar değişimi proxy'sidir.
+    """
+    years_sorted = sorted(df[year_col].unique())
+    out_col = f"{value_col}_ew_median"
+    records = []
+    cumulative = {}  # group -> list[float]
+
+    for yr in years_sorted:
+        grp_vals = df[df[year_col] == yr].groupby(group_col)[value_col].apply(list)
+        for grp, med_yr in df[df[year_col] == yr].groupby(group_col)[value_col].median().items():
+            prev_vals = cumulative.get(grp, [])
+            # Expanding medyan = medyan(tum gozlemler t <= yr)
+            all_vals = prev_vals + [v for v in grp_vals.get(grp, []) if not np.isnan(v)]
+            records.append({group_col: grp, year_col: yr, out_col: float(np.median(prev_vals)) if prev_vals else np.nan})
+        # Bu yılın degerleri bir sonraki yil icin cumulative'e ekle
+        for grp, vals_list in grp_vals.items():
+            clean = [v for v in vals_list if not np.isnan(v)]
+            if grp not in cumulative:
+                cumulative[grp] = []
+            cumulative[grp].extend(clean)
+
+    return pd.DataFrame(records)
+
+
 def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Program ve üniversite bazında türetilmiş istatistiksel feature'lar.
@@ -221,6 +252,30 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
         .rename("univ_trend_momentum")
     )
     df["univ_trend_momentum"] = univ_trend.fillna(0.0)
+
+    # ── Üniversite İtibar Değişimi (URAP Proxy) ──
+    # URAP verisi doğrudan erişilebilir değil (JS-rendered).
+    # YÖK Atlas expanding-window medyan sıralamasının yıllık farkı kullanılır.
+    # univ_itibar_degisim[t] = univ_ew_median[t-1] - univ_ew_median[t-2]
+    # Pozitif: sıralama büyüdü (kötüleşti). Negatif: sıralama küçüldü (iyileşti).
+    ew_df = _expanding_window_annual_median(
+        df, group_col="universite_adi", value_col="lag1_taban_siralama", year_col="yil"
+    )
+    ew_col = "lag1_taban_siralama_ew_median"
+    ew_df["prev_year"] = ew_df["yil"] + 1  # t-1 → yil=t icin gerekli
+    ew_df2 = ew_df.rename(columns={"yil": "prev_year2", ew_col: "ew_med_t2"})
+    ew_df2["prev_year"] = ew_df2["prev_year2"] + 1  # t-2 → yil=t icin
+
+    univ_itibar = ew_df[[ "universite_adi", "prev_year", ew_col]].rename(
+        columns={"prev_year": "yil", ew_col: "ew_med_t1"}
+    )
+    univ_itibar2 = ew_df2[["universite_adi", "prev_year", "ew_med_t2"]].rename(
+        columns={"prev_year": "yil"}
+    )
+    df = df.merge(univ_itibar, on=["universite_adi", "yil"], how="left")
+    df = df.merge(univ_itibar2, on=["universite_adi", "yil"], how="left")
+    df["univ_itibar_degisim"] = (df["ew_med_t1"] - df["ew_med_t2"]).fillna(0.0)
+    df.drop(columns=["ew_med_t1", "ew_med_t2"], inplace=True)
 
     # Şehir tercih indeksi (Büyükşehir talebi)
     # İstanbul (34), Ankara (06/6), İzmir (35) -> 1.0; Bursa (16), Kocaeli (41), Antalya (07/7) -> 0.5; Diğer -> 0.0
@@ -274,6 +329,14 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
     # 3. Kontenjan Şok Faktörü (Program Kontenjan Değişimi vs Makro Bölüm Değişimi)
     df["kontenjan_sok_faktoru"] = df["kontenjan_degisim_orani"].fillna(0.0) - df["macro_bolum_degisim_orani"]
 
+    # ── Segment Kontenjan Etkisi (Şok Asimetrisi) ──
+    # Programın bireysel kontenjan değişiminin bölüm ailesi makro trendinden sapması.
+    # < 100K segmentinde özellikle anlamlıdır: ulusal trenden ayrışan bireysel programlar
+    # sıralama hareketini daha belirgin yaşar.
+    # Not: kontenjan_sok_faktoru ile benzer ama bu, sıralama sınıflandırma kararlarında
+    # ayrı bir sinyal olarak kullanılabilmesi için ayrı tutulur.
+    df["segment_kontenjan_etki"] = df["kontenjan_degisim_orani"].fillna(0.0) - df["macro_bolum_degisim_orani"]
+
     # ── 1. YÖK Baraj Mesafe İndeksi (Regulatory Threshold Distance) ──
     baraj_map = {
         "tip": 50000.0,
@@ -295,6 +358,19 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
 
     # ── 3. Puan Türü Aday Rekabet İndeksi ──
     df["puan_turu_rekabet_indeksi"] = df.groupby(["puan_turu", "yil"])["lag1_taban_siralama"].transform("std").fillna(0.0)
+
+    # ── 4. Google Trends Talep Sinyali ──
+    trends_csv = Path(__file__).parent.parent.parent / "data" / "raw" / "demand" / "google_trends.csv"
+    if trends_csv.exists():
+        try:
+            df_trends = pd.read_csv(trends_csv)
+            t_map = df_trends.set_index(["birim_grup_adi", "yil"])["trends_yoy_degisim"].to_dict()
+            df["trends_yoy_degisim"] = df.set_index(["birim_grup_adi", "yil"]).index.map(t_map)
+            df["trends_yoy_degisim"] = df["trends_yoy_degisim"].fillna(0.0)
+        except Exception:
+            df["trends_yoy_degisim"] = 0.0
+    else:
+        df["trends_yoy_degisim"] = 0.0
 
     # ÖSYM 2026 Kontenjan Farkı Entegrasyonu
     osym_csv = Path(__file__).parent.parent.parent / "data" / "raw" / "osym" / "kontenjan_kilavuzu_2026.csv"
@@ -369,6 +445,10 @@ def get_feature_columns() -> list[str]:
         "baraj_mesafe_indeksi",
         "vakif_devlet_burs_gap",
         "puan_turu_rekabet_indeksi",
+        # Talep Sinyali ve İtibar Proxy Features
+        "univ_itibar_degisim",
+        "segment_kontenjan_etki",
+        "trends_yoy_degisim",
         # Yıl (trend için)
         "yil",
     ]

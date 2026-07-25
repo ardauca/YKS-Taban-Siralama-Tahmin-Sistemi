@@ -80,7 +80,9 @@ class PredictionValues(BaseModel):
     point_estimate: int = Field(..., description="Medyan / En olası sıralama tahmini")
     lower_bound: int = Field(..., description="Alt Sınır (İyimser / En yüksek başarı sıralaması)")
     upper_bound: int = Field(..., description="Üst Sınır (Kötümser / En düşük başarı sıralaması)")
-    confidence_level: float = Field(0.80, description="Güven Aralığı Seviyesi (%80)")
+    confidence_level: str = Field("HIGH", description="Güvenilirlik Seviyesi (VERY_LOW, LOW, MEDIUM, HIGH)")
+    data_quality: str = Field("SUFFICIENT", description="Veri Kalitesi (SUFFICIENT, INSUFFICIENT)")
+    numeric_confidence: float = Field(0.80, description="Güven Aralığı Seviyesi (%80)")
     unit: str = Field("siralama", description="Birim")
 
 
@@ -243,14 +245,28 @@ def predict_rank(req: PredictionRequest):
             np.array([raw_med]), np.array([raw_low]), np.array([raw_upp])
         )
 
+        pt_val = int(round(clean_med[0]))
+        if pt_val < 10000:
+            conf_flag = "VERY_LOW"
+        elif pt_val < 100000:
+            conf_flag = "LOW"
+        elif pt_val < 500000:
+            conf_flag = "MEDIUM"
+        else:
+            conf_flag = "HIGH"
+
+        dq_flag = "INSUFFICIENT" if req.program_hist_medyan_siralama is None else "SUFFICIENT"
+
         return PredictionResponse(
             status="success",
             kilavuz_kodu=req.kilavuz_kodu,
             prediction=PredictionValues(
-                point_estimate=int(round(clean_med[0])),
+                point_estimate=pt_val,
                 lower_bound=int(round(clean_low[0])),
                 upper_bound=int(round(clean_upp[0])),
-                confidence_level=0.80,
+                confidence_level=conf_flag,
+                data_quality=dq_flag,
+                numeric_confidence=0.80,
                 unit="siralama",
             ),
             metadata=MetadataInfo(
