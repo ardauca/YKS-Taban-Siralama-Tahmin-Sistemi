@@ -255,12 +255,14 @@ def predict_rank(req: PredictionRequest):
         else:
             conf_flag = "HIGH"
 
-        # Data Quality Classification (SUFFICIENT, INSUFFICIENT, STRUCTURAL_ANOMALY)
+        # Data Quality Classification (SUFFICIENT, INSUFFICIENT, STRUCTURAL_ANOMALY, HIGH_VOLATILITY)
         u_enc = UNIVERSITE_TURU_MAP.get(req.universite_turu, 0)
         if req.program_hist_medyan_siralama is None or req.lag1_taban_siralama is None:
             dq_flag = "INSUFFICIENT"
-        elif u_enc in [2, 3, 4] or abs(siralama_trend) > 150000:
+        elif u_enc in [2, 3, 4]:
             dq_flag = "STRUCTURAL_ANOMALY"
+        elif abs(siralama_trend) > 293000:
+            dq_flag = "HIGH_VOLATILITY"
         else:
             dq_flag = "SUFFICIENT"
 
