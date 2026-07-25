@@ -268,6 +268,22 @@ def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
                 0.0
             )
             df["kontenjan_farki_2026"] = df["kontenjan_farki_2026"].fillna(0.0)
+
+            # 2026 Yılı Makro Bölüm Değişim Oranı Güncellemesi
+            macro_2025_sum = df[df["yil"] == 2025].groupby("birim_grup_adi")["genel_kontenjan"].transform("sum")
+            macro_2026_sum = df[df["yil"] == 2025].groupby("birim_grup_adi")["osym_2026_kontenjan"].transform("sum")
+            
+            macro_2026_ratio = np.where(
+                macro_2025_sum > 0,
+                (macro_2026_sum - macro_2025_sum) / macro_2025_sum,
+                0.0
+            )
+            df["macro_bolum_degisim_orani"] = np.where(
+                df["yil"] == 2025,
+                macro_2026_ratio,
+                df["macro_bolum_degisim_orani"]
+            )
+            df["macro_bolum_degisim_orani"] = df["macro_bolum_degisim_orani"].fillna(0.0)
         except Exception:
             df["kontenjan_farki_2026"] = 0.0
     else:

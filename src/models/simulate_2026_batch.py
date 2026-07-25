@@ -56,7 +56,8 @@ def run_2026_batch_simulation() -> pd.DataFrame:
     clean_med, clean_low, clean_upp = enforce_quantile_constraints(raw_med, raw_low, raw_upp)
 
     sim_df = meta_2026.copy()
-    sim_df["2025_gerceklesen_siralama"] = X_2026_input["lag1_taban_siralama"].values
+    sim_df["2024_gerceklesen_siralama"] = X_2026_input["lag1_taban_siralama"].values
+    sim_df["2025_gerceklesen_siralama"] = y[mask_2025].values
     sim_df["2026_tahmini_siralama"] = np.round(clean_med).astype(int)
     sim_df["2026_guven_alt_sinir"] = np.round(clean_low).astype(int)
     sim_df["2026_guven_ust_sinir"] = np.round(clean_upp).astype(int)
