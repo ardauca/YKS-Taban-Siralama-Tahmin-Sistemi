@@ -81,7 +81,9 @@ class PredictionValues(BaseModel):
     lower_bound: int = Field(..., description="Alt Sınır (İyimser / En yüksek başarı sıralaması)")
     upper_bound: int = Field(..., description="Üst Sınır (Kötümser / En düşük başarı sıralaması)")
     confidence_level: str = Field("HIGH", description="Güvenilirlik Seviyesi (VERY_LOW, LOW, MEDIUM, HIGH)")
-    data_quality: str = Field("SUFFICIENT", description="Veri Kalitesi (SUFFICIENT, INSUFFICIENT)")
+    data_quality: str = Field("SUFFICIENT", description="Veri Kalitesi (SUFFICIENT, INSUFFICIENT, STRUCTURAL_ANOMALY, HIGH_VOLATILITY)")
+    low_reliability_warning: bool = Field(False, description="0-10K bandı için düşük güvenilirlik uyarısı")
+    warning_message: str | None = Field(None, description="Açıklayıcı uyarı mesajı")
     numeric_confidence: float = Field(0.80, description="Güven Aralığı Seviyesi (%80)")
     unit: str = Field("siralama", description="Birim")
 
@@ -246,8 +248,12 @@ def predict_rank(req: PredictionRequest):
         )
 
         pt_val = int(round(clean_med[0]))
+        warn_flag = False
+        warn_msg = None
         if pt_val < 10000:
             conf_flag = "VERY_LOW"
+            warn_flag = True
+            warn_msg = "Bu program yüksek rekabetli 0-10K bandında yer aldığından nokta tahmini düşük güvenilirlik taşımaktadır; belirsizlik aralığını dikkate alınız."
         elif pt_val < 150000:
             conf_flag = "LOW"
         elif pt_val < 500000:
@@ -275,6 +281,8 @@ def predict_rank(req: PredictionRequest):
                 upper_bound=int(round(clean_upp[0])),
                 confidence_level=conf_flag,
                 data_quality=dq_flag,
+                low_reliability_warning=warn_flag,
+                warning_message=warn_msg,
                 numeric_confidence=0.80,
                 unit="siralama",
             ),
