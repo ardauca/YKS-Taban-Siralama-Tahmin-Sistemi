@@ -55,7 +55,7 @@ class AnalyticsService:
             return []
         
         # siralama_trend negatif ise sıralama yükselmiş (iyileşmiş) demektir (ör. 50k -> 30k = -20k)
-        risers = df_pl.filter(pl.col("siralama_trend").not_null()).sort("siralama_trend", descending=False).head(limit)
+        risers = df_pl.filter(pl.col("siralama_trend").is_not_null()).sort("siralama_trend", descending=False).head(limit)
         return risers.to_dicts()
 
     @staticmethod
@@ -65,7 +65,7 @@ class AnalyticsService:
         if "siralama_trend" not in df_pl.columns:
             return []
         
-        decliners = df_pl.filter(pl.col("siralama_trend").not_null()).sort("siralama_trend", descending=True).head(limit)
+        decliners = df_pl.filter(pl.col("siralama_trend").is_not_null()).sort("siralama_trend", descending=True).head(limit)
         return decliners.to_dicts()
 
     @staticmethod
@@ -75,7 +75,7 @@ class AnalyticsService:
         if "siralama_trend" not in df_pl.columns:
             return []
         
-        df_abs = df_pl.filter(pl.col("siralama_trend").not_null()).with_columns(
+        df_abs = df_pl.filter(pl.col("siralama_trend").is_not_null()).with_columns(
             pl.col("siralama_trend").abs().alias("abs_trend")
         ).sort("abs_trend", descending=False).head(limit)
         return df_abs.to_dicts()
@@ -87,7 +87,7 @@ class AnalyticsService:
         if "siralama_trend" not in df_pl.columns:
             return []
         
-        df_abs = df_pl.filter(pl.col("siralama_trend").not_null()).with_columns(
+        df_abs = df_pl.filter(pl.col("siralama_trend").is_not_null()).with_columns(
             pl.col("siralama_trend").abs().alias("abs_trend")
         ).sort("abs_trend", descending=True).head(limit)
         return df_abs.to_dicts()
