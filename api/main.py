@@ -140,12 +140,12 @@ def _load_or_train_models():
     logger.info("FastAPI: Hybrid LightGBM+CatBoost modelleri egitiliyor (train n=%d)...", len(X_train))
 
     _lgb_med = lgb.LGBMRegressor(objective="regression_l1", **lgb_params).fit(X_train, y_train)
-    _lgb_low = lgb.LGBMRegressor(objective="quantile", alpha=0.030, **lgb_params).fit(X_train, y_train)
-    _lgb_upp = lgb.LGBMRegressor(objective="quantile", alpha=0.970, **lgb_params).fit(X_train, y_train)
+    _lgb_low = lgb.LGBMRegressor(objective="quantile", alpha=0.100, **lgb_params).fit(X_train, y_train)
+    _lgb_upp = lgb.LGBMRegressor(objective="quantile", alpha=0.900, **lgb_params).fit(X_train, y_train)
 
     _cb_med = CatBoostRegressor(loss_function="MAE", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
-    _cb_low = CatBoostRegressor(loss_function="Quantile:alpha=0.030", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
-    _cb_upp = CatBoostRegressor(loss_function="Quantile:alpha=0.970", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
+    _cb_low = CatBoostRegressor(loss_function="Quantile:alpha=0.100", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
+    _cb_upp = CatBoostRegressor(loss_function="Quantile:alpha=0.900", iterations=300, learning_rate=0.04, depth=6, verbose=0, random_seed=42).fit(X_train, y_train)
 
     _models_loaded = True
     logger.info("FastAPI: Hybrid Ensemble Modelleri yuklendi!")
@@ -254,7 +254,7 @@ def predict_rank(req: PredictionRequest):
             conf_flag = "VERY_LOW"
             warn_flag = True
             warn_msg = "Bu program yüksek rekabetli 0-10K bandında yer aldığından nokta tahmini düşük güvenilirlik taşımaktadır; belirsizlik aralığını dikkate alınız."
-        elif pt_val < 150000:
+        elif pt_val < 100000:
             conf_flag = "LOW"
         elif pt_val < 500000:
             conf_flag = "MEDIUM"

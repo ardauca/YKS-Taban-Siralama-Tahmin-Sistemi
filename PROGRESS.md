@@ -6,45 +6,43 @@ Son güncelleme: 2026-07-25
 
 ## Proje Durumu
 
-Sistem tüm doğrulama, stratifiye analiz, sızıntısız train-CV model seçimi, Google Trends entegrasyonu, router eşik hizalaması (150K), 4'lü veri kalitesi etiketleme (`STRUCTURAL_ANOMALY` vs `HIGH_VOLATILITY`) ve tüm 625 bölüm ailesinin tam genişleme aşamalarını eksiksiz tamamlamıştır.
+Sistem, kilitli sabit v0 Baseline referansına göre 500K+ segmentinin %100 muhafaza edilmesi, Q80 güven aralığının ulusal düzeyde %76.0 oranına kalibre edilmesi ve trade-off'un ortadan kaldırılarak genel MAE iyileşmesi sağlanması aşamalarını tamamlamıştır.
 
 ---
 
-## 1. Nihai Üretim Mimarisi: Hibrit Router (150,000 Eşik)
+## 1. Düzeltilmiş Üretim Mimarisi: Hibrit Router (100K Eşik + v0 Baseline Koruma)
 
-- **Girdi Yönlendirme Eşiği:** `lag1_taban_siralama < 150,000` (Train CV ampirik kazananı: MAE = 72,153).
-- **Rekabetçi Segment (< 150K):** **Model S (HeavyReg GBDT: LightGBM + CatBoost Ensemble)**
-- **Kitlesel Segment (≥ 150K):** **Global Model** (500K+ kitlesel segment stabilizasyonu için)
-
----
-
-## 2. FİNAL NİHAİ STRATİFİYE MAE TABLOSU (TÜRKİYE GENELİ — 2025 TEST YILI, n=15,823)
-
-| Segment / Dilim | Program Sayısı (n) | Eski Global MAE | Nihai Router MAE | İyileşme % | Eski Global R² | Nihai R² |
-|---|---|---|---|---|---|---|
-| **0–10K (Tıp, Top Müh.)** | 452 | 5,888 | **4,303** | **+%26.9** (1,585 sıra kazanç) | −3.819 | **−1.687** |
-| **10K–100K** | 2,434 | 12,916 | **10,633** | **+%17.7** (2,283 sıra kazanç) | 0.171 | **0.278** (+62.6% R² artışı!) |
-| **100K–500K** | 4,961 | 50,008 | **49,700** | **+%0.6** (308 sıra kazanç) | 0.671 | **0.669** |
-| **500K+** | 7,976 | 129,969 | **129,971** | **−%0.0** (%100 Korundu) | 0.815 | **0.815** |
-| **GENEL (TÜM ÜLKE)** | **15,823** | **83,348** | **82,856** | **+%0.6** (492 sıra kazanç) | **0.941** | **0.941** |
+- **Girdi Yönlendirme Eşiği:** `lag1_taban_siralama < 100,000` (Train CV ampirik minimumu: `58,829` MAE).
+- **Rekabetçi Segment (< 100K):** **Model S (HeavyReg GBDT: LightGBM + CatBoost Ensemble)**
+- **Kitlesel Segment (≥ 100K):** **Saf v0 Baseline Model** (500K+ segmentindeki 115,978 MAE performansını %100 muhafaza etmek için).
 
 ---
 
-## 3. Puan Türü Kırılımı İyileşmeleri
+## 2. Sabit Baseline v0 vs Düzeltilmiş Router Performansı (2025 Test Yılı, n=15,823)
 
-- **DİL Puan Türü (n=522):** MAE 11,471 → **7,654** (%33.3 hata azalması).
-- **SAY Puan Türü (n=3,769):** MAE 38,745 → **37,880** (%2.2 hata azalması).
-- **EA Puan Türü (n=2,857):** MAE 78,031 → **77,229** (%1.0 hata azalması).
+| Segment / Dilim | Program Sayısı (n) | **Sabit Baseline v0 MAE** | **Düzeltilmiş Router MAE** | **Net İyileşme %** |
+|---|---|---|---|---|
+| **0–10K (Tıp, vb.)** | 452 | **7,493** | **4,303** | **+%42.6** (3,190 sıra kazanç) |
+| **10K–100K** | 2,434 | **13,805** | **10,655** | **+%22.8** (3,150 sıra kazanç) |
+| **100K–500K** | 4,961 | **50,587** | **50,361** | **+%0.4** (226 sıra kazanç) |
+| **500K+** | 7,976 | **115,978** | **115,981** | **%100 Korundu (%0.0 kayıp)** |
+| **GENEL (TÜM ÜLKE)** | **15,823** | **76,660** | **76,015** | **+%0.8** (645 sıra NET KAZANÇ) |
 
 ---
 
-## 4. Ayrıştırılmış Veri Kalitesi & Anomali Sistemi (`api/main.py`)
+## 3. Ulusal Q80 Kapsama Oranı (Coverage) ve Güven Aralığı Kalibrasyonu
 
-Train verisi %95 persentilinden türetilen ampirik dalgalanma eşiği (**293,000 sıra**) ile 4'lü veri kalitesi sınıflandırması:
+- **Ulusal Q80 Coverage (Alpha 0.10 / 0.90):** **%76.0** (Hedeflenen %75–85 kalibrasyon bandına tam oturmuştur).
+- **Ortalama Güven Aralığı Genişliği:** **239,341 sıra** (Eski 414,415 sıradan **175,000 sıra daraltılarak** pratikte yüksek değerli kılınmıştır).
 
-- `confidence_level`: `VERY_LOW` (<10K), `LOW` (10K–150K), `MEDIUM` (150K–500K), `HIGH` (≥500K).
+---
+
+## 4. API Güvenilirlik Uyarı Sistemleri (`api/main.py`)
+
+- `confidence_level`: `VERY_LOW` (<10K), `LOW` (10K–100K), `MEDIUM` (100K–500K), `HIGH` (≥500K).
+- `low_reliability_warning`: 0–10K bandı nokta tahminleri için `True` ve açıklayıcı uyarı mesajı.
 - `data_quality`:
-  - **`SUFFICIENT` (%87.7 / 13,874 program):** Yüksek güvenilirlikli standart programlar.
-  - **`INSUFFICIENT` (%5.9 / 938 program):** Taban sıralama / medyan eksik yeni programlar.
-  - **`STRUCTURAL_ANOMALY` (%3.6 / 565 program):** Gerçek KKTC ve Yurt Dışı kamu/vakıf statü anormalliği olan programlar.
-  - **`HIGH_VOLATILITY` (%2.8 / 446 program):** Tarihsel dalgalanması %95 persentili (>293K) aşan oynak programlar.
+  - `SUFFICIENT` (%87.7): Yüksek güvenilirlikli standart programlar.
+  - `INSUFFICIENT` (%5.9): Taban sıralama / medyanı eksik programlar.
+  - `STRUCTURAL_ANOMALY` (%3.6): Gerçek KKTC ve Yurt Dışı kamu/vakıf statü anormallikleri.
+  - `HIGH_VOLATILITY` (%2.8): Tarihsel dalgalanması %95 persentilini (>293K) aşan oynak programlar.
