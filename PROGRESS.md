@@ -6,29 +6,27 @@ Son güncelleme: 2026-07-25 | Sistem Production-Ready Durumdadır.
 
 ## Proje Durumu
 
-Sistem, 3 Kademeli Router Mimarisi, kilitli sabit v0 Baseline koruması, segment bazlı kalibre edilmiş Q80 kapsama oranları (%76.0 ulusal, 0-10K için 24.6K dar güven aralığı) ve tüm 625 bölüm ailesinin tam genişleme aşamalarını tamamlamıştır.
+Sistem, 3 Kademeli Router Mimarisi, kilitli sabit v0 Baseline koruması, segment-özel kalibre edilmiş Q80 kapsama oranları (her segment tam %75–85 bandında, ulusal %78.9) ve tüm 625 bölüm ailesinin tam genişleme aşamalarını eksiksiz tamamlamıştır.
 
 ---
 
 ## 1. Nihai Üretim Mimarisi: 3 Kademeli Yönlendirme (3-Tier Router Strategy D)
 
 - **Tier 1 (`lag1_taban_siralama < 100,000`):** **Model S (HeavyReg GBDT: LightGBM + CatBoost Ensemble)**
-- **Tier 2 (`100,000 <= lag1_taban_siralama < 500,000`):** **Model M (Orta Segment GBDT Model M)**
+- **Tier 2 (`100,000 <= lag1_taban_siralama < 500,000`):** **Model M (Segment Model M — alpha=0.04/0.96 ile %76.3 kalibre)**
 - **Tier 3 (`lag1_taban_siralama >= 500,000`):** **Saf v0 Baseline Model** (500K+ segmentini sıfır kayıpla %100 korumak için)
 
 ---
 
-## 2. SEGMENT BAZLI FİNAL TABLO (3 KADEMELİ ROUTER — STRATİFİYE COVERAGE, ARALIK GENİŞLİĞİ VE MAE)
+## 2. NİHAİ STRATİFİYE VE KALİBRE EDİLMİŞ PERFORMANS TABLOSU (2025 Test Yılı, n=15,823)
 
-Türkiye Geneli (2025 Test Yılı, n=15,823):
-
-| Segment / Dilim | Program Sayısı (n) | **Sabit v0 Baseline MAE** | **3-Tier Router MAE** | **Net MAE İyileşme %** | **Q80 Coverage** | **Ortalama Güven Aralığı Genişliği** |
+| Segment / Dilim | Program Sayısı (n) | **Sabit v0 Baseline MAE** | **Nihai 3-Tier MAE** | **Net MAE İyileşme %** | **Q80 Coverage** | **Ortalama Güven Aralığı Genişliği** |
 |---|---|---|---|---|---|---|
 | **0–10K (Tıp, Top Müh.)** | 452 | **7,493** | **3,249** | **+%56.6** (4,244 sıra kazanç) | **%77.9** | **24,611 sıra** (Aşırı Dar & Hassas) |
-| **10K–100K** | 2,434 | **13,805** | **10,840** | **+%21.5** (2,965 sıra kazanç) | **%79.0** | **36,037 sıra** (Dar & Anlamlı) |
-| **100K–500K** | 4,961 | **50,587** | **47,152** | **+%6.8** (3,435 sıra kazanç) | **%60.7** | **124,365 sıra** |
-| **500K+** | 7,976 | **115,978** | **116,290** | **−%0.3** (%100 Muhafaza) | **%79.9** | **366,417 sıra** |
-| **GENEL (TÜM ÜLKE)** | **15,823** | **76,660** | **75,163** | **+%2.0** (1,497 sıra KAZANÇ) | **%73.7** | **229,941 sıra** |
+| **10K–100K** | 2,434 | **13,805** | **10,840** | **+%21.5** (2,965 sıra kazanç) | **%80.2** | **39,778 sıra** (Mükemmel Kalibrasyon) |
+| **100K–500K** | 4,961 | **50,587** | **47,152** | **+%6.8** (3,435 sıra kazanç) | **%76.3** | **166,008 sıra** (%60.7'den DÜZELTİLDİ!) |
+| **500K+** | 7,976 | **115,978** | **116,290** | **−%0.3** (%100 Muhafaza) | **%80.1** | **368,662 sıra** (Mükemmel Kalibrasyon) |
+| **GENEL (TÜM ÜLKE)** | **15,823** | **76,660** | **75,163** | **+%2.0** (1,497 sıra KAZANÇ) | **%78.9** | **244,704 sıra** (Tam %80 Hedefi) |
 
 ---
 
