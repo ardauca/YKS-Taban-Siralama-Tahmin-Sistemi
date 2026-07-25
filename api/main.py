@@ -248,14 +248,21 @@ def predict_rank(req: PredictionRequest):
         pt_val = int(round(clean_med[0]))
         if pt_val < 10000:
             conf_flag = "VERY_LOW"
-        elif pt_val < 100000:
+        elif pt_val < 150000:
             conf_flag = "LOW"
         elif pt_val < 500000:
             conf_flag = "MEDIUM"
         else:
             conf_flag = "HIGH"
 
-        dq_flag = "INSUFFICIENT" if req.program_hist_medyan_siralama is None else "SUFFICIENT"
+        # Data Quality Classification (SUFFICIENT, INSUFFICIENT, STRUCTURAL_ANOMALY)
+        u_enc = UNIVERSITE_TURU_MAP.get(req.universite_turu, 0)
+        if req.program_hist_medyan_siralama is None or req.lag1_taban_siralama is None:
+            dq_flag = "INSUFFICIENT"
+        elif u_enc in [2, 3, 4] or abs(siralama_trend) > 150000:
+            dq_flag = "STRUCTURAL_ANOMALY"
+        else:
+            dq_flag = "SUFFICIENT"
 
         return PredictionResponse(
             status="success",
