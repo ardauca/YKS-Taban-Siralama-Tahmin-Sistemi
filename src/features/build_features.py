@@ -142,28 +142,69 @@ def build_static_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def _expanding_window_median(df: pd.DataFrame, group_col: str, value_col: str, year_col: str, out_col: str) -> pd.Series:
+    """
+    Her satır için yalnızca o satırın yılından ÖNCEKI yıllardaki (yil < current_year)
+    lag1_taban_siralama medyanını döner.
+
+    Bu, temporal leakage'ı önler: test yılına ait (veya o yıl sonrası) lag değerleri
+    medyan hesabına dahil edilmez.
+
+    Uygulama:
+    - df'i yıla göre sıralı iterasyonla tarar
+    - Her (group, year) çifti için yalnızca year' < year olan satırların value_col medyanını alır
+    - groupby + shift ile verimli biçimde hesaplanır
+    """
+    # Her (group_col, year_col) kombinasyonu için o yıla kadar (dahil değil) gözlemlerin kümülatif medyanı
+    # Strateji: yılları sıralı işle; her yıl için önceki yılların group bazlı medyanını hesapla
+    years_sorted = sorted(df[year_col].unique())
+    result = pd.Series(index=df.index, dtype=float)
+
+    cumulative = {}  # group -> list of values seen so far (yil < current_year)
+
+    for yr in years_sorted:
+        mask_yr = df[year_col] == yr
+        idx_yr = df.index[mask_yr]
+
+        # Bu yılın satırları için: cumulative'te biriken geçmiş değerlerin medyanı
+        for idx in idx_yr:
+            grp = df.at[idx, group_col]
+            vals = cumulative.get(grp, [])
+            result.at[idx] = float(np.median(vals)) if vals else np.nan
+
+        # Şimdi bu yılın değerlerini bir sonraki yıl için cumulative'e ekle
+        for idx in idx_yr:
+            grp = df.at[idx, group_col]
+            val = df.at[idx, value_col]
+            if pd.notna(val):
+                if grp not in cumulative:
+                    cumulative[grp] = []
+                cumulative[grp].append(val)
+
+    result.name = out_col
+    return result
+
+
 def build_derived_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Program ve üniversite bazında türetilmiş istatistiksel feature'lar.
-    Önemli: sadece geçmiş veriden türetilmeli (leak yok).
+    Sadece geçmiş yıl verisi kullanılır (yil < current_year — expanding window).
     """
     df = df.copy()
 
-    # Program bazı tarihsel medyan sıralama (lag yıllardan)
-    program_hist = (
-        df.groupby("kilavuz_kodu")["lag1_taban_siralama"]
-        .median()
-        .rename("program_hist_medyan_siralama")
+    # Program bazlı tarihsel medyan — EXPANDING WINDOW (leakage-free)
+    # Her satır için yalnızca o satırın yılından önceki yıllardaki lag1 değerlerinin medyanı alınır.
+    df["program_hist_medyan_siralama"] = _expanding_window_median(
+        df, group_col="kilavuz_kodu", value_col="lag1_taban_siralama",
+        year_col="yil", out_col="program_hist_medyan_siralama"
     )
-    df = df.merge(program_hist, on="kilavuz_kodu", how="left")
 
-    # Üniversite bazı tarihsel medyan sıralama (lag1 kullanan)
-    univ_hist = (
-        df.groupby("universite_adi")["lag1_taban_siralama"]
-        .median()
-        .rename("univ_hist_medyan_siralama")
+    # Üniversite bazlı tarihsel medyan — EXPANDING WINDOW (leakage-free)
+    df["univ_hist_medyan_siralama"] = _expanding_window_median(
+        df, group_col="universite_adi", value_col="lag1_taban_siralama",
+        year_col="yil", out_col="univ_hist_medyan_siralama"
     )
-    df = df.merge(univ_hist, on="universite_adi", how="left")
+
     # Program kontenjan büyüklüğü kategorisi
     # (küçük=1-30, orta=31-80, büyük=81+)
     df["kontenjan_kategori"] = pd.cut(
