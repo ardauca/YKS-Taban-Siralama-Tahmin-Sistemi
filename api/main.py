@@ -231,6 +231,9 @@ def predict_rank(req: PredictionRequest):
             "baraj_mesafe_indeksi": [0.0],
             "vakif_devlet_burs_gap": [0.0],
             "puan_turu_rekabet_indeksi": [0.0],
+            "trends_yoy_degisim": [0.0],
+            "univ_itibar_degisim": [0.0],
+            "segment_kontenjan_etki": [0.0],
             "yil": [req.yil],
         }
 

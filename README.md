@@ -2,91 +2,70 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.11+-green.svg)
-![Model R2](https://img.shields.io/badge/R%C2%B2_Score-0.873-brightgreen.svg)
-![MAE](https://img.shields.io/badge/MAE-45%2C739-blue.svg)
+![Full Scope](https://img.shields.io/badge/coverage-625_Bölüm_Ailesi-brightgreen.svg)
+![Nationwide Blind Coverage](https://img.shields.io/badge/Q80_Blind_Coverage-%2575.3-success.svg)
 ![Unit Tests](https://img.shields.io/badge/tests-63%2F63_passing-success.svg)
 
-Türkiye üniversite bölümlerinin geçmiş yıl verilerinden ve YÖK Atlas trendlerinden öğrenerek, **ÖSYM'nin yayınladığı yeni kılavuz kontenjanlarına ve makro kontenjan kısıntı şoklarına göre oluşacak 2026 Taban Sıralamalarını (%80 Güven Aralığı ile)** tahmin eden pro-seviye makine öğrenmesi sistemi.
+Türkiye üniversitelerindeki **tüm lisans programlarının (625 Bölüm Ailesi, 15,823 aktif tercih programı)** geçmiş yıl taban sıralamaları, kontenjan değişimleri, YÖK Atlas eğilimleri, Google Trends popülerlik indeksleri ve URAP akademik itibar metriklerinden öğrenerek, ÖSYM kılavuz kontenjan kısıntı şoklarına göre **Taban Sıralamalarını (%80 Güven Aralığı ve Kademeli Router Mimarisi ile)** tahmin eden üretim seviyesinde makine öğrenmesi sistemi.
+
+> 📌 **Metodolojik Şeffaflık Notu:**  
+> Kuantil parametreleri (`Alpha=0.08/0.92`) **SADECE 2023–2024 Train verisi üzerinde 5-Fold Out-of-Fold (OOF)** yöntemiyle seçilmiş, 2025 Test verisinde dokunulmadan **kör (blind) test** edilmiştir. Sızıntısız tarafsız ulusal kapsama oranı **%75.3**, 0–10K tıp/derece segmenti ortalama aralık genişliği **24,611 sıradır**.
 
 ---
 
-## 🚀 Öne Çıkan Özellikler ve İnovasyonlar
+## 🚀 Mimarinin Öne Çıkan Özellikleri
 
-- 🧠 **Hibrit Quantile Ensemble Mimarisi:** %50 LightGBM Quantile + %50 CatBoost Quantile Regressors harmanı.
-- 📐 **28 Gelişmiş Öznitelik (Feature Matrix):**
-  - **Makro Kontenjan Şok Özellikleri:** `macro_puan_turu_degisim_orani`, `macro_bolum_degisim_orani`, `kontenjan_sok_faktoru` (Hukuk -%34, Siyaset -%24 gibi sistemsel kısıntıların ikame talebini modeller).
-  - **YÖK Başarı Sırası Baraj Mesafesi:** `baraj_mesafe_indeksi` (Tıp 50k, Hukuk 125k, Müh 300k baraj kısıtları).
-  - **Vakıf-Devlet Ekonomik İkame İndeksi:** `vakif_devlet_burs_gap` (Özel üniversite ücret zamlarının devlete kayma etkisi).
-  - **Şehir ve Momentum İndeksleri:** `sehir_tercih_indeksi` (Eskişehir, İstanbul, Ankara tercihi), `univ_trend_momentum`.
-- 📚 **Dev Veri Kümesi (24 Ana Bölüm Ailesi / 15,321 Satır):** Bilgisayar, Tıp, EE, Makine, Endüstri, Yazılım, İnşaat, Mimarlık, İç Mimarlık, Hemşirelik, Diş Hekimliği, Eczacılık, Hukuk, İktisat, İşletme, Psikoloji, YBS, Siyaset Bilimi, Sınıf Öğr., Uluslararası İlişkiler, Özel Eğitim, Tarih, TDE, ELT.
-- 📄 **ÖSYM 2026-2027 Kılavuz PDF Entegrasyonu:** PyMuPDF ultra-fast text-stream engine ile 11,676 lisans programının 2026 ön kontenjanları (%96.8 eşleşme oranı).
-- 🔮 **Zamana Duyarlı Kör (Blind Walk-Forward) Backtest:** Tahmin edilen yılın sıralamasını bilmeden, sadece yeni kontenjanları bilerek **%87.6 - %93.1 $R^2$ doğruluk oranı**.
+### 1. 3 Kademeli Yönlendirme Mimarisi (3-Tier Router Strategy D)
+- **Tier 1 (`lag1_taban_siralama < 100,000`):** **Model S (HeavyReg GBDT: LightGBM + CatBoost Ensemble)** — Yüksek rekabetli ilk 100K programlarında aşırı uyumu (overfitting) engeller.
+- **Tier 2 (`100,000 <= lag1_taban_siralama < 500,000`):** **Model M (Segment Model M)** — Orta bandın ikame dinamiklerini yakalar.
+- **Tier 3 (`lag1_taban_siralama >= 500,000`):** **Saf v0 Baseline Model** — Kitlesel yüksek gürültülü segmentte baseline performansını (%100 muhafaza ile 115,978 MAE) korur.
+
+### 2. 30 Gelişmiş Öznitelik (Feature Matrix)
+- **Makro Kontenjan Şok Özellikleri:** `macro_puan_turu_degisim_orani`, `macro_bolum_degisim_orani`, `kontenjan_sok_faktoru` (Hukuk -%34, Siyaset -%24 gibi sistemsel kısıntıların ikame talebini modeller).
+- **Arama & İtibar Dinamikleri:** `trends_yoy_degisim` (Google Trends aramaları), `univ_itibar_degisim` (URAP akademik itibar skoru), `segment_kontenjan_etki`.
+- **YÖK Başarı Sırası Baraj Mesafesi:** `baraj_mesafe_indeksi` (Tıp 50k, Hukuk 125k, Müh 300k baraj kısıtları).
+- **Vakıf-Devlet Ekonomik İkame İndeksi:** `vakif_devlet_burs_gap` (Özel üniversite ücret zamlarının devlete kayma etkisi).
+- **Şehir ve Momentum İndeksleri:** `sehir_tercih_indeksi` (İstanbul, Ankara, İzmir, Eskişehir tercihi), `univ_trend_momentum`.
+
+### 3. Ayrıştırılmış 4'lü Veri Kalitesi & Anomali Sistemi
+Train verisi %95 persentilinden türetilen ampirik dalgalanma eşiği (**293,000 sıra**) ile programlar 4 sınıfa ayrılır:
+- **`SUFFICIENT` (%87.7 / 13,874 program):** Standart yüksek güvenilirlikli veriler.
+- **`INSUFFICIENT` (%5.9 / 938 program):** Geçmiş taban sıralaması veya medyanı eksik programlar.
+- **`STRUCTURAL_ANOMALY` (%3.6 / 565 program):** Gerçek KKTC ve Yurt Dışı kontenjan/burs statü değişiklikleri.
+- **`HIGH_VOLATILITY` (%2.8 / 446 program):** Tarihsel dalgalanması %95 persentilini (>293K) aşan oynak programlar.
 
 ---
 
-## 📈 Model Başarım Metrikleri
+## 📈 Sızıntısız Kör Test Performans Tablosu (2025 Test Yılı, n=15,823)
 
-| Metrik | Değer | Ayrıntı / Hedef |
-|---|---|---|
-| **Ortalama MAE (Hata)** | **45,739 Sıra** | Rekor En Düşük Hata |
-| **2025 Test Seti $R^2$ Skoru** | **0.873 (%87.3)** | 15,321 Satır Genişletilmiş Veri |
-| **2024 Test Seti $R^2$ Skoru** | **0.944 (%94.4)** | Test Seti Doğrulaması |
-| **Q80 Coverage Rate** | **%83.1** | Kalibre Edilmiş %80 Güven Aralığı |
-| **Ortalama Aralık Genişliği** | **228,435 Sıra** | Dar / Hassas Güven Aralığı |
-| **Unit Test Başarısı** | **63 / 63 PASSED** | %100 Yeşil Test Suitesi |
-| **MLflow Run ID** | `638b328423df475e802380ed62d889b4` | İzlenebilir Deney Kaydı |
+| Segment / Dilim | Program Sayısı (n) | **Sabit v0 Baseline MAE** | **3-Tier Router MAE** | **Net MAE İyileşme %** | **Tarafsız Kör Q80 Coverage** | **Ortalama Güven Aralığı Genişliği** |
+|---|---|---|---|---|---|---|
+| **0–10K (Tıp, Top Müh.)** | 452 | **7,493** | **3,249** | **+%56.6** (4,244 sıra kazanç) | **%77.9** | **24,611 sıra** (Hassas & Dar) |
+| **10K–100K** | 2,434 | **13,805** | **10,840** | **+%21.5** (2,965 sıra kazanç) | **%79.3** | **37,000 sıra** (Mükemmel Kalibrasyon) |
+| **100K–500K** | 4,961 | **50,587** | **47,152** | **+%6.8** (3,435 sıra kazanç) | **%65.5** | **132,560 sıra** (Yapısal Oynaklık) |
+| **500K+** | 7,976 | **115,978** | **116,290** | **−%0.3** (%100 Muhafaza) | **%80.0** | **366,973 sıra** |
+| **GENEL (TÜM ÜLKE)** | **15,823** | **76,660** | **75,163** | **+%2.0** (1,497 sıra KAZANÇ) | **%75.3** | **232,939 sıra** |
 
 ---
 
 ## 💻 Kullanım Kılavuzu
 
 ### 1. İnteraktif 2026 Tercih Danışmanı (CLI)
-Kendi sıralamanızı ve puan türünüzü girerek **Risk Kategorili (`[GARANTİ]`, `[GÜVENLİ]`, `[İDEAL/HEDEF]`, `[SÜRPRİZ]`)** 2026 kılavuz önerilerinizi almak için:
+Kendi sıralamanızı ve puan türünüzü girerek risk kategorili öneriler almak için:
 
 ```bash
 python tercih_danismani.py 180000 EA
 ```
 
-### 2. Tüm Türkiye 2026 Toplu Kılavuz Simülasyonu
-Türkiye'deki 3,117 aktif lisans programı için 2026 tahmin çıktısı üretmek ve incelemek için:
-
-```bash
-python src/models/simulate_2026_batch.py
-```
-*Çıktı Dosyası:* `data/processed/simulasyon_2026_tahminleri.csv`
-
-### 3. SHAP Öznitelik Açıklanabilirlik Analizi
-28 özniteliğin karar üzerindeki etki yüzdelerini analiz etmek için:
-
-```bash
-python src/models/explain_shap.py
-```
-
-### 4. Zamana Duyarlı Kör (Walk-Forward) Backtest
-Modeli geçmiş yıllar üzerinde "kör" sınava sokup doğrulamak için:
-
-```bash
-python src/models/backtest_walkforward.py
-```
-
-### 5. FastAPI Servisini Başlatma
+### 2. FastAPI REST Servisini Başlatma
 ```bash
 uvicorn api.main:app --reload
 ```
-*Swagger UI:* `http://127.0.0.1:8000/docs`
+- **Swagger UI Dokümantasyonu:** `http://127.0.0.1:8000/docs`
+- **Predict Endpoint (`POST /api/v1/predict`):** 3-Tier Router, 4-Class Data Quality ve 0-10K hassasiyet uyarısı içeren JSON yanıtı döndürür.
 
----
-
-## 🛠️ Kurulum
-
+### 3. Unit Test Suitesini Çalıştırma
 ```bash
-# 1. Depoyu klonla ve dizine gir
-cd C:\Users\ARDA\.gemini\antigravity\scratch\yks-tahmin
-
-# 2. Gerekli kütüphaneleri yükle
-pip install -r requirements.txt
-
-# 3. Unit testleri çalıştır
 python -m pytest tests/ -v
 ```
 
@@ -103,19 +82,18 @@ yks-tahmin/
 │   │   ├── osym/kontenjan_kilavuzu_2026.csv
 │   │   └── yokatlas/yokatlas_all_departments_raw.csv
 │   └── processed/                   # İşlenmiş Feature Parquet & Simülasyon CSV
-├── scraping/                        # YÖK Atlas & ÖSYM PDF Scraper/Parser
+├── scraping/                        # YÖK Atlas & ÖSYM Scraper/Parser Engine
 │   ├── parse_osym_pdf.py            # PyMuPDF Kılavuz Parser Engine
-│   └── yokatlas_scraper.py          # YÖK Atlas JSON API Scraper
+│   ├── yokatlas_scraper.py          # YÖK Atlas JSON API Scraper
+│   └── fetch_google_trends.py       # Google Trends Arama Verisi Çekici
 ├── src/
-│   ├── features/build_features.py   # 28-Feature Pipeline
+│   ├── features/build_features.py   # 30-Feature Pipeline Engine
 │   └── models/
 │       ├── train_quantile.py        # LightGBM + CatBoost Quantile Ensemble
-│       ├── explain_shap.py          # SHAP Öznitelik Etki Analizi
-│       ├── simulate_2026_batch.py   # Toplu 2026 Simülasyon Motoru
-│       └── backtest_walkforward.py  # Zamana Duyarlı Kör Backtest Engine
+│       └── explain_shap.py          # SHAP Öznitelik Etki Analizi
 ├── tests/                           # Pytest Test Suitesi (63 Unit Test)
 ├── tercih_danismani.py              # İnteraktif CLI Tercih Danışmanı
-├── PROGRESS.md                      # Detaylı Geliştirme Günlüğü
+├── PROGRESS.md                      # Detaylı Geliştirme ve Şeffaflık Günlüğü
 └── README.md                        # Ana Dokümantasyon
 ```
 

@@ -53,8 +53,8 @@ def test_predict_rank_success():
     pred = data["prediction"]
     assert "point_estimate" in pred
     assert "lower_bound" in pred
-    assert "upper_bound" in pred
-    assert pred["confidence_level"] == 0.80
+    assert pred["confidence_level"] in ["VERY_LOW", "LOW", "MEDIUM", "HIGH"]
+    assert pred["numeric_confidence"] == 0.80
     assert pred["unit"] == "siralama"
 
     # Quantile constraints: lower <= point <= upper

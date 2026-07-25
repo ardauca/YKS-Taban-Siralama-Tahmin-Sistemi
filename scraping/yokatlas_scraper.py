@@ -223,10 +223,13 @@ MAJOR_DEPARTMENT_GROUPS = {
     "siyaset_bilimi_ve_kamu_yonetimi": 4967,
     "sinif_ogretmenligi": 4915,
     "uluslararasi_iliskiler": 5581,
+    "calisma_ekonomisi_ve_endustri_iliskileri": 2231,
+    "havacilik_yonetimi": 3221,
     # SÖZ
     "ozel_egitim_ogretmenligi": 8660,
     "tarih": 5163,
     "turk_dili_ve_edebiyati": 5468,
+    "yeni_medya_ve_iletisim": 8314,
     # DİL
     "ingilizce_ogretmenligi": 3441,
     "ingiliz_dili_ve_edebiyati": 3431,

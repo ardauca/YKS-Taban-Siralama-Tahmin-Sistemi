@@ -41,5 +41,8 @@ Thumbs.db
 # Bunlar önbellekte, repoya ekleme
 ms-playwright/
 
+# CatBoost
+catboost_info/
+
 # Camelot temp
 *.log
