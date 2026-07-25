@@ -16,6 +16,7 @@ env/
 
 # Gizli anahtarlar / kimlik bilgileri (ASLA commit etme)
 .env
+*.db
 
 # Ham veri (büyük dosyalar — LFS ile veya ayrı tutulacak)
 data/raw/
