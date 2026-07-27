@@ -18,9 +18,41 @@ from db.repository import FavoriteRepository, PreferenceListRepository, SearchHi
 class DetailScreen(Screen):
     """Program Detay Ekranı — 4 Yıl Tarih + Kontenjanlar + Tahmin Sebepleri."""
 
+    CSS = """
+    DetailScreen .detail_left {
+        width: 44%;
+        border: solid $primary;
+        padding: 1;
+        margin-right: 1;
+        overflow-y: auto;
+    }
+
+    DetailScreen .detail_right {
+        width: 56%;
+        border: solid $secondary;
+        padding: 1;
+        overflow-y: auto;
+    }
+
+    DetailScreen #hist_table {
+        height: 11;
+        min-height: 11;
+        margin-bottom: 1;
+    }
+
+    DetailScreen #chart_static {
+        height: auto;
+        border: solid $accent;
+        padding: 1;
+        margin-top: 1;
+        background: $panel;
+    }
+    """
+
     def __init__(self, kilavuz_kodu: int = 101011005, **kwargs):
         super().__init__(**kwargs)
         self.kilavuz_kodu = kilavuz_kodu
+
 
     def compose(self) -> ComposeResult:
         yield Header(show_clock=True)
