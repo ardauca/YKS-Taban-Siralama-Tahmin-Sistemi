@@ -120,9 +120,9 @@ def _build_master_df() -> pl.DataFrame:
         # Feature matrix zaten lag1_taban_siralama/puan ve lag2_taban_siralama
         # içeriyor. Eksik olanları ham CSV'den tamamlıyoruz.
         HIST_LAGS = [
-            (2, 2024, ["taban_siralama", "taban_puan"]),   # lag2_puan eksik
-            (3, 2023, ["taban_siralama", "taban_puan"]),
-            (4, 2022, ["taban_siralama", "taban_puan"]),
+            (2, 2024, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
+            (3, 2023, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
+            (4, 2022, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
         ]
         for lag_n, year, cols in HIST_LAGS:
             avail = [c for c in ["kilavuz_kodu"] + cols if c in raw.columns]

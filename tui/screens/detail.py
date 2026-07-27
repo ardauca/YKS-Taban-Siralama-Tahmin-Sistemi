@@ -1,6 +1,7 @@
 """
 Textual TUI — Program Detay Ekranı.
-Gerçek CatBoost ML tahminleri, güven aralığı ve 4 yıllık tarihsel tablo.
+Gerçek CatBoost ML tahminleri, 4 yıllık tarihsel tablo (Sıralama + Puan + Kontenjan)
+ve Model Tahmin Sebepleri (Rasyoneli).
 """
 from __future__ import annotations
 
@@ -15,7 +16,7 @@ from db.repository import FavoriteRepository, PreferenceListRepository, SearchHi
 
 
 class DetailScreen(Screen):
-    """Program Detay Ekranı — 4 Yıl Tarih + Gerçek ML Tahmini."""
+    """Program Detay Ekranı — 4 Yıl Tarih + Kontenjanlar + Tahmin Sebepleri."""
 
     def __init__(self, kilavuz_kodu: int = 101011005, **kwargs):
         super().__init__(**kwargs)
@@ -38,8 +39,11 @@ class DetailScreen(Screen):
                 yield Label("🤖 2026 ML TAHMİNİ (CatBoost)", classes="section_title")
                 yield Static(id="prediction_static")
 
+                yield Label("💡 2026 TAHMİN SEBEPLERİ VE ETKEN FAKTÖRLER", classes="section_title")
+                yield Static(id="reasons_static")
+
             with Vertical(classes="detail_right"):
-                yield Label("📊 4 YILLIK TARİHSEL TABLO (2022 → 2026 Tahmin)", classes="section_title")
+                yield Label("📊 4 YILLIK TARİHSEL TABLO (Sıralama, Puan & Kontenjan)", classes="section_title")
                 yield DataTable(id="hist_table", cursor_type="none")
 
                 yield Label("📈 TABAN SIRALAMA GRAFİĞİ", classes="section_title")
@@ -49,7 +53,7 @@ class DetailScreen(Screen):
 
     def on_mount(self) -> None:
         table = self.query_one("#hist_table", DataTable)
-        table.add_columns("Yıl", "Taban Sıralama", "Değişim", "Taban Puanı", "Kaynak")
+        table.add_columns("Yıl", "Taban Sıralama", "Değişim", "Taban Puanı", "Kontenjan", "Kaynak")
         self.load_program_details()
 
     def load_program_details(self) -> None:
@@ -87,13 +91,12 @@ class DetailScreen(Screen):
         )
         self.query_one("#prog_info_static", Static).update(info_text)
 
-        # ── 4 Yıllık Tarihsel Veri ────────────────────────────────────────────
-        # lag4=2022, lag3=2023, lag2=2024, lag1=2025, pred=2026
+        # ── 4 Yıllık Tarihsel Tablo (Kontenjan dahil) ──────────────────────────
         hist_rows = [
-            (4, 2022, "lag4_taban_siralama", "lag4_taban_puan", "Ham CSV"),
-            (3, 2023, "lag3_taban_siralama", "lag3_taban_puan", "Ham CSV"),
-            (2, 2024, "lag2_taban_siralama", "lag2_taban_puan", "Ham CSV"),
-            (1, 2025, "lag1_taban_siralama", "lag1_taban_puan", "ÖSYM 2025"),
+            (4, 2022, "lag4_taban_siralama", "lag4_taban_puan", "lag4_genel_kontenjan", "Ham CSV"),
+            (3, 2023, "lag3_taban_siralama", "lag3_taban_puan", "lag3_genel_kontenjan", "Ham CSV"),
+            (2, 2024, "lag2_taban_siralama", "lag2_taban_puan", "lag2_genel_kontenjan", "Ham CSV"),
+            (1, 2025, "lag1_taban_siralama", "lag1_taban_puan", "lag1_genel_kontenjan", "ÖSYM 2025"),
         ]
 
         table = self.query_one("#hist_table", DataTable)
@@ -103,9 +106,10 @@ class DetailScreen(Screen):
         years_for_chart: list[int] = []
         prev_rank: float = 0.0
 
-        for _, year, sira_col, puan_col, kaynak in hist_rows:
-            sira  = float(prog.get(sira_col) or 0.0)
-            puan  = float(prog.get(puan_col) or 0.0)
+        for _, year, sira_col, puan_col, k_col, kaynak in hist_rows:
+            sira = float(prog.get(sira_col) or 0.0)
+            puan = float(prog.get(puan_col) or 0.0)
+            kont = float(prog.get(k_col) or 0.0)
 
             if sira > 0:
                 ranks_for_chart.append(sira)
@@ -124,16 +128,20 @@ class DetailScreen(Screen):
                 deg_str = "-"
 
             sira_str = f"{sira:,.0f}" if sira > 0 else "[dim]Veri yok[/dim]"
-            puan_str = f"{puan:.3f}" if puan > 0 else "[dim]-[/dim]"
+            puan_str = f"{puan:.3f}"  if puan > 0 else "[dim]-[/dim]"
+            kont_str = f"{kont:.0f}"   if kont > 0 else "[dim]-[/dim]"
 
-            table.add_row(str(year), sira_str, deg_str, puan_str, kaynak)
+            table.add_row(str(year), sira_str, deg_str, puan_str, kont_str, kaynak)
             if sira > 0:
                 prev_rank = sira
 
-        # 2026 ML Tahmini satırı
-        pred_2026   = float(prog.get("pred_2026") or 0)
-        pred_lower  = float(prog.get("pred_lower") or 0)
-        pred_upper  = float(prog.get("pred_upper") or 0)
+        # 2026 Tahmini Kontenjan ve Tahmin Satırı
+        k_fark_2026 = float(prog.get("kontenjan_farki_2026") or 0.0)
+        pred_kont   = max(1.0, genel_k + k_fark_2026) if genel_k > 0 else 0.0
+        
+        pred_2026    = float(prog.get("pred_2026") or 0)
+        pred_lower   = float(prog.get("pred_lower") or 0)
+        pred_upper   = float(prog.get("pred_upper") or 0)
         pred_degisim = float(prog.get("pred_degisim") or 0)
         ml_available = pred_2026 > 0
 
@@ -152,7 +160,6 @@ class DetailScreen(Screen):
             ranks_for_chart.append(pred_2026)
             years_for_chart.append(2026)
 
-        # 2026 satırını renkli ekle
         if pred_degisim < -5000:
             pred_deg_str = f"[green]{pred_degisim:+,.0f}[/green]"
         elif pred_degisim > 5000:
@@ -165,11 +172,15 @@ class DetailScreen(Screen):
             f"([dim]{pred_lower:,.0f}–{pred_upper:,.0f}[/dim])"
             if pred_2026 > 0 else "[dim]Yok[/dim]"
         )
-        table.add_row("2026 ✨", pred_sira_str, pred_deg_str, "[dim]~[/dim]", ml_label)
+        pred_kont_str = (
+            f"[bold yellow]{pred_kont:.0f}[/bold yellow] "
+            f"({k_fark_2026:+.0f})" if genel_k > 0 else "[dim]~[/dim]"
+        )
+        table.add_row("2026 ✨", pred_sira_str, pred_deg_str, "[dim]~[/dim]", pred_kont_str, ml_label)
 
         # ── 2026 ML Tahmin Paneli ──────────────────────────────────────────────
         risk_renk = str(prog.get("risk_renk") or "🟡 STABIL")
-        lag1_rank  = float(prog.get("lag1_taban_siralama") or 0.0)
+        lag1_rank = float(prog.get("lag1_taban_siralama") or 0.0)
 
         if pred_degisim < -20000:
             change_str = f"[bold green]{pred_degisim:+,.0f}[/bold green] sıra (Çok İyi ↗)"
@@ -189,9 +200,41 @@ class DetailScreen(Screen):
             f"• [bold green]%80 Alt Sınır:[/bold green] {pred_lower:,.0f}\n"
             f"• [bold red]%80 Üst Sınır:[/bold red] {pred_upper:,.0f}\n"
             f"• [bold]Değişim:[/bold] {change_str}\n"
-            f"• [bold]Risk:[/bold] {risk_renk}"
+            f"• [bold]Risk Durumu:[/bold] {risk_renk}"
         )
         self.query_one("#prediction_static", Static).update(pred_text)
+
+        # ── 💡 Tahmin Sebepleri & Etken Faktörler (Model Rasyoneli) ─────────────
+        trend_val   = float(prog.get("siralama_trend") or 0.0)
+        trends_yoy  = float(prog.get("trends_yoy_degisim") or 0.0)
+        rekabet_idx = float(prog.get("puan_turu_rekabet_indeksi") or 0.0)
+        sehir_idx   = float(prog.get("sehir_tercih_indeksi") or 0.0)
+        k_sok       = float(prog.get("kontenjan_sok_faktoru") or 0.0)
+
+        # Kontenjan etkisi yorumu
+        if k_fark_2026 > 0:
+            k_effect = f"[green]+{k_fark_2026:.0f} Kontenjan Artışı[/green] (Sıralamayı esneten/gerileten etki)"
+        elif k_fark_2026 < 0:
+            k_effect = f"[red]{k_fark_2026:.0f} Kontenjan Daralması[/red] (Sıralamayı öne çeken etki)"
+        else:
+            k_effect = "[yellow]Kontenjan Değişimsiz[/yellow] (Kontenjan şoku beklenmiyor)"
+
+        # Trend ivmesi yorumu
+        if trend_val < -2000:
+            t_effect = f"[green]{trend_val:+,.0f} sıra/yıl[/green] (Son 3 yıl yükseliş trendinde)"
+        elif trend_val > 2000:
+            t_effect = f"[red]{trend_val:+,.0f} sıra/yıl[/red] (Son 3 yıl gerileme trendinde)"
+        else:
+            t_effect = f"[yellow]{trend_val:+,.0f} sıra/yıl[/yellow] (Yatay/Stabil iz seyri)"
+
+        reasons_text = (
+            f"• [bold]1. Kontenjan Etkisi:[/bold] {k_effect}\n"
+            f"• [bold]2. Geçmiş Trend İvmesi:[/bold] {t_effect}\n"
+            f"• [bold]3. Puan Türü Rekabeti:[/bold] {pt} grubu rekabet indeksi ({rekabet_idx:,.0f})\n"
+            f"• [bold]4. Şehir Popülerliği:[/bold] {il} şehri tercih yoğunluğu ({sehir_idx:.2f})\n"
+            f"• [bold]5. Dijital Arama İlgisi:[/bold] Google Trends YoY değişimi ({trends_yoy:+.1f}%)"
+        )
+        self.query_one("#reasons_static", Static).update(reasons_text)
 
         # ── Grafik ────────────────────────────────────────────────────────────
         if len(years_for_chart) >= 2:
@@ -199,7 +242,7 @@ class DetailScreen(Screen):
                 chart_str = ChartService.render_rank_history_chart(
                     years_for_chart, ranks_for_chart,
                     title=f"{b_name[:28]} — {years_for_chart[0]}→2026",
-                    width=58, height=12,
+                    width=58, height=10,
                 )
             except Exception as e:
                 chart_str = f"[dim]Grafik oluşturulamadı: {e}[/dim]"

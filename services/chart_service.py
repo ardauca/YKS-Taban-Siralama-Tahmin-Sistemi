@@ -45,8 +45,18 @@ class ChartService:
         plt.xlabel("Yıl")
         plt.ylabel("Taban Sıralama")
         
-        # Y eksenini ters çevirme mantığı (sıralama düştükçe başarı artar, yani 10k üstte 100k altta)
-        plt.invert_yaxis()
+        # Plotext safe yaxis reversal: try ylimits or safe call
+        try:
+            if hasattr(plt, "invert_yaxis"):
+                plt.invert_yaxis()
+            else:
+                # Manual inverted y limits if valid_y exists
+                min_y, max_y = min(valid_y), max(valid_y)
+                if min_y != max_y:
+                    margin = (max_y - min_y) * 0.1
+                    plt.ylim(max_y + margin, max(0, min_y - margin))
+        except Exception:
+            pass
 
         return plt.build()
 

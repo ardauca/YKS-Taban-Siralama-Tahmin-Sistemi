@@ -79,24 +79,26 @@ def detail_cli(
     console.print(Panel(info, title=f"📌 Program Detayı — {code}", border_style="cyan"))
 
     # ── 4 Yıllık Tarihsel Tablo ───────────────────────────────────────────────
-    hist_table = Table(header_style="bold magenta", title="📊 4 Yıllık Taban Sıralama ve Puan Geçmişi")
+    hist_table = Table(header_style="bold magenta", title="📊 4 Yıllık Taban Sıralama, Puan & Kontenjan Geçmişi")
     hist_table.add_column("Yıl",              justify="center", style="bold")
     hist_table.add_column("Taban Sıralama",   justify="right",  style="cyan")
     hist_table.add_column("Değişim",          justify="right")
     hist_table.add_column("Taban Puanı",      justify="right",  style="yellow")
+    hist_table.add_column("Kontenjan",        justify="right",  style="bold green")
     hist_table.add_column("Kaynak")
 
     HIST = [
-        (2022, "lag4_taban_siralama", "lag4_taban_puan", "Ham CSV"),
-        (2023, "lag3_taban_siralama", "lag3_taban_puan", "Ham CSV"),
-        (2024, "lag2_taban_siralama", "lag2_taban_puan", "Ham CSV"),
-        (2025, "lag1_taban_siralama", "lag1_taban_puan", "ÖSYM 2025"),
+        (2022, "lag4_taban_siralama", "lag4_taban_puan", "lag4_genel_kontenjan", "Ham CSV"),
+        (2023, "lag3_taban_siralama", "lag3_taban_puan", "lag3_genel_kontenjan", "Ham CSV"),
+        (2024, "lag2_taban_siralama", "lag2_taban_puan", "lag2_genel_kontenjan", "Ham CSV"),
+        (2025, "lag1_taban_siralama", "lag1_taban_puan", "lag1_genel_kontenjan", "ÖSYM 2025"),
     ]
 
     prev_rank = 0.0
-    for year, sira_col, puan_col, kaynak in HIST:
+    for year, sira_col, puan_col, k_col, kaynak in HIST:
         sira = float(prog.get(sira_col) or 0.0)
         puan = float(prog.get(puan_col) or 0.0)
+        kont = float(prog.get(k_col) or 0.0)
         if prev_rank > 0 and sira > 0:
             deg = sira - prev_rank
             if deg < -2000:
@@ -112,17 +114,21 @@ def detail_cli(
             f"{sira:,.0f}" if sira > 0 else "[dim]Veri yok[/dim]",
             deg_str,
             f"{puan:.3f}" if puan > 0 else "[dim]-[/dim]",
+            f"{kont:.0f}" if kont > 0 else "[dim]-[/dim]",
             kaynak,
         )
         if sira > 0:
             prev_rank = sira
 
-    # 2026 ML satırı
-    pred  = float(prog.get("pred_2026") or 0)
-    lower = float(prog.get("pred_lower") or 0)
-    upper = float(prog.get("pred_upper") or 0)
-    deg26 = float(prog.get("pred_degisim") or 0)
-    ml_src = "CatBoost ML" if pred > 0 else "Fallback"
+    # 2026 ML satırı ve Tahmini Kontenjan
+    k_fark_2026 = float(prog.get("kontenjan_farki_2026") or 0.0)
+    pred_kont   = max(1.0, k_say + k_fark_2026) if k_say > 0 else 0.0
+    pred        = float(prog.get("pred_2026") or 0)
+    lower       = float(prog.get("pred_lower") or 0)
+    upper       = float(prog.get("pred_upper") or 0)
+    deg26       = float(prog.get("pred_degisim") or 0)
+    ml_src      = "CatBoost ML" if pred > 0 else "Fallback"
+
     if not (pred > 0):
         lag1  = float(prog.get("lag1_taban_siralama") or 0)
         trend = float(prog.get("siralama_trend") or 0)
@@ -135,14 +141,51 @@ def detail_cli(
         else f"[red]{deg26:+,.0f}[/red]" if deg26 > 5000
         else f"[yellow]{deg26:+,.0f}[/yellow]"
     )
+    pred_kont_str = (
+        f"[bold yellow]{pred_kont:.0f}[/bold yellow] ({k_fark_2026:+.0f})"
+        if k_say > 0 else "-"
+    )
+
     hist_table.add_row(
         "[bold yellow]2026 ✨[/bold yellow]",
         f"[bold cyan]{pred:,.0f}[/bold cyan]  ([dim]{lower:,.0f}–{upper:,.0f}[/dim])",
         deg26_str,
         "[dim]~[/dim]",
+        pred_kont_str,
         f"✅ {ml_src}",
     )
     console.print(hist_table)
+
+    # ── Tahmin Sebepleri & Etken Faktörler ────────────────────────────────────
+    trend_val   = float(prog.get("siralama_trend") or 0.0)
+    trends_yoy  = float(prog.get("trends_yoy_degisim") or 0.0)
+    rekabet_idx = float(prog.get("puan_turu_rekabet_indeksi") or 0.0)
+    sehir_idx   = float(prog.get("sehir_tercih_indeksi") or 0.0)
+
+    if k_fark_2026 > 0:
+        k_eff = f"[green]+{k_fark_2026:.0f} Kontenjan Artışı[/green] (Sıralamayı esneten/gerileten etki)"
+    elif k_fark_2026 < 0:
+        k_eff = f"[red]{k_fark_2026:.0f} Kontenjan Daralması[/red] (Sıralamayı öne çeken etki)"
+    else:
+        k_eff = "[yellow]Kontenjan Değişimsiz[/yellow]"
+
+    if trend_val < -2000:
+        t_eff = f"[green]{trend_val:+,.0f} sıra/yıl[/green] (Son 3 yıl yükseliş ivmesinde)"
+    elif trend_val > 2000:
+        t_eff = f"[red]{trend_val:+,.0f} sıra/yıl[/red] (Son 3 yıl gerileme ivmesinde)"
+    else:
+        t_eff = f"[yellow]{trend_val:+,.0f} sıra/yıl[/yellow] (Yatay/Stabil iz)"
+
+    reasons = (
+        f"💡 [bold yellow]2026 ML Tahmin Sebepleri & Etken Faktörler:[/bold yellow]\n\n"
+        f"• [bold]1. Kontenjan Etkisi:[/bold] {k_eff}\n"
+        f"• [bold]2. Geçmiş Trend İvmesi:[/bold] {t_eff}\n"
+        f"• [bold]3. Puan Türü Rekabeti:[/bold] {pt} grubu rekabet indeksi ({rekabet_idx:,.0f})\n"
+        f"• [bold]4. Şehir Popülerliği:[/bold] {il} şehri tercih yoğunluğu ({sehir_idx:.2f})\n"
+        f"• [bold]5. Dijital Arama İlgisi:[/bold] Google Trends YoY değişimi ({trends_yoy:+.1f}%)"
+    )
+    console.print(Panel(reasons, title="💡 Model Rasyoneli", border_style="yellow"))
+
 
 
 @app.command("search")
