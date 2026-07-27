@@ -123,12 +123,12 @@ class DetailScreen(Screen):
         )
         self.query_one("#prog_info_static", Static).update(info_text)
 
-        # ── 4 Yıllık Tarihsel Tablo (Kontenjan dahil) ──────────────────────────
+        # ── 4 Yıllık Tarihsel Tablo (2022, 2023, 2024, 2025, 2026 Tahmin) ──────────
         hist_rows = [
-            (4, 2022, "lag4_taban_siralama", "lag4_taban_puan", "lag4_genel_kontenjan", "Ham CSV"),
-            (3, 2023, "lag3_taban_siralama", "lag3_taban_puan", "lag3_genel_kontenjan", "Ham CSV"),
-            (2, 2024, "lag2_taban_siralama", "lag2_taban_puan", "lag2_genel_kontenjan", "Ham CSV"),
-            (1, 2025, "lag1_taban_siralama", "lag1_taban_puan", "lag1_genel_kontenjan", "ÖSYM 2025"),
+            (2022, "sira_2022", "puan_2022", "kont_2022", "YÖK Atlas 2022"),
+            (2023, "sira_2023", "puan_2023", "kont_2023", "YÖK Atlas 2023"),
+            (2024, "sira_2024", "puan_2024", "kont_2024", "YÖK Atlas 2024"),
+            (2025, "sira_2025", "puan_2025", "kont_2025", "ÖSYM 2025"),
         ]
 
         table = self.query_one("#hist_table", DataTable)
@@ -138,7 +138,7 @@ class DetailScreen(Screen):
         years_for_chart: list[int] = []
         prev_rank: float = 0.0
 
-        for _, year, sira_col, puan_col, k_col, kaynak in hist_rows:
+        for year, sira_col, puan_col, k_col, kaynak in hist_rows:
             sira = float(prog.get(sira_col) or 0.0)
             puan = float(prog.get(puan_col) or 0.0)
             kont = float(prog.get(k_col) or 0.0)

@@ -116,29 +116,33 @@ def _build_master_df() -> pl.DataFrame:
         if "genel_kontenjan_raw" in df_feat.columns:
             df_feat.drop(columns=["genel_kontenjan_raw"], inplace=True)
 
-        # ── Tarihsel lag verileri: lag2_puan, lag3 (2023), lag4 (2022) ──────────
-        # Feature matrix zaten lag1_taban_siralama/puan ve lag2_taban_siralama
-        # içeriyor. Eksik olanları ham CSV'den tamamlıyoruz.
-        HIST_LAGS = [
-            (2, 2024, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
-            (3, 2023, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
-            (4, 2022, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
+        # ── Tarihsel yıl verileri (2022, 2023, 2024, 2025) doğrudan ham CSV'den ─────
+        # Açık yıl adları (sira_2022, sira_2023, sira_2024, sira_2025) kullanarak
+        # lag shift kaymalarının önüne geçilir.
+        YEAR_MAP = [
+            (2022, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
+            (2023, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
+            (2024, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
+            (2025, ["taban_siralama", "taban_puan", "genel_kontenjan"]),
         ]
-        for lag_n, year, cols in HIST_LAGS:
+        for year, cols in YEAR_MAP:
             avail = [c for c in ["kilavuz_kodu"] + cols if c in raw.columns]
-            year_df = (
+            y_df = (
                 raw[raw["yil"] == year][avail]
                 .drop_duplicates("kilavuz_kodu")
                 .reset_index(drop=True)
-                .rename(columns={c: f"lag{lag_n}_{c}" for c in cols if c in avail})
+                .rename(columns={
+                    "taban_siralama": f"sira_{year}",
+                    "taban_puan": f"puan_{year}",
+                    "genel_kontenjan": f"kont_{year}",
+                })
             )
-            # Mevcut kolon varsa üstüne yazma (lag2_taban_siralama feature matrix'te var)
-            new_cols = [c for c in year_df.columns if c != "kilavuz_kodu" and c not in df_feat.columns]
-            if new_cols:
-                df_feat = df_feat.merge(
-                    year_df[["kilavuz_kodu"] + new_cols],
-                    on="kilavuz_kodu", how="left",
-                )
+            new_cols = [c for c in y_df.columns if c != "kilavuz_kodu"]
+            for c in new_cols:
+                if c in df_feat.columns:
+                    df_feat.drop(columns=[c], inplace=True)
+            df_feat = df_feat.merge(y_df[["kilavuz_kodu"] + new_cols], on="kilavuz_kodu", how="left")
+
     else:
         logger.warning("Ham CSV bulunamadı: %s", RAW_CSV)
         for col in ["il_adi", "puan_turu", "universite_turu", "ogretim_turu"]:

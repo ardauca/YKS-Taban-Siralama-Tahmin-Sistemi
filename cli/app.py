@@ -88,10 +88,10 @@ def detail_cli(
     hist_table.add_column("Kaynak")
 
     HIST = [
-        (2022, "lag4_taban_siralama", "lag4_taban_puan", "lag4_genel_kontenjan", "Ham CSV"),
-        (2023, "lag3_taban_siralama", "lag3_taban_puan", "lag3_genel_kontenjan", "Ham CSV"),
-        (2024, "lag2_taban_siralama", "lag2_taban_puan", "lag2_genel_kontenjan", "Ham CSV"),
-        (2025, "lag1_taban_siralama", "lag1_taban_puan", "lag1_genel_kontenjan", "ÖSYM 2025"),
+        (2022, "sira_2022", "puan_2022", "kont_2022", "YÖK Atlas 2022"),
+        (2023, "sira_2023", "puan_2023", "kont_2023", "YÖK Atlas 2023"),
+        (2024, "sira_2024", "puan_2024", "kont_2024", "YÖK Atlas 2024"),
+        (2025, "sira_2025", "puan_2025", "kont_2025", "ÖSYM 2025"),
     ]
 
     prev_rank = 0.0
