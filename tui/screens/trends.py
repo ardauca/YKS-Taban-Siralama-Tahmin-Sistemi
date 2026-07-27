@@ -43,20 +43,24 @@ class TrendsScreen(Screen):
         tr_table = self.query_one("#table_risers", DataTable)
         tr_table.clear()
         for r in risers:
+            r_rank = float(r.get("lag1_taban_siralama") or 0.0)
+            r_trend = float(r.get("siralama_trend") or 0.0)
             tr_table.add_row(
                 str(r.get("universite_adi", "")),
                 str(r.get("birim_grup_adi", "")),
-                f"{float(r.get('lag1_taban_siralama', 0)):,.0f}",
-                f"[green]{float(r.get('siralama_trend', 0)):,.0f} sıra[/green]"
+                f"{r_rank:,.0f}",
+                f"[green]{r_trend:,.0f} sıra[/green]"
             )
 
         decliners = AnalyticsService.get_top_decliners(12)
         dec_table = self.query_one("#table_decliners", DataTable)
         dec_table.clear()
         for d in decliners:
+            d_rank = float(d.get("lag1_taban_siralama") or 0.0)
+            d_trend = float(d.get("siralama_trend") or 0.0)
             dec_table.add_row(
                 str(d.get("universite_adi", "")),
                 str(d.get("birim_grup_adi", "")),
-                f"{float(d.get('lag1_taban_siralama', 0)):,.0f}",
-                f"[red]+{float(d.get('siralama_trend', 0)):,.0f} sıra[/red]"
+                f"{d_rank:,.0f}",
+                f"[red]+{d_trend:,.0f} sıra[/red]"
             )

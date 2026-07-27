@@ -56,9 +56,9 @@ class CompareScreen(Screen):
                 ("Şehir", lambda p: str(p.get("il_adi", ""))),
                 ("Puan Türü", lambda p: str(p.get("puan_turu", ""))),
                 ("Üniversite Türü", lambda p: str(p.get("universite_turu", ""))),
-                ("2025 Taban Sıra", lambda p: f"{float(p.get('lag1_taban_siralama', 0)):,.0f}"),
-                ("Genel Kontenjan", lambda p: f"{float(p.get('lag1_genel_kontenjan', 0)):.0f}"),
-                ("Sıralama Trendi", lambda p: f"{float(p.get('siralama_trend', 0)):,.0f} sıra"),
+                ("2025 Taban Sıra", lambda p: f"{float(p.get('lag1_taban_siralama') or 0.0):,.0f}"),
+                ("Genel Kontenjan", lambda p: f"{float(p.get('lag1_genel_kontenjan') or 0.0):.0f}"),
+                ("Sıralama Trendi", lambda p: f"{float(p.get('siralama_trend') or 0.0):,.0f} sıra"),
             ]
 
             for m_title, m_func in metrics:
