@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yks-tahmin"
+version = "2.0.0"
+description = "🎓 YKS 2026 Taban Sıralama Tahmin & Tercih Yönetim Sistemi — CatBoost ML, Polars & Textual TUI/CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["yks", "osym", "yokatlas", "catboost", "machine-learning", "textual", "tui", "cli"]
+authors = [
+  { name = "YKS Tahmin Ekibi" }
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Utilities",
+]
+dependencies = [
+  "typer>=0.9.0",
+  "textual>=0.50.0",
+  "rich>=13.7.0",
+  "plotext>=5.2.0",
+  "polars>=0.20.0",
+  "pandas>=2.1.0",
+  "numpy>=1.26.0",
+  "catboost>=1.2",
+  "scikit-learn>=1.4.0",
+  "sqlalchemy>=2.0.0",
+  "reportlab>=4.0.0",
+  "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+yks-tahmin = "cli.app:launch_tui"
+yks-cli = "cli.app:app"
+
+[tool.setuptools.packages.find]
+where = ["."]

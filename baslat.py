@@ -5,10 +5,17 @@ from pathlib import Path
 
 
 def get_python_exe() -> str:
-    """Gerekli kütüphanelerin (typer, textual, polars) yüklü olduğu Python exe yolunu tespit eder."""
+    """Gerekli kütüphanelerin (typer, textual, polars) yüklü olduğu Python ortamını otomatik tespit eder."""
+    root = Path(__file__).parent
+    venv_win = root / ".venv" / "Scripts" / "python.exe"
+    venv_posix = root / ".venv" / "bin" / "python"
+
     candidates = [
-        r"C:\Users\ARDA\AppData\Local\spyder-6\python.exe",
         sys.executable,
+        str(venv_win),
+        str(venv_posix),
+        r"C:\Users\ARDA\AppData\Local\spyder-6\python.exe",
+        shutil.which("python3") or "",
         shutil.which("python") or "python",
     ]
     for py in candidates:
@@ -25,6 +32,7 @@ def get_python_exe() -> str:
             except Exception:
                 pass
     return sys.executable
+
 
 
 def main():

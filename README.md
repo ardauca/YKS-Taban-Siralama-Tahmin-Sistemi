@@ -1,104 +1,177 @@
-# 🎓 YKS Taban Sıralama Tahmin Sistemi (YKS-Tahmin)
+# 🎓 YKS 2026 Taban Sıralama Tahmin & Tercih Yönetim Sistemi
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python Version](https://img.shields.io/badge/python-3.11+-green.svg)
-![Full Scope](https://img.shields.io/badge/coverage-625_Bölüm_Ailesi-brightgreen.svg)
-![Nationwide Blind Coverage](https://img.shields.io/badge/Q80_Blind_Coverage-%2575.3-success.svg)
-![Unit Tests](https://img.shields.io/badge/tests-63%2F63_passing-success.svg)
+![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python)
+![CatBoost](https://img.shields.io/badge/ML-CatBoost%20Model-green?logo=scikitlearn)
+![Polars](https://img.shields.io/badge/Data-Polars%20Engine-cyan)
+![Textual](https://img.shields.io/badge/UI-Textual%20TUI-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Türkiye üniversitelerindeki **tüm lisans programlarının (625 Bölüm Ailesi, 15,823 aktif tercih programı)** geçmiş yıl taban sıralamaları, kontenjan değişimleri, YÖK Atlas eğilimleri, Google Trends popülerlik indeksleri ve URAP akademik itibar metriklerinden öğrenerek, ÖSYM kılavuz kontenjan kısıntı şoklarına göre **Taban Sıralamalarını (%80 Güven Aralığı ve Kademeli Router Mimarisi ile)** tahmin eden üretim seviyesinde makine öğrenmesi sistemi.
+**YKS 2026 Taban Sıralama Tahmin Sistemi**, üniversite adayları ve tercih danışmanları için geliştirilmiş **production-level** profesyonel bir terminal uygulamasıdır (TUI/CLI). 
 
-> 📌 **Metodolojik Şeffaflık Notu:**  
-> Kuantil parametreleri (`Alpha=0.08/0.92`) **SADECE 2023–2024 Train verisi üzerinde 5-Fold Out-of-Fold (OOF)** yöntemiyle seçilmiş, 2025 Test verisinde dokunulmadan **kör (blind) test** edilmiştir. Sızıntısız tarafsız ulusal kapsama oranı **%75.3**, 0–10K tıp/derece segmenti ortalama aralık genişliği **24,611 sıradır**.
-
----
-
-## 🚀 Mimarinin Öne Çıkan Özellikleri
-
-### 1. 3 Kademeli Yönlendirme Mimarisi (3-Tier Router Strategy D)
-- **Tier 1 (`lag1_taban_siralama < 100,000`):** **Model S (HeavyReg GBDT: LightGBM + CatBoost Ensemble)** — Yüksek rekabetli ilk 100K programlarında aşırı uyumu (overfitting) engeller.
-- **Tier 2 (`100,000 <= lag1_taban_siralama < 500,000`):** **Model M (Segment Model M)** — Orta bandın ikame dinamiklerini yakalar.
-- **Tier 3 (`lag1_taban_siralama >= 500,000`):** **Saf v0 Baseline Model** — Kitlesel yüksek gürültülü segmentte baseline performansını (%100 muhafaza ile 115,978 MAE) korur.
-
-### 2. 30 Gelişmiş Öznitelik (Feature Matrix)
-- **Makro Kontenjan Şok Özellikleri:** `macro_puan_turu_degisim_orani`, `macro_bolum_degisim_orani`, `kontenjan_sok_faktoru` (Hukuk -%34, Siyaset -%24 gibi sistemsel kısıntıların ikame talebini modeller).
-- **Arama & İtibar Dinamikleri:** `trends_yoy_degisim` (Google Trends aramaları), `univ_itibar_degisim` (URAP akademik itibar skoru), `segment_kontenjan_etki`.
-- **YÖK Başarı Sırası Baraj Mesafesi:** `baraj_mesafe_indeksi` (Tıp 50k, Hukuk 125k, Müh 300k baraj kısıtları).
-- **Vakıf-Devlet Ekonomik İkame İndeksi:** `vakif_devlet_burs_gap` (Özel üniversite ücret zamlarının devlete kayma etkisi).
-- **Şehir ve Momentum İndeksleri:** `sehir_tercih_indeksi` (İstanbul, Ankara, İzmir, Eskişehir tercihi), `univ_trend_momentum`.
-
-### 3. Ayrıştırılmış 4'lü Veri Kalitesi & Anomali Sistemi
-Train verisi %95 persentilinden türetilen ampirik dalgalanma eşiği (**293,000 sıra**) ile programlar 4 sınıfa ayrılır:
-- **`SUFFICIENT` (%87.7 / 13,874 program):** Standart yüksek güvenilirlikli veriler.
-- **`INSUFFICIENT` (%5.9 / 938 program):** Geçmiş taban sıralaması veya medyanı eksik programlar.
-- **`STRUCTURAL_ANOMALY` (%3.6 / 565 program):** Gerçek KKTC ve Yurt Dışı kontenjan/burs statü değişiklikleri.
-- **`HIGH_VOLATILITY` (%2.8 / 446 program):** Tarihsel dalgalanması %95 persentilini (>293K) aşan oynak programlar.
+CatBoost Makine Öğrenmesi Modeli, 3 kaynaklı Polars veri birleştirme (JOIN) mimarisi ve Türkçe karakter arama motoru ile 21.000'den fazla lisans programının **2022-2026 tarihsel eğilimlerini** ve **2026 tahmini başarı sıralamalarını** sunar.
 
 ---
 
-## 📈 Sızıntısız Kör Test Performans Tablosu (2025 Test Yılı, n=15,823)
+## 🌟 Öne Çıkan Özellikler
 
-| Segment / Dilim | Program Sayısı (n) | **Sabit v0 Baseline MAE** | **3-Tier Router MAE** | **Net MAE İyileşme %** | **Tarafsız Kör Q80 Coverage** | **Ortalama Güven Aralığı Genişliği** |
-|---|---|---|---|---|---|---|
-| **0–10K (Tıp, Top Müh.)** | 452 | **7,493** | **3,249** | **+%56.6** (4,244 sıra kazanç) | **%77.9** | **24,611 sıra** (Hassas & Dar) |
-| **10K–100K** | 2,434 | **13,805** | **10,840** | **+%21.5** (2,965 sıra kazanç) | **%79.3** | **37,000 sıra** (Mükemmel Kalibrasyon) |
-| **100K–500K** | 4,961 | **50,587** | **47,152** | **+%6.8** (3,435 sıra kazanç) | **%65.5** | **132,560 sıra** (Yapısal Oynaklık) |
-| **500K+** | 7,976 | **115,978** | **116,290** | **−%0.3** (%100 Muhafaza) | **%80.0** | **366,973 sıra** |
-| **GENEL (TÜM ÜLKE)** | **15,823** | **76,660** | **75,163** | **+%2.0** (1,497 sıra KAZANÇ) | **%75.3** | **232,939 sıra** |
+- **🤖 CatBoost ML 2026 Tahmin Motoru:** 16,957 lisans programı için nokta tahmini ve **%80 alt/üst güven aralığı**.
+- **📊 4 Yıllık Tarihsel Tablo (2022 → 2025 → 2026 Tahmin):** Her program için 4 yıllık taban sıralama, taban puanı, kontenjan değişimi ve kaynak bilgisi.
+- **💡 Model Rasyoneli & Tahmin Sebepleri:** Kontenjan şoku etkisi, geçmiş trend ivmesi, puan türü rekabeti ve Google Trends dijital arama popülerliği.
+- **🔤 Türkçe Karakter Duyarsız Arama Engine:** `Tip` = `Tıp`, `Eskisehir` = `Eskişehir` kusursuz eşleşme.
+- **🎛️ Çoklu-Filtreleme Motoru:** Şehir, Puan Türü (SAY/EA/SÖZ/DİL), Üniversite Türü (Devlet/Vakıf), Öğretim Türü, Burs Oranı ve Sıralama Aralığı filtreleri aynı anda çalışır.
+- **🖥️ İki Farklı Çalışma Modu:**
+  - **TUI (Textual Terminal Grafik Arayüzü):** Butonlar, dinamik kartlar, tablolar ve renkli zengin terminal ekranları.
+  - **CLI (Typer Komut Satırı):** Terminalden tek satır komutla arama, detay, simülasyon ve raporlama.
 
 ---
 
-## 💻 Kullanım Kılavuzu
+## 🚀 Hızlı Başlangıç (Quick Start)
 
-### 1. İnteraktif 2026 Tercih Danışmanı (CLI)
-Kendi sıralamanızı ve puan türünüzü girerek risk kategorili öneriler almak için:
-
+### 1. Depoyu Klonlayın
 ```bash
-python tercih_danismani.py 180000 EA
+git clone https://github.com/ardauca/YKS-Taban-Siralama-Tahmin-Sistemi.git
+cd YKS-Taban-Siralama-Tahmin-Sistemi
 ```
 
-### 2. FastAPI REST Servisini Başlatma
-```bash
-uvicorn api.main:app --reload
-```
-- **Swagger UI Dokümantasyonu:** `http://127.0.0.1:8000/docs`
-- **Predict Endpoint (`POST /api/v1/predict`):** 3-Tier Router, 4-Class Data Quality ve 0-10K hassasiyet uyarısı içeren JSON yanıtı döndürür.
+### 2. Tek Tıkla Kurulum
+- **Windows için:** `install.bat` dosyasına çift tıklayın veya CMD'de çalıştırın:
+  ```cmd
+  install.bat
+  ```
+- **Linux / macOS için:**
+  ```bash
+  chmod +x install.sh
+  ./install.sh
+  ```
 
-### 3. Unit Test Suitesini Çalıştırma
+### 3. Uygulamayı Başlatın
+Sistem otomatik menü başlatıcısı ile çalışmaya hazırdır:
 ```bash
-python -m pytest tests/ -v
+python baslat.py
+```
+
+Veya doğrudan terminal komutu ile:
+```bash
+python cli/app.py tui
+# ya da 'pip install -e .' yaptıysanız:
+yks-tahmin
 ```
 
 ---
 
-## 📂 Klasör Yapısı
+## 🖥️ TUI Terminal Grafik Arayüzü
+
+Uygulama içerisindeki kısayol tuşları ile ekranlar arası anında geçiş yapabilirsiniz:
+
+| Tuş | Ekran | Açıklama |
+|:---:|-------|----------|
+| **`D`** | **Dashboard** | Genel istatistik kartları, hızlı arama, favoriler ve son tahminler |
+| **`S`** | **Arama Engine** | Etiketli çoklu-filtreleme arama paneli (Şehir, Puan, Tür, Burs, Max Sıra) |
+| **`M`** | **ML 2026 Simülasyon** | 16,957 program CatBoost ML tahminleri ve trend filtresi |
+| **`U`** | **Üniversite Analizi** | Üniversite bazlı tüm programlar, 2026 ortalama tahmin ve risk dağılımı |
+| **`L`** | **Tercih Listem** | Tercih listenizi yönetin, sıra çakışmalarını görün |
+| **`T`** | **Trendler** | Türkiye geneli en çok yükselen ve gerileyen bölümler |
+| **`V`** | **Favoriler** | Kaydettiğiniz favori programlar |
+| **`C`** | **Karşılaştırma** | İki programı yan yana 4 yıllık verileriyle kıyaslayın |
+| **`Q`** | **Çıkış** | Uygulamadan güvenle çıkın |
+
+---
+
+## 💻 CLI Komut Satırı Kullanım Rehberi
+
+Komut satırından arama yapmak ve rapor almak son derece hızlıdır:
+
+### 🔎 Hızlı Program & Şehir Araması
+```bash
+# Eskişehir'deki Devlet Üniversitelerinin EA programları
+python cli/app.py search --city "Eskisehir" -p EA --uni-turu DEVLET
+
+# Sıralaması 100.000 altında olan Tıp programları
+python cli/app.py search -q "Tıp" -p SAY --max-rank 100000
+```
+
+### 📌 Program Detayı (4 Yıllık Tablo & Model Sebepleri)
+```bash
+python cli/app.py detail 103890170
+```
+
+### 🏛️ Üniversite Analizi
+```bash
+python cli/app.py university "Boğaziçi"
+```
+
+### 🎯 2026 ML Simülasyonu
+```bash
+python cli/app.py simulate -p SAY --trend yukselenler --limit 20
+```
+
+### 📊 Türkiye Geneli İpuçları & Özet
+```bash
+python cli/app.py stats
+```
+
+### 📄 Tercih Listesini Dışa Aktar (PDF / Markdown)
+```bash
+python cli/app.py export --list-id 1 --format pdf --output tercih_listem_2026
+```
+
+---
+
+## 🏗️ Sistem Mimarisi & Teknolojiler
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     TUI (Textual) / CLI (Typer)                 │
+└────────────────────────────────┬────────────────────────────────┘
+                                 │
+┌────────────────────────────────▼────────────────────────────────┐
+│                        Search / Analytics Services              │
+│    (Türkçe Character Normalizer + Combined Filter Engine)      │
+└────────────────────────────────┬────────────────────────────────┘
+                                 │
+┌────────────────────────────────▼────────────────────────────────┐
+│               Polars Master DataFrame (Single Source)           │
+│   ┌───────────────────┬───────────────────┬─────────────────┐   │
+│   │   Feature Matrix  │   YÖK Atlas Raw   │   CatBoost ML   │   │
+│   │   (Lag 2022-2025) │   (2022-2025 Raw) │   (2026 Preds)  │   │
+│   └───────────────────┴───────────────────┴─────────────────┘   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+- **Core:** Python 3.12, Polars (Yüksek Hızlı DataFrame), SQLite & SQLAlchemy
+- **Machine Learning:** CatBoost Regressor, Scikit-Learn
+- **User Interface:** Textual, Rich, Plotext
+- **CLI Engine:** Typer
+
+---
+
+## 📁 Proje Klasör Yapısı
 
 ```
 yks-tahmin/
-├── api/                             # FastAPI REST API Servis Katmanı
-│   └── main.py                      # /predict & /health endpoint'leri
+├── baslat.py             # Kolay başlatıcı menü (Cross-platform auto-env)
+├── install.bat           # Windows otomatik kurulum betiği
+├── install.sh            # Linux/macOS otomatik kurulum betiği
+├── pyproject.toml        # PIP paketleme ve CLI entrypoint tanımları
+├── requirements.txt      # Bağımlılık listesi
+├── cli/
+│   └── app.py            # Typer CLI komut satırı uygulaması
+├── tui/
+│   ├── app.py            # Textual TUI ana uygulama ve CSS teması
+│   └── screens/          # Dashboard, Search, Detail, University, Simulation vb.
+├── services/
+│   ├── search_service.py # 3-Kaynak Master Polars JOIN & Arama Motoru
+│   ├── analytics_service.py
+│   ├── preference_service.py
+│   └── chart_service.py  # Rich & Plotext Grafik Servisi
 ├── data/
-│   ├── raw/                         # YÖK Atlas & ÖSYM PDF Ham Verileri
-│   │   ├── osym/kontenjan_kilavuzu_2026.csv
-│   │   └── yokatlas/yokatlas_all_departments_raw.csv
-│   └── processed/                   # İşlenmiş Feature Parquet & Simülasyon CSV
-├── scraping/                        # YÖK Atlas & ÖSYM Scraper/Parser Engine
-│   ├── parse_osym_pdf.py            # PyMuPDF Kılavuz Parser Engine
-│   ├── yokatlas_scraper.py          # YÖK Atlas JSON API Scraper
-│   └── fetch_google_trends.py       # Google Trends Arama Verisi Çekici
-├── src/
-│   ├── features/build_features.py   # 30-Feature Pipeline Engine
-│   └── models/
-│       ├── train_quantile.py        # LightGBM + CatBoost Quantile Ensemble
-│       └── explain_shap.py          # SHAP Öznitelik Etki Analizi
-├── tests/                           # Pytest Test Suitesi (63 Unit Test)
-├── tercih_danismani.py              # İnteraktif CLI Tercih Danışmanı
-├── PROGRESS.md                      # Detaylı Geliştirme ve Şeffaflık Günlüğü
-└── README.md                        # Ana Dokümantasyon
+│   ├── raw/              # Ham YÖK Atlas & ÖSYM Kılavuz verileri
+│   └── processed/        # CatBoost 2026 tahmin sonuçları (CSV)
+└── db/                   # SQLite Veritabanı & Repository katmanı
 ```
 
 ---
 
-## 📜 Lisans
+## 📄 Lisans
 
-[MIT License](LICENSE) — Serbestçe kullanılabilir ve geliştirilebilir.
+Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.

@@ -28,10 +28,15 @@ from scraping.quality import run_quality_checks
 
 logger = logging.getLogger(__name__)
 
-PDF_PATH = Path(r"C:\Users\ARDA\Downloads\kontkilavuz_yktd21072026.pdf")
+PDF_PATH = (
+    ROOT / "data" / "raw" / "osym" / "kontkilavuz_yktd21072026.pdf"
+    if (ROOT / "data" / "raw" / "osym" / "kontkilavuz_yktd21072026.pdf").exists()
+    else Path(r"C:\Users\ARDA\Downloads\kontkilavuz_yktd21072026.pdf")
+)
 OSYM_RAW_DIR = ROOT / "data" / "raw" / "osym"
 YOKATLAS_ALL_CSV = ROOT / "data" / "raw" / "yokatlas" / "yokatlas_all_departments_raw.csv"
 OUTPUT_CSV = OSYM_RAW_DIR / "kontenjan_kilavuzu_2026.csv"
+
 
 
 def parse_osym_2026_pdf(pdf_path: Path = PDF_PATH) -> pd.DataFrame:
